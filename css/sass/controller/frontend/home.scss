@@ -1,6 +1,7 @@
 @import "../../config/global";
 
 $banner-height: 209px;
+$banner-height-desktop: 635px;
 
 .container 
 {
@@ -31,7 +32,7 @@ $banner-height: 209px;
         }
         @include _break("desktop")
         {
-            
+            height: $banner-height-desktop;
         }
 
         .item
@@ -47,7 +48,7 @@ $banner-height: 209px;
             }
             @include _break("desktop")
             {
-                
+                height: $banner-height-desktop;
             }
             
         }
@@ -153,7 +154,7 @@ $banner-height: 209px;
         }
         @include _break("desktop")
         {
-            
+            padding: 0;
         }
 
         .item
@@ -171,7 +172,9 @@ $banner-height: 209px;
             }
             @include _break("desktop")
             {
-                
+                clear: none;
+                @include gallery(2 of 8); 
+                height: 250px;
             }
 
             &:last-child 
