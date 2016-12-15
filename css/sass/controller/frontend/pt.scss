@@ -1,0 +1,192 @@
+@import "../../config/global";
+
+$padding-lr : 20px;
+
+.container 
+{
+    @include _break("mobile")
+    {
+        @include container;
+    }
+    @include _break("pad")
+    {
+    }
+    @include _break("desktop")
+    {
+        @include container;
+        // @include pad(3 of 18);
+    }
+
+    .button_site
+    {
+        @include _break("mobile")
+        {
+            @include full;
+            margin-bottom: 37px;
+            padding: 0 $padding-lr;
+        }
+        @include _break("pad")
+        {
+            
+        }
+        @include _break("desktop")
+        {
+            @include span(3 of 18);
+            @include pre(3 of 18); 
+            padding: 0;
+        }
+
+        .item 
+        {
+            @include _break("mobile")
+            {
+                @include gallery(2); 
+                height: 29px;
+            }
+            @include _break("pad")
+            {
+                
+            }
+            @include _break("desktop")
+            {
+                @include gallery(2 of 3); 
+                height: 50px;
+            }
+
+            a 
+            {
+                @include _break("mobile")
+                {
+                    width: 130px;
+                    height: 100%;
+                    line-height: 29px;
+                    padding: 0 8px;
+                    display: inline-block;
+                    font-size: 11px;
+                    background: white;
+                    border: 2px solid #eeeeee;
+                }
+                @include _break("pad")
+                {
+                    
+                }
+                @include _break("desktop")
+                {
+                    @include span(2 of 2);
+                    border: 0px;
+                    line-height: 50px;
+                    font-size: 18px;
+                }
+                
+
+                &.selected
+                {
+                    @include _break("mobile")
+                    {
+                        background: #eeeeee;
+                        color: black;
+                        font-weight: bold;
+                    }
+                    @include _break("pad")
+                    {
+                        
+                    }
+                    @include _break("desktop")
+                    {
+                        
+                    }
+                    
+                }
+            }
+
+            
+        }
+        
+    }
+    
+
+    .pagesite
+    {
+        @include _break("mobile")
+        {
+            @include full;
+            padding: 0 $padding-lr;
+        }
+        @include _break("pad")
+        {
+            
+        }
+        @include _break("desktop")
+        {
+            @include span(9 of 18);
+            clear: none;
+            padding: 0;
+        }
+
+        .page
+        {
+            @include full;
+            
+
+            h1
+            {
+                @include _break("mobile")
+                {
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                    font-weight: bold;
+                }
+                @include _break("pad")
+                {
+                    
+                }
+                @include _break("desktop")
+                {
+                    font-size: 30px;
+                    margin-bottom: 30px;
+                }
+                
+            }
+
+            h2 
+            {
+                @include _break("mobile")
+                {
+                    font-size: 14px;
+                    line-height: 1.5em;
+                    font-weight: bold;
+                }
+                @include _break("pad")
+                {
+                    
+                }
+                @include _break("desktop")
+                {
+                    font-size: 24px;
+                }
+                
+            }
+
+            p 
+            {
+                @include _break("mobile")
+                {
+                    font-size: 11px;
+                    line-height: 1.5em;
+                    margin-bottom: 22px;
+                }
+                @include _break("pad")
+                {
+                    
+                }
+                @include _break("desktop")
+                {
+                    font-size: 16px;
+                }
+                
+            }
+        }
+    }
+    
+    
+}

@@ -1,0 +1,21 @@
+沒有規則的輔助 function
+裡面的檔案，以 "helper_" 為前贅字元，
+例如 helper_animate.js
+
+內文可以直接使用如
+
+    function my() {
+        //do something...
+    }
+
+
+但建議使用物件包裝概念如
+
+    var helper_你的名稱 = new function (){
+        this.msg() = function (alert){
+            alert()
+        }
+    }
+
+一旦文件被引用後，可以使用如 『helper_你的名稱.msg("HI");』
+方便知道該function的來源。

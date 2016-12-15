@@ -1,0 +1,41 @@
+// //設定三種尺寸
+// $break_layout : 
+// (
+//     mobile: 
+//     (
+//         break:  0px,
+//         layout: 4
+//     ), 
+//     pad: 
+//     (
+//         break:  800px,
+//         layout: 8
+//     ), 
+//     desktop: 
+//     (
+//         break:  1333px,
+//         layout: 12
+//     )
+
+// );
+
+//設定三種尺寸
+$break_layout : 
+(
+    mobile: 
+    (
+        break:  0px,
+        layout: (columns:4)
+    ), 
+    pad: 
+    (
+        break:  640px,
+        layout: (columns:12)
+    ), 
+    desktop: 
+    (
+        break:  1024px,
+        layout: (columns:18)
+    )
+);
+

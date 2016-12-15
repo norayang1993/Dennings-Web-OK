@@ -1,0 +1,246 @@
+@import "../../config/global";
+
+$lr-gutter : 36px;
+
+
+
+.container 
+{
+    @include _break("mobile")
+    {
+        @include container;
+    }
+    @include _break("pad")
+    {
+    }
+    @include _break("desktop")
+    {
+        @include container;
+    }
+
+    .center
+    {
+        @include span(12 of 18);
+        @include squish(3 of 18, 3 of 18);
+    }
+    
+    .offino
+    {
+
+        @include _break("mobile")
+        {
+            @include full;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 0 $lr-gutter;
+            margin-bottom: 18px;
+            text-align: center;
+        }
+        @include _break("pad")
+        {
+            
+        }
+        @include _break("desktop")
+        {
+            font-size: 30px;
+            margin-bottom: 32px;
+        }
+        
+    }
+
+    .sitelist
+    {
+        @include _break("mobile")
+        {
+            @include full;
+            padding: 0 $lr-gutter;
+        }
+        @include _break("pad")
+        {
+            
+        }
+        @include _break("desktop")
+        {
+            padding: 0;
+        }
+        
+
+        .site 
+        {
+            @include _break("mobile")
+            {
+                @include full;
+                margin-bottom: 38px;
+            }
+            @include _break("pad")
+            {
+                
+            }
+            @include _break("desktop")
+            {
+                @include gallery(6 of 12); 
+            }
+            
+
+            .title
+            {
+                @include _break("mobile")
+                {
+                    @include full;
+                    font-size: 14px;
+                    font-weight: bold;
+                    margin-bottom: 22px;
+                }
+                @include _break("pad")
+                {
+                    
+                }
+                @include _break("desktop")
+                {
+                    font-size: 24px;
+                }
+                
+            }
+
+            ul 
+            {
+                @include full;
+
+                li 
+                {
+                    @include _break("mobile")
+                    {
+                        @include full;
+                        font-size: 11px;
+                        // height: 20px;
+                        display: inline-block;
+                        position: relative;
+                    }
+                    @include _break("pad")
+                    {
+                        
+                    }
+                    @include _break("desktop")
+                    {
+                        font-size: 16px;
+                    }
+                    
+
+                    .iconblock
+                    {
+                        display: inline-block;
+                        width: 30px;
+
+
+                    }
+
+                    .icon
+                    {
+                        display: inline-block;
+                        position: absolute;
+                        top: 2px;
+
+                        &.address 
+                        {
+                            width: 20px;
+                            height: 20px;
+                            background-image: url($base_path + 'images/contact/icon-address.png');
+                        }
+                        &.email 
+                        {
+                            width: 20px;
+                            height: 20px;
+                            background-image: url($base_path + 'images/contact/icon-email.png');
+                        }
+                        &.tel 
+                        {
+                            width: 20px;
+                            height: 20px;
+                            background-image: url($base_path + 'images/contact/icon-tel.png');
+                        }
+                    }
+
+                    .text 
+                    {
+                        display: inline-block;
+                        line-height: 27px;
+                        width: calc(100% - 35px);
+
+                    }
+                }
+            }
+        }
+
+    }
+
+    .form1
+    {
+        background: #eeeeee;
+        @include full;
+        padding: 20px $lr-gutter;
+
+        .desc 
+        {
+            font-size: 11px;
+            margin-bottom: 20px;
+            line-height: 1.5em;
+        }
+
+        ul 
+        {
+            li 
+            {
+                @include gallery(2 of 4); 
+                margin-bottom: 10px;
+
+                .title 
+                {
+                    font-size: 11px;
+                    height: 15px;
+                    @include full;
+                    font-weight: bold;
+                }
+
+                .inputstyle 
+                {
+                    @include border-radius(3px);
+                    border: 1px solid #E7E7E7;
+                    height: 20px;
+                }
+
+                .userdata
+                {
+                    @include full;
+                }
+                
+                .message
+                {
+                    @include full;
+                    height: 100px;
+                }
+
+                &.fullgrid
+                {
+                    @include full;
+                }
+            }
+        }
+
+        .btsite
+        {
+            @include full;
+            text-align: right;
+
+            .submit 
+            {
+                background: #e6c800;
+                font-size: 15px;
+                border: none;
+                @include border-radius(5px);
+                width: 110px;
+                height: 30px;
+                color: white;
+            }
+        }
+    }
+}

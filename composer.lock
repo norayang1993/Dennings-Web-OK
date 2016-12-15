@@ -1,0 +1,178 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "3df4028d13a0540629adad176d6909e7",
+    "content-hash": "9932cad22c9731e6bd5cb262ec54870f",
+    "packages": [
+        {
+            "name": "jsnlib/assesbox",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fdjkgh580/assesbox.git",
+                "reference": "33269d368ed299cbb7f3a7d15ebab69661e552fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fdjkgh580/assesbox/zipball/33269d368ed299cbb7f3a7d15ebab69661e552fb",
+                "reference": "33269d368ed299cbb7f3a7d15ebab69661e552fb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Assesbox"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "assesbox",
+            "homepage": "https://github.com/fdjkgh580/assesbox",
+            "keywords": [
+                "assesbox"
+            ],
+            "time": "2016-12-08 03:12:48"
+        },
+        {
+            "name": "jsnlib/jsnlib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fdjkgh580/jsnlib.git",
+                "reference": "bade16b8b657ac6820c5c0f87d2079e10199a261"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fdjkgh580/jsnlib/zipball/bade16b8b657ac6820c5c0f87d2079e10199a261",
+                "reference": "bade16b8b657ac6820c5c0f87d2079e10199a261",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Ao",
+                    "Cart",
+                    "Copy",
+                    "Del",
+                    "Db",
+                    "Edit",
+                    "Export",
+                    "Filelink",
+                    "Group",
+                    "Hash",
+                    "Pdo",
+                    "Popcount",
+                    "Rand",
+                    "Seq",
+                    "Taiwan",
+                    "Upload"
+                ],
+                "files": [
+                    "Function.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "類別庫",
+            "homepage": "https://github.com/fdjkgh580/jsnlib",
+            "keywords": [
+                "library"
+            ],
+            "time": "2016-12-01 06:40:12"
+        },
+        {
+            "name": "translg/translg",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fdjkgh580/Translg.git",
+                "reference": "446951482c040c9550869d7382cd410e7bdd72e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fdjkgh580/Translg/zipball/446951482c040c9550869d7382cd410e7bdd72e2",
+                "reference": "446951482c040c9550869d7382cd410e7bdd72e2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Translg.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Codeigniter 簡單轉換多國語言",
+            "homepage": "https://github.com/fdjkgh580/Translg",
+            "keywords": [
+                "codeigniter",
+                "language",
+                "library"
+            ],
+            "time": "2015-12-13 06:28:29"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "mikey179/vfsStream",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mikey179/vfsStream.git",
+                "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
+                "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "org\\bovigo\\vfs": "src/main/php"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "homepage": "http://vfs.bovigo.org/",
+            "time": "2012-08-25 12:49:29"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "translg/translg": 20,
+        "jsnlib/jsnlib": 20,
+        "jsnlib/assesbox": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.2.4"
+    },
+    "platform-dev": []
+}

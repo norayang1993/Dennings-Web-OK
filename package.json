@@ -1,0 +1,13 @@
+{
+    "name": "my-web-project",
+    "version": "1.0.0",
+    "description": "GruntJS build task",
+    "private": true,
+    "devDependencies": {
+        "grunt": "*",
+        "grunt-contrib-uglify": "*",
+        "grunt-contrib-concat": "*",
+        "grunt-contrib-watch": "*",
+        "grunt-contrib-cssmin": "*"
+    }
+}

@@ -1,0 +1,45 @@
+// 
+// 快速嵌入在class的模型片段
+// 
+
+@import "../config/global";
+
+
+//float
+.float
+{
+    float: left;
+}
+.float_right 
+{
+    float: right;
+}
+.clear_both
+{
+    clear: both;
+}
+
+
+//display
+.hidden
+{
+    display: none !important;
+}
+.hidden_visi
+{
+    visibility: hidden !important;
+}
+
+//block
+.block
+{
+    display: block !important;
+}
+.inline_block
+{
+    display: block !important;
+}
+.inline 
+{
+    display: inline !important;
+}

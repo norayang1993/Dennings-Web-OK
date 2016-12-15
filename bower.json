@@ -1,0 +1,19 @@
+{
+    "name": "franfram",
+    "version": "1.1.1",
+    "dependencies": {
+        "jquery": "master",
+        "jquery-ui": "master",
+        "vmodel.js": "master",
+        "vpage.js": "master",
+        "cppy.js": "master",
+        "jquery-mousewheel": "master",
+        "jquery.transit": "master",
+        "requirejs": "master",
+        "require-css": "master",
+        "fancybox": "master",
+        "jquery-form": "master",
+        "slick-carousel": "master",
+        "jquery-md5": "master"
+    }
+}

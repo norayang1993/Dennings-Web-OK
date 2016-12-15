@@ -1,0 +1,43 @@
+@mixin current_screen() {
+    // 判別當前屏幕的裝置
+    // 但不必給使用者看到所以隱藏起來。
+    .current_screen
+    {
+     
+        // 視覺隱藏不可以使用 display: none ，
+        // 因為JQ在判斷中，確實會把你隱藏的元素當作 "不可見"，
+        // 所以我們要用這種方法來欺騙電腦
+        height: 0px;
+        overflow: hidden;    
+     
+        //安全起見，指定寬高，確保有會被顯示出來
+        li 
+        {
+            width: 1px;
+            height: 1px;
+        }
+     
+     
+        .mobile 
+        {
+            @include _break("mobile")  {display: block;}
+            @include _break("pad")     {display: none;}
+            @include _break("desktop") {display: none;}
+        }
+     
+        .pad 
+        {
+           @include _break("mobile")   {display: none;}
+           @include _break("pad")      {display: block;}
+           @include _break("desktop")  {display: none;}
+        }
+     
+        .desktop
+        {
+            @include _break("mobile")  {display: none;}
+            @include _break("pad")     {display: none;}
+            @include _break("desktop") {display: block;}
+        }
+        
+    }
+}

@@ -1,0 +1,14 @@
+/* 
+z-index 管理
+
+用法如 :
+.sidebar_mapgame{
+    z-index: index($zindex, sidebar_mapgame);
+}
+
+ */
+$zindex:    
+    layout_close,
+    float_page,
+    btsite
+    ;

@@ -1,0 +1,62 @@
+//全部顯示圖片的封面
+@mixin divimg_cover($width : initial, $height: initial, $url: null)
+{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @if $width != initial
+    {
+        width: $width;
+    }
+
+    @if $height != initial
+    {
+        height: $height;
+    }
+
+    @if $url != null
+    {
+        background-image: url($url);
+    }
+}
+
+//適當裁切
+@mixin divimg_contain($width : initial, $height: initial, $url: null)
+{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    @if $width != initial
+    {
+        width: $width;
+    }
+
+    @if $height != initial
+    {
+        height: $height;
+    }
+
+    @if $url != null
+    {
+        background-image: url($url);
+    }
+}
+
+//自動取得sprite圖片中你指定的圖檔位置
+//$folder   合併圖檔的所屬資料夾, 如 "FrontEnd/web_elida/all"
+//$icon     要取得的圖檔的原始名稱, 如 "foot"
+@mixin divimg_sprite($folder, $icon_name) 
+{
+    $icons: sprite-map("#{$folder}/*.png");
+
+    & 
+    {
+        background: sprite($icons, $icon_name);
+        @include inline-block;
+        width: image-width("#{$folder}/#{$icon_name}.png");
+        height: image-height("#{$folder}/#{$icon_name}.png");
+    }
+}
+

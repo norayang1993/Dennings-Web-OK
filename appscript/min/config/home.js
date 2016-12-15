@@ -1,0 +1,2 @@
+/*! my-web-project 2016-11-22 */
+var shimdeps_page={welcome:[path_appscript+"controller/home/md/welcome",["vmodel"]]},setting=shimdeps(Object.assign(shimdeps_global,shimdeps_page));setting.urlArgs=urlArgs,setting.map=map,requirejs.config(setting);

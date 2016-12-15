@@ -1,0 +1,12 @@
+//方便撰寫的自訂 mixin 斷點樣式
+@mixin _break($screen: mobile)
+{
+    $map  :  map-get($break_layout, $screen);
+    $break:  map-get($map, "break");
+    $layout: map-get($map, "layout");
+
+    @include susy-breakpoint($break, $layout)
+    {
+        @content;
+    }
+}

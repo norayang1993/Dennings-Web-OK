@@ -1,0 +1,391 @@
+// 
+// 放置網站都會使用的重複設定
+// 
+// 建議單獨使用 <link> 在 HTML 中，
+// 
+// 不應該被 @import 到SCSS中編譯
+// 
+
+@import "../../config/global";
+
+@import "compass/reset";
+
+*
+{
+    @include box-sizing(border-box);
+    
+}
+
+html, body 
+{
+    height: 100%;
+    // background: #9C9C9C;
+    font-family: 'Fira Sans';
+    font-weight: normal;
+    // overflow: hidden;
+}
+
+a
+{
+    text-decoration: none;
+
+    &:visited
+    {
+        color: inherit;
+    }
+}
+
+
+.full 
+{
+    @include full;
+}
+
+.header 
+{
+    @include _break("mobile")
+    {
+        @include container;
+        background: white;
+        height: 67px;
+        padding: 19px 18px;
+    }
+    @include _break("desktop")
+    {
+        @include container;
+        background: white;
+        height: 100px;
+        padding: 0 45px;
+        margin-bottom: 64px;
+        @include box-shadow(0px 0px 7px 0px #b3b3b3);
+    }
+
+    .logo   
+    {
+        @include _break("mobile")
+        {
+            float: left;
+            background-image: url($base_path + 'images/global/logo.png');
+            width: 107px;
+            height: 15px;
+        }
+        @include _break("desktop")
+        {
+            background-image: url($base_path + 'images/global/logo2.png');
+            width: 242px;
+            height: 68px;
+            margin-top: 16px;
+        }
+        
+
+    }
+    .gtn
+    {
+        @include _break("mobile")
+        {
+            float: right;
+            cursor: pointer;
+        }
+        @include _break("desktop")
+        {
+            display: none;
+        }
+        
+    }
+
+    .menu_pad
+    {
+        @include _break("mobile")
+        {
+            display: none;
+        }
+        @include _break("desktop")
+        {
+            display: block;
+
+            height: 100%;
+            @include span(last 7);
+        }
+
+        li 
+        {
+            @include gallery(1 of 5); 
+            height: 100%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            a 
+            {
+                @extend .full;
+                text-align: center;
+                height: 100%;
+                line-height: 60px;
+                font-size: 18px;
+            }
+        }
+        
+    }
+}
+
+.footer
+{
+    @include _break("mobile")
+    {
+        @include container;
+        @include break;
+        background: #1b1b1b;
+        height: 97px;
+        color: white;
+        padding: 18px 40px;
+        font-size: 8px;
+    }
+    @include _break("desktop")
+    {
+        height: 50px;
+        font-size: 14px;
+        padding: 0 45px;
+    }
+
+    .menu
+    {
+        @include _break("mobile")
+        {
+            @include full;
+            margin-bottom: 17px;    
+        }
+        @include _break("desktop")
+        {
+            margin-bottom: 0px;    
+            height: 100%;
+            @include span(6 of 18);
+        }
+        
+
+        li 
+        {
+            @include _break("mobile")
+            {
+                @include gallery(1 of 4); 
+                text-align: center;
+            }
+            @include _break("desktop")
+            {
+                height: 100%;
+            }
+            
+
+            a 
+            {
+                @extend .full;
+
+                @include _break("mobile")
+                {
+                }
+                @include _break("desktop")
+                {
+                    height: 100%;
+                    line-height: 50px;
+                }
+            }
+        }
+
+    }
+
+    .ct
+    {
+       
+        @include _break("mobile")
+        {
+            @include break;
+            margin: 0 auto 10px auto;
+            width: 67px;
+            height: 12px;
+            display: block;
+        }
+
+        @include _break("desktop")
+        {
+            clear: none;
+            @include span(3 of 18);
+            height: 100%;
+            padding-top: 18px;
+            margin: 0;
+        }
+        
+
+        .flag 
+        {
+            @include _break("mobile")
+            {
+                width: 19px;
+                height: 12px;
+                line-height: 12px;
+                float: left;
+                margin-right: 8px;
+            }
+
+            @include _break("desktop")
+            {
+            }
+            
+
+        }
+        .text 
+        {
+            float: left;
+            line-height: 12px;
+        }
+    }    
+
+    .link 
+    {
+        @extend .full;
+        padding: 0 88px;
+        line-height: 25px;
+        height: 25px;
+
+        @include _break("desktop")
+        {
+            clear: none;
+            @include span(last 2 of 18);
+            padding: 14px 0 0 0 ;
+            height: 100%;
+            padding-top: 14px;
+        }
+        
+
+        .btn 
+        {
+            height: inherit;
+            @include gallery(1 of 3); 
+            text-align: center;
+            
+            i 
+            {
+                width: 11px;
+                height: 11px;
+                display: inline-block;
+
+                @include _break("desktop")
+                {
+                    width: 23px;
+                    height: 15px;
+                }
+                
+
+                &.f 
+                {
+                    background-image: url($base_path + 'images/global/icon-f.gif');
+                    @include _break("desktop")
+                    {
+                        background-image: url($base_path + 'images/global/icon-f-2.png');
+                    }
+                    
+                }
+                &.in 
+                {
+                    background-image: url($base_path + 'images/global/icon-in.gif');
+                    @include _break("desktop")
+                    {
+                        background-image: url($base_path + 'images/global/icon-in-2.png');
+                    }
+                    
+                }
+                &.tw 
+                {
+                    background-image: url($base_path + 'images/global/icon-tw.gif');
+                    @include _break("desktop")
+                    {
+                        background-image: url($base_path + 'images/global/icon-tw-2.png');
+                    }
+                    
+                }
+            }
+        }
+    }
+    
+}
+.container_wrap
+{
+    @include _break("mobile")
+    {
+        @include container;
+        position: relative;
+        // overflow: hidden;
+    }
+    @include _break("desktop")
+    {
+        @include container;
+        
+    }
+
+    .page_frame
+    {
+        @extend .full;
+        background: white;
+    }
+}
+
+.navbar_mobile
+{
+    
+    @include _break("mobile")
+    {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        @include transition(0.25s all);
+        @include transform(translateX(span(4)));
+        display: none;
+    }
+    @include _break("desktop")
+    {
+        display: none;
+    }
+    
+    
+    .container_nav
+    {
+        @include _break("mobile")
+        {
+            @include container;
+            height: 100%;
+        }
+        @include _break("desktop")
+        {
+            
+        }
+        
+        .menu_mobile
+        {
+            @include _break("mobile")
+            {
+                @include span(3);
+                background: #eeeeee;
+                height: 100%;
+                padding-top: 30px;
+            }
+            @include _break("desktop")
+            {
+                
+            }
+
+            li 
+            {
+                height: 60px;
+                line-height: 60px;
+                border-bottom: 1px solid #898989;
+                a 
+                {
+                    @extend .full;
+                    padding-left: 20px;
+                }
+            }
+            
+        }   
+        
+    }
+}
