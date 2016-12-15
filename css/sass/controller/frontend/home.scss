@@ -1,0 +1,265 @@
+@import "../../config/global";
+
+$banner-height: 209px;
+
+.container 
+{
+    @include _break("mobile")
+    {
+        @include container;
+    }
+    @include _break("pad")
+    {
+        
+    }
+    @include _break("desktop")
+    {
+        
+    }
+
+    .banner 
+    {
+        @include _break("mobile")
+        {
+            @include full;
+            height: $banner-height;
+            margin-bottom: 38px;
+        }
+        @include _break("pad")
+        {
+            
+        }
+        @include _break("desktop")
+        {
+            
+        }
+
+        .item
+        {
+            @include _break("mobile")
+            {
+                @include full;
+                @include divimg_cover(initial, $banner-height, $base_path + 'images/home/banner.png');
+            }
+            @include _break("pad")
+            {
+                
+            }
+            @include _break("desktop")
+            {
+                
+            }
+            
+        }
+        
+
+    }
+
+    .cpbox
+    {
+        @include _break("mobile")
+        {
+            @include full;
+            margin-bottom: 38px;
+        }
+        @include _break("pad")
+        {
+            
+        }
+        @include _break("desktop")
+        {
+            
+        }
+
+        .title
+        {
+            @include _break("mobile")
+            {
+                @include full;
+                font-size: 28px;
+                text-align: center;
+                margin-bottom: 15px;
+            }
+            @include _break("pad")
+            {
+                
+            }
+            @include _break("desktop")
+            {
+                
+            }
+        }
+
+        .subtitle 
+        {
+            @include _break("mobile")
+            {
+                font-size: 14px;
+                text-align: center;
+                margin-bottom: 35px;
+            }
+            @include _break("pad")
+            {
+                
+            }
+            @include _break("desktop")
+            {
+                
+            }
+            
+        }
+
+        .ourpd
+        {
+            @include _break("mobile")
+            {
+                display: block;
+                background: #4789c7;
+                color: white;
+                font-size: 10px;
+                width: 90px;
+                height: 28px;
+                border: none;
+                margin: 0 auto;
+                @include border-radius(3px);
+            }
+            @include _break("pad")
+            {
+                
+            }
+            @include _break("desktop")
+            {
+                
+            }
+
+        }
+        
+
+    }
+
+    .iblock
+    {
+        @include _break("mobile")
+        {
+            @include break;
+            // margin: 0 20px 40px 20px;
+            @include full;
+            padding: 0 20px;
+            margin-bottom: 40px;
+        }
+        @include _break("pad")
+        {
+            
+        }
+        @include _break("desktop")
+        {
+            
+        }
+
+        .item
+        {
+            @include _break("mobile")
+            {
+                @include full;
+                height: 150px;
+                margin-bottom: 10px;
+                position: relative;
+            }
+            @include _break("pad")
+            {
+                
+            }
+            @include _break("desktop")
+            {
+                
+            }
+
+            &:last-child 
+            {
+                @include _break("mobile")
+                {
+                    margin-bottom: 0;
+                }
+                @include _break("pad")
+                {
+                    
+                }
+                @include _break("desktop")
+                {
+                    
+                }
+                
+            }
+
+            a 
+            {
+                @include full;
+                height: 100%;
+            }
+
+            .bg
+            {
+                @include _break("mobile")
+                {
+                    @include divimg_cover(initial, 100%, url);
+                }
+                @include _break("pad")
+                {
+                    
+                }
+                @include _break("desktop")
+                {
+                    
+                }
+
+                &.re 
+                {
+                    background-image: url($base_path + 'images/home/item-01.png');
+                }
+                &.bu 
+                {
+                    background-image: url($base_path + 'images/home/item-02.png');
+                }
+                &.ip 
+                {
+                    background-image: url($base_path + 'images/home/item-03.png');
+                }
+                &.tr 
+                {
+                    background-image: url($base_path + 'images/home/item-04.png');
+                }
+                
+            }
+
+            .title  
+            {
+                @include _break("mobile")
+                {
+                    height: 30px;
+                    line-height: 30px;
+                    background: #424b59;
+                    opacity: 0.8;
+                    position: absolute;
+                    bottom: 0px;
+                    width: 100%;
+                    color: white;
+                    font-weight: bold;
+                    text-align: center;
+                    font-size: 14px;
+                }
+                @include _break("pad")
+                {
+                    
+                }
+                @include _break("desktop")
+                {
+                    
+                }
+                
+            }
+            
+        }
+        
+    }
+    
+}

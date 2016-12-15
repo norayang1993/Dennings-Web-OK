@@ -13,6 +13,11 @@ class Page extends CI_Controller {
 
     public function index()
     {
+        $this->assesbox->custom
+        ([
+            'services' => 'css/stylesheets/controller/frontend/home.css'
+        ]);
+
         $this->auoload("home", $param);
     }
 
