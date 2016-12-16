@@ -21,6 +21,16 @@ class Page extends CI_Controller {
         $this->auoload("home", $param);
     }
 
+    public function about()
+    {
+        $this->assesbox->custom
+        ([
+            'services' => 'css/stylesheets/controller/frontend/about.css'
+        ]);
+
+        $this->auoload("about", $param);
+    }
+
     public function services()
     {
         $this->assesbox->custom

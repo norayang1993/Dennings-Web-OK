@@ -1,0 +1,137 @@
+@import "../../config/global";
+
+.container 
+{
+    @include _break("mobile")
+    {
+        @include container;
+    }
+    @include _break("pad")
+    {
+        @include container;
+    }
+    @include _break("desktop")
+    {
+        @include container;
+    }
+
+    .banner 
+    {
+        @include _break("mobile")
+        {
+            @include divimg_cover(initial, 209px, $base_path + 'images/about/banner-01.png');
+            margin-bottom: 38px;
+        }
+        @include _break("pad")
+        {
+            
+        }
+        @include _break("desktop")
+        {
+            
+        }
+        
+    }
+
+    .info
+    {
+        @include _break("mobile")
+        {
+            padding: 0 20px;
+            text-align: center;
+        }
+        @include _break("pad")
+        {
+            
+        }
+        @include _break("desktop")
+        {
+            
+        }
+
+        .slogan   
+        {
+            @include _break("mobile")
+            {
+                font-size: 28px;
+                line-height: 69px;
+                border-top: 2px solid #D4D4D4;
+                border-bottom: 2px solid #D4D4D4;
+                margin-bottom: 38px;
+            }
+            @include _break("pad")
+            {
+                
+            }
+            @include _break("desktop")
+            {
+                
+            }
+            
+        }
+
+        .content
+        {
+            @include _break("mobile")
+            {
+                @include full;
+            }
+            @include _break("pad")
+            {
+                
+            }
+            @include _break("desktop")
+            {
+                
+            }
+
+            .iconsite
+            {
+                @include _break("mobile")
+                {
+                    @include full;
+                    margin-bottom: 38px;
+                }
+                @include _break("pad")
+                {
+                    
+                }
+                @include _break("desktop")
+                {
+                    
+                }
+            }
+
+            .desc 
+            {
+                @include _break("mobile")
+                {
+                    margin-bottom: 38px;
+                }
+                @include _break("pad")
+                {
+                    
+                }
+                @include _break("desktop")
+                {
+                    
+                }
+                
+                p 
+                {
+                    margin-bottom: 14px;
+                    font-size: 10px;
+                    color: #898176;
+
+                    &:last-child 
+                    {
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+            
+        }
+        
+    }
+    
+}
