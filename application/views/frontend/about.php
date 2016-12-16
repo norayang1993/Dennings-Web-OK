@@ -10,7 +10,8 @@
         <div class="content">
 
             <p class="iconsite">
-                <img src="images/about/logo-01.png">
+                <img class="mobile" src="images/about/logo-01.png">
+                <img class="desktop" src="images/about/logo-02.png">
             </p>
 
             <div class="desc">

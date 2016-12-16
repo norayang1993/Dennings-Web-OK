@@ -15,7 +15,7 @@ class Page extends CI_Controller {
     {
         $this->assesbox->custom
         ([
-            'services' => 'css/stylesheets/controller/frontend/home.css'
+            'home' => 'css/stylesheets/controller/frontend/home.css'
         ]);
 
         $this->auoload("home", $param);
@@ -25,10 +25,20 @@ class Page extends CI_Controller {
     {
         $this->assesbox->custom
         ([
-            'services' => 'css/stylesheets/controller/frontend/about.css'
+            'about' => 'css/stylesheets/controller/frontend/about.css'
         ]);
 
         $this->auoload("about", $param);
+    }
+
+    public function products()
+    {
+        $this->assesbox->custom
+        ([
+            'products' => 'css/stylesheets/controller/frontend/products.css'
+        ]);
+
+        $this->auoload("products", $param);
     }
 
     public function services()
@@ -70,6 +80,16 @@ class Page extends CI_Controller {
         ]);
 
         $this->auoload("contact", $param);
+    }
+
+    public function partners()
+    {
+        $this->assesbox->custom
+        ([
+            'partners' => 'css/stylesheets/controller/frontend/partners.css'
+        ]);
+
+        $this->auoload("partners", $param);
     }
 
     
