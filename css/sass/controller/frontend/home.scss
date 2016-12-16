@@ -11,11 +11,12 @@ $banner-height-desktop: 635px;
     }
     @include _break("pad")
     {
-        
+        @include container;
     }
     @include _break("desktop")
     {
-        
+        @include container;
+        position: relative;
     }
 
     .banner 
@@ -33,6 +34,7 @@ $banner-height-desktop: 635px;
         @include _break("desktop")
         {
             height: $banner-height-desktop;
+            margin-bottom: 64px;
         }
 
         .item
@@ -48,7 +50,8 @@ $banner-height-desktop: 635px;
             }
             @include _break("desktop")
             {
-                height: $banner-height-desktop;
+                @include divimg_cover(initial, $banner-height-desktop, $base_path + 'images/home/banner-02.png');
+
             }
             
         }
@@ -69,7 +72,10 @@ $banner-height-desktop: 635px;
         }
         @include _break("desktop")
         {
-            
+            position: absolute;
+            top: 345px;
+            text-align: right;
+            padding-right: span(2 of 12);
         }
 
         .title
@@ -87,7 +93,8 @@ $banner-height-desktop: 635px;
             }
             @include _break("desktop")
             {
-                
+                font-size: 40px;
+                text-align: right;
             }
         }
 
@@ -105,7 +112,9 @@ $banner-height-desktop: 635px;
             }
             @include _break("desktop")
             {
-                
+                font-size: 24px;
+                margin-bottom: 60px;
+                text-align: right;
             }
             
         }
@@ -123,6 +132,7 @@ $banner-height-desktop: 635px;
                 border: none;
                 margin: 0 auto;
                 @include border-radius(3px);
+                cursor: pointer;
             }
             @include _break("pad")
             {
@@ -130,7 +140,10 @@ $banner-height-desktop: 635px;
             }
             @include _break("desktop")
             {
-                
+                display: inline-block;
+                width: 150px;
+                height: 45px;
+                font-size: 16px;
             }
 
         }
@@ -217,19 +230,19 @@ $banner-height-desktop: 635px;
 
                 &.re 
                 {
-                    background-image: url($base_path + 'images/home/item-01.png');
+                    background-image: url($base_path + 'images/home/item-01-02.png');
                 }
                 &.bu 
                 {
-                    background-image: url($base_path + 'images/home/item-02.png');
+                    background-image: url($base_path + 'images/home/item-02-02.png');
                 }
                 &.ip 
                 {
-                    background-image: url($base_path + 'images/home/item-03.png');
+                    background-image: url($base_path + 'images/home/item-03-02.png');
                 }
                 &.tr 
                 {
-                    background-image: url($base_path + 'images/home/item-04.png');
+                    background-image: url($base_path + 'images/home/item-04-02.png');
                 }
                 
             }
