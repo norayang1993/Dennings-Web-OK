@@ -1,0 +1,198 @@
+@import "../../config/global";
+
+.container  
+{
+    @include _break("mobile")
+    {
+        @include container;
+    }
+    @include _break("pad")
+    {
+        @include container;
+    }
+    @include _break("desktop")
+    {
+        @include container;
+    }
+
+
+    .plist
+    {
+        @include _break("mobile")
+        {
+            @include full;
+            padding: 0 20px;
+        }
+        @include _break("pad")
+        {
+            
+        }
+        @include _break("desktop")
+        {
+            
+        }
+
+        .company
+        {
+            @include _break("mobile")
+            {
+                @include full;
+                margin-bottom: 36px;
+            }
+            @include _break("pad")
+            {
+                
+            }
+            @include _break("desktop")
+            {
+                
+            }
+
+            .logosite
+            {
+                @include _break("mobile")
+                {
+                    @include full;
+                    margin-bottom: 16px;
+                }
+                @include _break("pad")
+                {
+                    
+                }
+                @include _break("desktop")
+                {
+                    
+                }
+                
+                .logo 
+                {
+                    @include _break("mobile")
+                    {
+                        margin: 0 auto;
+                    }
+                    @include _break("pad")
+                    {
+                        
+                    }
+                    @include _break("desktop")
+                    {
+                        
+                    }
+
+                    &.original
+                    {
+                        @include _break("mobile")
+                        {
+                            @include divimg_cover(170px, 65px, initial);
+                        }
+                        @include _break("pad")
+                        {
+                            
+                        }
+                        @include _break("desktop")
+                        {
+                            
+                        }
+                        
+                    }
+
+                    &.hoceans
+                    {
+                        @include _break("mobile")
+                        {
+                            @include divimg_contain(170px, 65px, initial);
+                        }
+                        @include _break("pad")
+                        {
+                            
+                        }
+                        @include _break("desktop")
+                        {
+                            
+                        }
+                    }
+
+                    &.topview 
+                    {
+                        @include _break("mobile")
+                        {
+                            @include divimg_contain(170px, 65px, initial);
+                        }
+                        @include _break("pad")
+                        {
+                            
+                        }
+                        @include _break("desktop")
+                        {
+                            
+                        }
+                        
+                    }
+                }                
+            }
+
+            .desc
+            {
+                @include _break("mobile")
+                {
+                    @include full;
+                    border-left: 3px #efefef solid;
+                    padding: 0 20px 12px 20px;
+                }
+                @include _break("pad")
+                {
+                    
+                }
+                @include _break("desktop")
+                {
+                    
+                }
+
+                .title 
+                {
+                    @include _break("mobile")
+                    {
+                        font-size: 16px;
+                        line-height: 1.5em;
+                        color: #465163;
+                        margin-bottom: 7px;
+                    }
+                    @include _break("pad")
+                    {
+                        
+                    }
+                    @include _break("desktop")
+                    {
+                        
+                    }
+
+                    .text 
+                    {
+                        display: inline-block;
+                    }
+
+                    .point
+                    {
+                        margin-left: 1em;
+                        display: inline-block;
+                        position: relative;
+                        top: 2px;
+                        @include divimg_contain(15px, 15px, $base_path + 'images/partners/point.png');
+                    }
+                    
+                }
+                .content 
+                {
+                    p 
+                    {
+                        font-size: 10px;
+                        line-height: 1.5em;
+                        color: #898176;
+                    }
+                }
+                
+            }
+        }
+        
+    }    
+}
