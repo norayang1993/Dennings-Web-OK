@@ -4,7 +4,7 @@
 
         <div class="company">
             <div class="logosite">
-                <div class="logo original" style="background-image: url('images/partners/logo-origin.png')"></div>
+                <div class="logo original"></div>
             </div>
 
             <div class="desc">
@@ -23,7 +23,7 @@
 
         <div class="company">
             <div class="logosite">
-                <div class="logo hoceans" style="background-image: url('images/partners/logo-hoceans.png')"></div>
+                <div class="logo hoceans"></div>
             </div>
 
             <div class="desc">
@@ -42,7 +42,7 @@
 
         <div class="company">
             <div class="logosite">
-                <div class="logo topview" style="background-image: url('images/partners/logo-topview.png')"></div>
+                <div class="logo topview"></div>
             </div>
 
             <div class="desc">
