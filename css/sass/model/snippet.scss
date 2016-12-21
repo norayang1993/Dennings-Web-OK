@@ -43,3 +43,36 @@
 {
     display: inline !important;
 }
+
+
+/**
+水平垂直置中，.outer 務必添加width與height
+範例
+    <div class="herver_center outer">
+        <div class="herver_center inner">置中元素</div>
+    </div>
+*/ 
+.herver_center
+{
+    //外圍
+    &.outer 
+    {
+        text-align: center;
+        margin: 0 auto;
+ 
+        &:before, &:after
+        {
+            content: '';
+            display: inline-block;
+            vertical-align: middle ;
+            height: 100%;
+        }
+    }
+     
+    //內圍
+    .inner 
+    {
+        display: inline-block;
+        vertical-align: middle;
+    }
+}

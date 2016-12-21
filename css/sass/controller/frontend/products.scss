@@ -1,0 +1,361 @@
+@import "../../config/global";
+
+.container 
+{
+    @include _break("mobile")
+    {
+        @include container;
+    }
+    @include _break("pad")
+    {
+        @include container;
+    }
+    @include _break("desktop")
+    {
+        @include container;
+    }
+
+    .banner 
+    {
+        @include _break("mobile")
+        {
+            @include full;
+            @include divimg_cover(initial, 205px, $base_path + 'images/products/banner.jpg');
+        }
+        @include _break("pad")
+        {
+            
+        }
+        @include _break("desktop")
+        {
+            height: 620px;
+        }
+        
+
+    }
+
+    .product
+    {
+        @include _break("mobile")
+        {
+            @include full;
+            padding: 0 20px;
+        }
+        @include _break("pad")
+        {
+            
+        }
+        @include _break("desktop")
+        {
+            @include span(12 of 18);
+            @include squish(2 of 18, 2 of 18);
+            padding: 0;
+        }
+
+        .protab_site
+        {
+            @include _break("mobile")
+            {
+                text-align: center;
+                padding: 18px 0;
+            }
+            @include _break("pad")
+            {
+                
+            }
+            @include _break("desktop")
+            {
+                padding: 32px 0;
+            }
+            
+
+            .item
+            {
+                @include _break("mobile")
+                {
+                    display: inline-block;
+                    padding: 10px 12px 8px 10px;
+                    font-size: 10px;
+                    color: #4789c7;
+                    border: 2px solid #4789c7;
+                    @include border-radius(3px);
+                    margin-right: 15px;
+                    background: white;
+                }
+                @include _break("pad")
+                {
+                    
+                }
+                @include _break("desktop")
+                {
+                    width: 143px;
+                    height: 46px;
+                    font-size: 16px;
+                }
+                
+            }
+
+
+
+        }
+
+        .pdolist
+        {
+            @include _break("mobile")
+            {
+                @include full;
+                // padding: 38px 0px;
+            }
+            @include _break("pad")
+            {
+                
+            }
+            @include _break("desktop")
+            {
+                
+            }
+
+            .proinfo
+            {
+                @include _break("mobile")
+                {
+                    @include full;
+                    padding: 40px 0;
+                    border-top: 2px solid #eeeeee;
+                }
+                @include _break("pad")
+                {
+                    
+                }
+                @include _break("desktop")
+                {
+                    @include pad(2 of 12);
+                    padding-top: 64px;
+                    padding-bottom: 64px;
+                }
+
+                &:last-child
+                {
+                    border-bottom: 2px solid #f0f0f0;
+                    margin-bottom: 40px;
+                }
+                
+                .pheader 
+                {
+                    @include _break("mobile")
+                    {
+                        @include full;
+                        height: 95px;
+                        margin-bottom: 18px;
+                    }
+                    @include _break("pad")
+                    {
+                        
+                    }
+                    @include _break("desktop")
+                    {
+                        height: 160px;
+                        margin-bottom: 34px;
+                    }
+                    
+
+
+                    .icon 
+                    {
+                        @include _break("mobile")
+                        {
+                            float: left;
+                            @include divimg_cover(95px, 95px, initial);
+                        }
+                        @include _break("pad")
+                        {
+                            
+                        }
+                        @include _break("desktop")
+                        {
+                            @include divimg_cover(160px, 160px, initial);
+                        }
+                        
+                    }
+
+                    .tinfo
+                    {
+                        @include _break("mobile")
+                        {
+                            float: left;
+                            width: calc(100% - 95px);
+                            height: 95px;
+                        }
+                        @include _break("pad")
+                        {
+                            
+                        }
+                        @include _break("desktop")
+                        {
+                            width: calc(100% - 160px);
+                            height: 160px;
+                        }
+                        
+                        .outwrap
+                        {
+                            @include _break("mobile")
+                            {
+                                width: calc(98%);
+                                height: 95px;
+                            }
+                            @include _break("pad")
+                            {
+                                
+                            }
+                            @include _break("desktop")
+                            {
+                                height: 160px;
+                            }
+                            
+
+                            .inwrap 
+                            {
+                                @include _break("mobile")
+                                {
+                                    width: calc(98%);
+                                    padding-left: 15px;
+                                }
+                                @include _break("pad")
+                                {
+                                    
+                                }
+                                @include _break("desktop")
+                                {
+                                    height: 165px;
+                                    position: relative;
+                                    padding-left: 40px;
+                                }
+                                
+
+                                .ptit 
+                                {
+                                    @include _break("mobile")
+                                    {
+                                        color: #465163;
+                                        font-size: 20px;
+                                        line-height: 1.5em;
+                                        font-weight: 600;
+                                        text-align: left;
+                                    }
+                                    @include _break("pad")
+                                    {
+                                        
+                                    }
+                                    @include _break("desktop")
+                                    {
+                                        font-size: 30px;
+                                        position: relative;
+                                        top: -8px;
+                                    }
+                                    
+                                }
+                                .linksite   
+                                {
+                                    @include _break("mobile")
+                                    {
+                                        display: inline-block;
+                                        width: 100%;
+                                        font-size: 8px;
+                                        color: #4789c7;
+                                        text-align: left;
+                                    }
+                                    @include _break("pad")
+                                    {
+                                        
+                                    }
+                                    @include _break("desktop")
+                                    {
+                                        font-size: 16px;
+                                        position: absolute;
+                                        bottom: 0px;
+                                        left: 40px;
+                                        right: 0px;
+                                        width: 100%;
+                                    }
+
+                                    .link
+                                    {
+                                        @include _break("mobile")
+                                        {
+                                            display: inline-block;
+                                            margin-right: 10px;
+                                            text-decoration: underline;
+                                            line-height: 1.5em;
+                                        }
+                                        @include _break("pad")
+                                        {
+                                            
+                                        }
+                                        @include _break("desktop")
+                                        {
+                                            margin-right: 27px;
+                                        }
+                                        
+                                    }
+                                    
+                                }
+                            }
+
+                            
+                        }
+                        
+                    }
+
+
+
+                }
+
+                .ctt
+                {
+                    @include _break("mobile")
+                    {
+                        @include full;
+                    }
+                    @include _break("pad")
+                    {
+                        
+                    }
+                    @include _break("desktop")
+                    {
+                        
+                    }
+
+                    p 
+                    {
+                        @include _break("mobile")
+                        {
+                            margin-bottom: 20px;
+                            font-size: 10px;
+                            line-height: 1.5em;
+                            color: #898176;
+                        }
+                        @include _break("pad")
+                        {
+                            
+                        }
+                        @include _break("desktop")
+                        {
+                            font-size: 16px;
+                            margin-bottom: 32px;
+                        }
+                        
+
+                        &:last-child
+                        {
+                            margin-bottom: 0px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        
+    }
+
+    
+}
