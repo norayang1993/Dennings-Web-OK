@@ -23,7 +23,34 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+$allowed_domains = array('localhost', 'dennings.org'); 
+$default_domain  = 'dennings.org';
+
+if (in_array($_SERVER['HTTP_HOST'], $allowed_domains, TRUE))
+{
+    if ($_SERVER['HTTP_HOST'] == "localhost") 
+    {
+        $domain = $_SERVER['HTTP_HOST'] . "/dennings/website";
+    }
+    else 
+    {
+        $domain = $_SERVER['HTTP_HOST'];
+    }
+}
+else
+{
+    $domain = $default_domain;
+}
+
+if ( ! empty($_SERVER['HTTPS']))
+{
+    $config['base_url'] = 'https://'.$domain;
+}
+else
+{
+    $config['base_url'] = 'http://'.$domain;
+}
+
 
 /*
 |--------------------------------------------------------------------------

@@ -41,270 +41,7 @@ a
     @include full;
 }
 
-.header 
-{
-    @include _break("mobile")
-    {
-        @include container;
-        background: white;
-        height: 67px;
-        padding: 19px 18px;
-    }
-    @include _break("desktop")
-    {
-        @include container;
-        background: white;
-        height: 100px;
-        padding: 0 45px;
-        margin-bottom: 64px;
-        @include box-shadow(0px 0px 7px 0px #b3b3b3);
-    }
 
-    .logo   
-    {
-        @include _break("mobile")
-        {
-            float: left;
-            background-image: url($base_path + 'images/global/logo.png');
-            width: 107px;
-            height: 15px;
-        }
-        @include _break("desktop")
-        {
-            background-image: url($base_path + 'images/global/logo2.png');
-            width: 242px;
-            height: 68px;
-            margin-top: 16px;
-        }
-        
-
-    }
-    .gtn
-    {
-        @include _break("mobile")
-        {
-            float: right;
-            cursor: pointer;
-        }
-        @include _break("desktop")
-        {
-            display: none;
-        }
-        
-    }
-
-    .menu_pad
-    {
-        @include _break("mobile")
-        {
-            display: none;
-        }
-        @include _break("desktop")
-        {
-            display: block;
-
-            height: 100%;
-            @include span(last 7);
-        }
-
-        li 
-        {
-            @include gallery(1 of 5); 
-            height: 100%;
-            padding-top: 20px;
-            padding-bottom: 20px;
-
-            a 
-            {
-                @extend .full;
-                text-align: center;
-                height: 100%;
-                line-height: 60px;
-                font-size: 18px;
-            }
-        }
-        
-    }
-}
-
-.footer
-{
-    @include _break("mobile")
-    {
-        @include container;
-        @include break;
-        background: #1b1b1b;
-        height: 97px;
-        color: white;
-        padding: 18px 40px;
-        font-size: 8px;
-    }
-    @include _break("desktop")
-    {
-        height: 50px;
-        font-size: 14px;
-        padding: 0 45px;
-    }
-
-    .menu
-    {
-        @include _break("mobile")
-        {
-            @include full;
-            margin-bottom: 17px;    
-        }
-        @include _break("desktop")
-        {
-            margin-bottom: 0px;    
-            height: 100%;
-            @include span(6 of 18);
-        }
-        
-
-        li 
-        {
-            @include _break("mobile")
-            {
-                @include gallery(1 of 4); 
-                text-align: center;
-            }
-            @include _break("desktop")
-            {
-                height: 100%;
-            }
-            
-
-            a 
-            {
-                @extend .full;
-
-                @include _break("mobile")
-                {
-                }
-                @include _break("desktop")
-                {
-                    height: 100%;
-                    line-height: 50px;
-                }
-            }
-        }
-
-    }
-
-    .ct
-    {
-       
-        @include _break("mobile")
-        {
-            @include break;
-            margin: 0 auto 10px auto;
-            width: 67px;
-            height: 12px;
-            display: block;
-        }
-
-        @include _break("desktop")
-        {
-            clear: none;
-            @include span(3 of 18);
-            height: 100%;
-            padding-top: 18px;
-            margin: 0;
-        }
-        
-
-        .flag 
-        {
-            @include _break("mobile")
-            {
-                width: 19px;
-                height: 12px;
-                line-height: 12px;
-                float: left;
-                margin-right: 8px;
-            }
-
-            @include _break("desktop")
-            {
-            }
-            
-
-        }
-        .text 
-        {
-            float: left;
-            line-height: 12px;
-        }
-    }    
-
-    .link 
-    {
-        @extend .full;
-        padding: 0 88px;
-        line-height: 25px;
-        height: 25px;
-
-        @include _break("desktop")
-        {
-            clear: none;
-            @include span(last 2 of 18);
-            padding: 14px 0 0 0 ;
-            height: 100%;
-            padding-top: 14px;
-        }
-        
-
-        .btn 
-        {
-            height: inherit;
-            @include gallery(1 of 3); 
-            text-align: center;
-            
-            i 
-            {
-                width: 11px;
-                height: 11px;
-                display: inline-block;
-
-                @include _break("desktop")
-                {
-                    width: 23px;
-                    height: 15px;
-                }
-                
-
-                &.f 
-                {
-                    background-image: url($base_path + 'images/global/icon-f.gif');
-                    @include _break("desktop")
-                    {
-                        background-image: url($base_path + 'images/global/icon-f-2.png');
-                    }
-                    
-                }
-                &.in 
-                {
-                    background-image: url($base_path + 'images/global/icon-in.gif');
-                    @include _break("desktop")
-                    {
-                        background-image: url($base_path + 'images/global/icon-in-2.png');
-                    }
-                    
-                }
-                &.tw 
-                {
-                    background-image: url($base_path + 'images/global/icon-tw.gif');
-                    @include _break("desktop")
-                    {
-                        background-image: url($base_path + 'images/global/icon-tw-2.png');
-                    }
-                    
-                }
-            }
-        }
-    }
-    
-}
 .container_wrap
 {
     @include _break("mobile")
@@ -323,6 +60,321 @@ a
     {
         @extend .full;
         background: white;
+
+        .header 
+        {
+            @include _break("mobile")
+            {
+                @include container;
+                background: white;
+                height: 50px;
+                padding: 19px 18px 0 18px;
+                position: relative;
+            }
+            @include _break("desktop")
+            {
+                @include container;
+                background: white;
+                height: 100px;
+                padding: 0 45px;
+                @include box-shadow(0px 0px 7px 0px #b3b3b3);
+            }
+
+            .logo   
+            {
+                @include _break("mobile")
+                {
+                    float: left;
+                    background-image: url($base_path + 'images/global/logo.png');
+                    width: 107px;
+                    height: 15px;
+                }
+                @include _break("desktop")
+                {
+                    background-image: url($base_path + 'images/global/logo2.png');
+                    width: 242px;
+                    height: 68px;
+                    margin-top: 16px;
+                }
+                
+
+            }
+            .gtn
+            {
+                @include _break("mobile")
+                {
+                    float: right;
+                    cursor: pointer;
+                    width: 45px;
+                    height: 45px;
+                    padding-left: 15px;
+                    padding-top: 15px;
+                    position: absolute;
+                    right: 0px;
+                    top: 3px;
+                }
+                @include _break("desktop")
+                {
+                    display: none;
+                }
+
+                img 
+                {
+                    
+                }
+                
+            }
+
+            .menu_pad
+            {
+                @include _break("mobile")
+                {
+                    display: none;
+                }
+                @include _break("desktop")
+                {
+                    display: block;
+
+                    height: 100%;
+                    @include span(last 7);
+                }
+
+                li 
+                {
+                    @include gallery(1 of 5); 
+                    height: 100%;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+
+                    a 
+                    {
+                        @extend .full;
+                        text-align: center;
+                        height: 100%;
+                        line-height: 60px;
+                        font-size: 18px;
+                        color: inherit;
+
+                        &.selected
+                        {
+                            color: #4789c7;
+                        }
+                    }
+                }
+                
+            }
+        }
+
+        .footer
+        {
+            @include _break("mobile")
+            {
+                @include container;
+                @include break;
+                background: #465163;
+                // height: 97px;
+                color: white;
+                padding: 18px 40px;
+                font-size: 8px;
+            }
+            @include _break("desktop")
+            {
+                height: 50px;
+                font-size: 14px;
+                padding: 0 45px;
+            }
+
+            .menu
+            {
+                @include _break("mobile")
+                {
+                    @include full;
+                    margin-bottom: 17px;    
+                }
+                @include _break("desktop")
+                {
+                    margin-bottom: 0px;    
+                    height: 100%;
+                    @include span(6 of 18);
+                }
+                
+
+                li 
+                {
+                    @include _break("mobile")
+                    {
+                        @include gallery(1 of 4); 
+                        text-align: center;
+                    }
+                    @include _break("desktop")
+                    {
+                        height: 100%;
+                    }
+                    
+
+                    a 
+                    {
+                        @extend .full;
+
+                        @include _break("mobile")
+                        {
+                        }
+                        @include _break("desktop")
+                        {
+                            height: 100%;
+                            line-height: 50px;
+                        }
+                    }
+                }
+
+            }
+
+            .ct
+            {
+               
+                @include _break("mobile")
+                {
+                    @include full;
+                    margin: 0 auto 10px auto;
+                    height: 12px;
+                    display: block;
+                }
+
+                @include _break("desktop")
+                {
+                    clear: none;
+                    @include span(3 of 18);
+                    height: 100%;
+                    padding-top: 18px;
+                    margin: 0;
+                }
+
+                .center 
+                {
+                    @include _break("mobile")
+                    {
+                        width: 150px;
+                        height: 1em;
+                        margin: 0 auto;
+                        text-align: center;
+                    }
+                    @include _break("pad")
+                    {
+                        
+                    }
+                    @include _break("desktop")
+                    {
+                        width: 100%;
+                        text-align: left;
+                    }
+                    
+
+                    .flag 
+                    {
+                        @include _break("mobile")
+                        {
+                            width: 19px;
+                            height: 12px;
+                            line-height: 12px;
+                            margin-right: 8px;
+                            display: inline-block;
+                        }
+
+                        @include _break("desktop")
+                        {
+                        }
+                    }
+                    .text 
+                    {
+                        @include _break("mobile")
+                        {
+                            display: inline-block;
+                            line-height: 12px;
+                            position: relative;
+                            top: -3px;
+                        }
+                        @include _break("pad")
+                        {
+                            
+                        }
+                        @include _break("desktop")
+                        {
+                            
+                        }
+                        
+
+                    }
+                }
+            }    
+
+            .link 
+            {
+                @extend .full;
+                padding: 0 88px;
+                line-height: 25px;
+                height: 18px;
+
+                @include _break("desktop")
+                {
+                    clear: none;
+                    @include span(last 2 of 18);
+                    padding: 14px 0 0 0 ;
+                    height: 100%;
+                    padding-top: 14px;
+                }
+                
+
+                .btn 
+                {
+                    height: inherit;
+                    @include gallery(1 of 3); 
+                    text-align: center;
+                    
+                    i 
+                    {
+                        width: 11px;
+                        height: 11px;
+                        display: inline-block;
+
+                        @include _break("desktop")
+                        {
+                            width: 23px;
+                            height: 15px;
+                        }
+                        
+
+                        &.f 
+                        {
+                            background-image: url($base_path + 'images/global/icon-f-mobile.png');
+                            @include _break("desktop")
+                            {
+                                background-image: url($base_path + 'images/global/icon-f.png');
+                            }
+                            
+                        }
+                        &.in 
+                        {
+                            background-image: url($base_path + 'images/global/icon-in-mobile.png');
+                            @include _break("desktop")
+                            {
+                                background-image: url($base_path + 'images/global/icon-in.png');
+                            }
+                            
+                        }
+                        &.tw 
+                        {
+                            background-image: url($base_path + 'images/global/icon-tw-mobile.png');
+                            @include _break("desktop")
+                            {
+                                background-image: url($base_path + 'images/global/icon-tw.png');
+                            }
+                            
+                        }
+                    }
+                }
+            }
+            
+        }
     }
 }
 

@@ -6,10 +6,13 @@
                     <li><a href="">Contact Us</a></li>
                 </ul>
                 <a class="ct" href="">
-                    <i class="flag" style="background-image: url('images/global/flag-HG.png')"></i>
-                    <div class="text">
-                        Hong Gong
+                    <div class="center">
+                        <i class="flag" style="background-image: url('images/global/flag-HG.png')"></i>
+                        <div class="text">
+                            Hong Gong
+                        </div>
                     </div>
+                    <div class="clear_both"></div>
                 </a>
                 <div class="link">
                     <a class="btn" href="">

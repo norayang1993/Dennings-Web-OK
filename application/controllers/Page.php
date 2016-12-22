@@ -15,7 +15,9 @@ class Page extends CI_Controller {
     {
         $this->assesbox->custom
         ([
-            'home' => 'css/stylesheets/controller/frontend/home.css'
+            'css-home'           => 'css/stylesheets/controller/frontend/home.css',
+            'js-home-config'     => 'appscript/dev/config/home.js',
+            'js-home-controller' => 'appscript/dev/controller/home/main.js',
         ]);
 
         $this->auoload("home", $param);
@@ -25,7 +27,9 @@ class Page extends CI_Controller {
     {
         $this->assesbox->custom
         ([
-            'about' => 'css/stylesheets/controller/frontend/about.css'
+            'css-about'           => 'css/stylesheets/controller/frontend/about.css',
+            'js-about-config'     => 'appscript/dev/config/about.js',
+            'js-about-controller' => 'appscript/dev/controller/about/main.js'
         ]);
 
         $this->auoload("about", $param);
@@ -98,8 +102,14 @@ class Page extends CI_Controller {
     {
         $this->assesbox->glob
         ([
-            'snippet' => 'css/stylesheets/model/snippet.css',
-            'global' => 'css/stylesheets/controller/frontend/global.css',
+            'css-global-snippet'   => 'css/stylesheets/model/snippet.css',
+            'css-global-global'    => 'css/stylesheets/controller/frontend/global.css',
+            
+            'js-require-requirejs' => 'bower_components/requirejs/require.js',
+            'js-global-config'     => 'appscript/dev/config/global.js',
+            'js-global-libraries'  => 'appscript/dev/libraries/shimdeps.js',
+            'js-global-controller' => 'appscript/dev/controller/global/main.js',
+
         ]);
         $this->assesbox->config(
         [
@@ -108,6 +118,7 @@ class Page extends CI_Controller {
         ]);
 
         $param->asset = $this->assesbox->start('\Jsnlib\Ao');
+
 
         $this->load->view('frontend/header', $param);
         $this->load->view("frontend/{$view}", $param);
