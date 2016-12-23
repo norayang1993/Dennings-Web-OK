@@ -1,1 +1,74 @@
-.float{float:left}.float_right{float:right}.clear_both{clear:both}.hidden{display:none !important}.hidden_visi{visibility:hidden !important}.block{display:block !important}.inline_block{display:block !important}.inline{display:inline !important}.herver_center.outer{text-align:center;margin:0 auto}.herver_center.outer:before,.herver_center.outer:after{content:'';display:inline-block;vertical-align:middle;height:100%}.herver_center .inner{display:inline-block;vertical-align:middle}
+@charset "UTF-8";
+/* 
+z-index 管理
+
+用法如 :
+.sidebar_mapgame{
+    z-index: index($zindex, sidebar_mapgame);
+}
+
+ */
+/* line 9, ../../sass/model/snippet.scss */
+.float {
+  float: left;
+}
+
+/* line 13, ../../sass/model/snippet.scss */
+.float_right {
+  float: right;
+}
+
+/* line 17, ../../sass/model/snippet.scss */
+.clear_both {
+  clear: both;
+}
+
+/* line 24, ../../sass/model/snippet.scss */
+.hidden {
+  display: none !important;
+}
+
+/* line 28, ../../sass/model/snippet.scss */
+.hidden_visi {
+  visibility: hidden !important;
+}
+
+/* line 34, ../../sass/model/snippet.scss */
+.block {
+  display: block !important;
+}
+
+/* line 38, ../../sass/model/snippet.scss */
+.inline_block {
+  display: block !important;
+}
+
+/* line 42, ../../sass/model/snippet.scss */
+.inline {
+  display: inline !important;
+}
+
+/**
+水平垂直置中，.outer 務必添加width與height
+範例
+    <div class="herver_center outer">
+        <div class="herver_center inner">置中元素</div>
+    </div>
+*/
+/* line 58, ../../sass/model/snippet.scss */
+.herver_center.outer {
+  text-align: center;
+  margin: 0 auto;
+}
+/* line 63, ../../sass/model/snippet.scss */
+.herver_center.outer:before, .herver_center.outer:after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+/* line 73, ../../sass/model/snippet.scss */
+.herver_center .inner {
+  display: inline-block;
+  vertical-align: middle;
+}

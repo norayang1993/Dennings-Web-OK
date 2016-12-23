@@ -1,8 +1,8 @@
 // 檔案與依賴
 var shimdeps_page = {
-    // 'welcome': [path_appscript + 'controller/home/md/welcome', [
-    //     'vmodel'
-    // ]]
+    '_form': [path_appscript + 'controller/contact/md/form', [
+        'vmodel', 'jqform'
+    ]]
 };
 
 //進行設定

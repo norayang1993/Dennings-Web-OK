@@ -217,6 +217,7 @@ $lr-gutter : 36px;
                 font-size: 11px;
                 margin-bottom: 20px;
                 line-height: 1.5em;
+                color: #898176;
             }
             @include _break("pad")
             {
@@ -389,6 +390,7 @@ $lr-gutter : 36px;
                     @include _break("mobile")
                     {
                         @include full;
+                        color: #898176;
                     }
                     @include _break("pad")
                     {
@@ -396,7 +398,7 @@ $lr-gutter : 36px;
                     }
                     @include _break("desktop")
                     {
-                        width: 260px;
+                        width: span(2.55 of 3);
                         height: 29px;
                         line-height: 29px;
                     }
@@ -409,6 +411,9 @@ $lr-gutter : 36px;
                     {
                         @include full;
                         height: 100px;
+                        @include border-radius(3px);
+                        border: 1px solid #E7E7E7;
+                        resize: none;
                     }
                     @include _break("pad")
                     {
@@ -447,7 +452,7 @@ $lr-gutter : 36px;
 
             .submit 
             {
-                background: #e6c800;
+                background: #4789c7;
                 font-size: 15px;
                 border: none;
                 @include border-radius(5px);

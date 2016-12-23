@@ -54,7 +54,7 @@
             
         </div>
         
-        <form class="form1" method="post" action="">
+        <form class="form1" method="post" action="app/contact/index">
             <div class="desc">
                 When you submit this request, all the data will be sent to info@dennings.org
             </div>

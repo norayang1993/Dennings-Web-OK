@@ -25,6 +25,10 @@ var shimdeps_global = {
     'jquery-ui': [path_plugin + 'jquery-ui/jquery-ui.min', [
         'jquery', 'css!' + path_plugin + 'jquery-ui/themes/base/jquery-ui.min'
     ]],
+    'jqform': [path_plugin + 'jquery-form/jquery.form', [
+        'jquery'
+    ]],
+
     'vmodel': [path_plugin + 'vmodel.js/src/jquery.vmodel.min', [
         'jquery'
     ]],
