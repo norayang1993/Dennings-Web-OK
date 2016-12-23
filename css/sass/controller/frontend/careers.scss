@@ -319,7 +319,7 @@ $lr-gutter : 18px;
             top: 0px;
             width: 100%;
             z-index: index($zindex, float_page);
-            display: none;
+            // display: none;
         }
         @include _break("pad")
         {
@@ -338,7 +338,8 @@ $lr-gutter : 18px;
             @include _break("mobile")
             {
                 @include container;
-                display: none;
+                height: 100%;
+                // display: none;
             }
             @include _break("pad")
             {
@@ -368,11 +369,10 @@ $lr-gutter : 18px;
                 }
                 @include _break("desktop")
                 {
-                    @include span(12);
-                    @include squish(3, 3); 
+                    @include full;
                     margin-top: 120px;
                     @include border-radius(10px);
-                    padding: 64px gutter(18);
+                    padding: 64px gutter(12);
                 }
                 
                 // 關閉按鈕
@@ -729,6 +729,24 @@ $lr-gutter : 18px;
                 }
             }
 
+            .wrap_close
+            {
+                height: 100%;
+
+                &.left 
+                {
+                    @include span(3 of 18);
+                }
+                &.center 
+                {
+                    @include span(12 of 18);
+                }
+                &.right 
+                {
+                    @include span(last 3 of 18);
+                }
+            }
+
             
         }
     }
@@ -747,5 +765,5 @@ $lr-gutter : 18px;
     background: black;
     opacity: 0.7;
     z-index: index($zindex, float_page);
-    display: none;
+    // display: none;
 }

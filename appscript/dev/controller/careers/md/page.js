@@ -14,11 +14,8 @@ $(function (){
 
             /**
              * 顯示
-             *
-             * 
              * @param     target   
              * @param     callback 
-             * @return             
              */
             this.show = function (target, callback){
                 
@@ -38,7 +35,7 @@ $(function (){
 
                 local_show_proccess(target);
 
-                if (callback) callback.call(this);
+                if (callback) callback.call();
             }
 
             /**

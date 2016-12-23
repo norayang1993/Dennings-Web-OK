@@ -8,7 +8,7 @@ $(function (){
         isautoload: true,
         method: function (){
             var vs = this;
-            this.autoload = ['init'];
+            this.autoload = ['click'];
             this.init = function (){
                 
             }
@@ -19,6 +19,14 @@ $(function (){
 
             this.hide = function (){
                 vs.root.hide();
+            }
+
+            // 點擊覆蓋層可以關閉當前浮動頁面
+            this.click = function (){
+                vs.root.on("click", function (){
+                    alert()
+                });
+                
             }
         }
     });
