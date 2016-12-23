@@ -39,7 +39,9 @@ class Page extends CI_Controller {
     {
         $this->assesbox->custom
         ([
-            'products' => 'css/stylesheets/controller/frontend/products.css'
+            'css-products' => 'css/stylesheets/controller/frontend/products.css',
+            'js-products-config'     => 'appscript/dev/config/products.js',
+            'js-products-controller' => 'appscript/dev/controller/products/main.js'
         ]);
 
         $this->auoload("products", $param);
@@ -49,7 +51,9 @@ class Page extends CI_Controller {
     {
         $this->assesbox->custom
         ([
-            'services' => 'css/stylesheets/controller/frontend/services.css'
+            'css-services' => 'css/stylesheets/controller/frontend/services.css',
+            'js-services-config'     => 'appscript/dev/config/services.js',
+            'js-services-controller' => 'appscript/dev/controller/services/main.js'
         ]);
 
         $this->auoload("services", $param);
@@ -59,7 +63,9 @@ class Page extends CI_Controller {
     {
         $this->assesbox->custom
         ([
-            'careers' => 'css/stylesheets/controller/frontend/careers.css'
+            'css-careers' => 'css/stylesheets/controller/frontend/careers.css',
+            'js-careers-config'     => 'appscript/dev/config/careers.js',
+            'js-careers-controller' => 'appscript/dev/controller/careers/main.js'
         ]);
         
         $this->auoload("careers", $param);
@@ -70,7 +76,9 @@ class Page extends CI_Controller {
     {
         $this->assesbox->custom
         ([
-            'pt' => 'css/stylesheets/controller/frontend/pt.css'
+            'css-pt' => 'css/stylesheets/controller/frontend/pt.css',
+            'js-pt-config'     => 'appscript/dev/config/pt.js',
+            'js-pt-controller' => 'appscript/dev/controller/pt/main.js'
         ]);
 
         $this->auoload("pt", $param);
@@ -80,7 +88,9 @@ class Page extends CI_Controller {
     {
         $this->assesbox->custom
         ([
-            'contact' => 'css/stylesheets/controller/frontend/contact.css'
+            'contact' => 'css/stylesheets/controller/frontend/contact.css',
+            'js-contact-config'     => 'appscript/dev/config/contact.js',
+            'js-contact-controller' => 'appscript/dev/controller/contact/main.js'
         ]);
 
         $this->auoload("contact", $param);
@@ -90,7 +100,9 @@ class Page extends CI_Controller {
     {
         $this->assesbox->custom
         ([
-            'partners' => 'css/stylesheets/controller/frontend/partners.css'
+            'partners' => 'css/stylesheets/controller/frontend/partners.css',
+            'js-partners-config'     => 'appscript/dev/config/partners.js',
+            'js-partners-controller' => 'appscript/dev/controller/partners/main.js'
         ]);
 
         $this->auoload("partners", $param);
@@ -106,8 +118,8 @@ class Page extends CI_Controller {
             'css-global-global'    => 'css/stylesheets/controller/frontend/global.css',
             
             'js-require-requirejs' => 'bower_components/requirejs/require.js',
-            'js-global-config'     => 'appscript/dev/config/global.js',
             'js-global-libraries'  => 'appscript/dev/libraries/shimdeps.js',
+            'js-global-config'     => 'appscript/dev/config/global.js',
             'js-global-controller' => 'appscript/dev/controller/global/main.js',
 
         ]);
@@ -118,7 +130,6 @@ class Page extends CI_Controller {
         ]);
 
         $param->asset = $this->assesbox->start('\Jsnlib\Ao');
-
 
         $this->load->view('frontend/header', $param);
         $this->load->view("frontend/{$view}", $param);

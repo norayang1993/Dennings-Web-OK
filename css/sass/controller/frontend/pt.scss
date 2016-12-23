@@ -7,6 +7,7 @@ $padding-lr : 20px;
     @include _break("mobile")
     {
         @include container;
+        margin-top: 30px;
     }
     @include _break("pad")
     {
@@ -64,7 +65,7 @@ $padding-lr : 20px;
                     display: inline-block;
                     font-size: 11px;
                     background: white;
-                    border: 2px solid #eeeeee;
+                    border: 2px solid #4789c6;
                 }
                 @include _break("pad")
                 {
@@ -83,8 +84,8 @@ $padding-lr : 20px;
                 {
                     @include _break("mobile")
                     {
-                        background: #eeeeee;
-                        color: black;
+                        background: #4789c6;
+                        color: white;
                         font-weight: bold;
                     }
                     @include _break("pad")
@@ -126,7 +127,7 @@ $padding-lr : 20px;
         .page
         {
             @include full;
-            
+
 
             h1
             {
@@ -135,6 +136,7 @@ $padding-lr : 20px;
                     font-size: 18px;
                     margin-bottom: 20px;
                     font-weight: bold;
+                    color: #465163;
                 }
                 @include _break("pad")
                 {
@@ -155,6 +157,7 @@ $padding-lr : 20px;
                     font-size: 14px;
                     line-height: 1.5em;
                     font-weight: bold;
+                    color: #465163;
                 }
                 @include _break("pad")
                 {
@@ -174,6 +177,7 @@ $padding-lr : 20px;
                     font-size: 11px;
                     line-height: 1.5em;
                     margin-bottom: 22px;
+                    color: #898176;
                 }
                 @include _break("pad")
                 {

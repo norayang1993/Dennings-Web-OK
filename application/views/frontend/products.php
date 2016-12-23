@@ -6,17 +6,17 @@
     <div class="product">
 
         <div class="protab_site">
-            <button class="item">
+            <button class="item selected" data-target="a1">
                 Pocket Clause
             </button>
-            <button class="item">
+            <button class="item" data-target="a2">
                 1Flashlight
             </button>
         </div>
 
         <div class="pdolist">
 
-            <article class="proinfo">
+            <article class="proinfo a1">
                 <header class="pheader">
                     <i class="icon" style="background-image: url('images/products/PocketClause.png')"></i>
                     <div class="tinfo">
@@ -39,7 +39,7 @@
                 </div>
             </article>
 
-            <article class="proinfo">
+            <article class="proinfo a2">
                 <header class="pheader">
                     <i class="icon" style="background-image: url('images/products/1Flashlight.png')"></i>
                     <div class="tinfo">
@@ -61,18 +61,6 @@
                 </div>
             </article>
 
-            <!-- <div class="proinfo">
-                <header>
-                    <div class="icon">icon</div>
-                    <h1>1Flashlight (Android) / Bible Verses Flashlight (iOS)</h1>
-                    <div class="linksite">
-                        <a href="">Apple Store</a>
-                        <a href="">Google Play</a>
-                    </div>
-                </header>
-                <div class="content">
-                </div>
-            </div> -->
 
         </div>
     </div>

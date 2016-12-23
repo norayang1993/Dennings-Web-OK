@@ -4,7 +4,7 @@
             <a class="selected" href="">Privacy Policy</a>
         </li>
         <li class="item">
-            <a class="">Terms of Service</a>
+            <a class="" href="">Terms of Service</a>
         </li>
     </ul>
     <article class="pagesite">
@@ -30,7 +30,7 @@
                 When you obtain or register for the Dennings Service (directly or via a 
             </p>
         </div>
-        <div class="page">
+        <div class="page hidden">
             Page2...
         </div>
     </article>

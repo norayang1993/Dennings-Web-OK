@@ -10,6 +10,7 @@ $lr-gutter : 18px;
     {
         @include container;
         padding: 0;
+        margin-top: 32px;
     }
     @include _break("pad")
     {
@@ -18,6 +19,7 @@ $lr-gutter : 18px;
     @include _break("desktop")
     {
         @include container;
+        margin-top: 64px;
     }
 
     .seri
@@ -48,6 +50,7 @@ $lr-gutter : 18px;
                     font-size: 18px;
                     margin-bottom: 32px;
                     padding: 0 $lr-gutter;
+                    color: #465163;
                 }
                 @include _break("pad")
                 {
@@ -69,6 +72,7 @@ $lr-gutter : 18px;
                     line-height: 1.5em;
                     font-size: 11px;
                     padding: 0 $lr-gutter;
+                    color: #898176;
                 }
                 @include _break("pad")
                 {
@@ -108,8 +112,8 @@ $lr-gutter : 18px;
                 @include _break("mobile")
                 {
                     @include full;
-                    padding: 18px $lr-gutter;
-                    margin-bottom: 32px;
+                    padding: 18px $lr-gutter 32px $lr-gutter;
+                    // margin-bottom: 32px;
                 }
                 @include _break("pad")
                 {
@@ -196,7 +200,8 @@ $lr-gutter : 18px;
                             {
                                 font-weight: bold;
                                 font-size: 18px;
-                                margin-bottom: 3px;
+                                margin-bottom: 6px;
+                                color: #465163;
                             }
                             @include _break("pad")
                             {
@@ -216,6 +221,7 @@ $lr-gutter : 18px;
                             {
                                 margin-bottom: 28px;
                                 font-size: 12px;
+                                color: #898176;
                             }
                             @include _break("pad")
                             {
@@ -234,6 +240,7 @@ $lr-gutter : 18px;
                             @include _break("mobile")
                             {
                                 font-size: 11px;
+                                color: #898176;
                             }
                             @include _break("pad")
                             {
@@ -277,13 +284,14 @@ $lr-gutter : 18px;
                         {
                             @include _break("mobile")
                             {
-                                background: #e6c800;
+                                background: #4789c7;
                                 color: white;
                                 font-size: 16px;
                                 border: none;
                                 width: 110px;
                                 height: 30px;
                                 cursor: pointer;
+                                @include border-radius(5px);
                             }
                             @include _break("pad")
                             {
@@ -347,13 +355,14 @@ $lr-gutter : 18px;
                 {
                     @include full; 
                     height: 100%;
-                    padding: 64px 18px;
+                    padding: 64px 18px 40px 18px;
                     position: relative;
                     background: #eeeeee;
+                    margin-bottom: 64px;
                 }
                 @include _break("pad")
                 {
-                    
+
                 }
                 @include _break("desktop")
                 {
@@ -361,11 +370,9 @@ $lr-gutter : 18px;
                     @include squish(3, 3); 
                     margin-top: 120px;
                     @include border-radius(10px);
+                    padding: 64px gutter(18);
                 }
                 
-
-
-
                 // 關閉按鈕
                 .closebtn
                 {
@@ -442,6 +449,7 @@ $lr-gutter : 18px;
                             font-size: 18px;
                             font-weight: bold;
                             margin-bottom: 5px;
+                            color: #465163;
                         }
                         @include _break("pad")
                         {
@@ -511,6 +519,7 @@ $lr-gutter : 18px;
                         {
                             font-size: 11px;
                             margin-bottom: 20px;
+                            color: #898176;
                         }
                         @include _break("pad")
                         {
@@ -529,6 +538,7 @@ $lr-gutter : 18px;
                         {
                             font-size: 11px;
                             line-height: 1.5em;
+                            color: #898176;
                         }
                         @include _break("pad")
                         {
@@ -580,6 +590,11 @@ $lr-gutter : 18px;
                             height: 400px;
                             padding: 32px 85px;
                         }
+
+                        &:last-child
+                        {
+                            margin-bottom: 0px;
+                        }
                         
 
                         .title
@@ -588,6 +603,7 @@ $lr-gutter : 18px;
                             {
                                 font-size: 14px;
                                 margin-bottom: 13px;
+                                color: #465163;
                             }
                             @include _break("pad")
                             {
@@ -605,15 +621,16 @@ $lr-gutter : 18px;
                         ul
                         {
                             list-style: disc outside;
-                            margin-left: 10px;
+                            margin-left: 1em;
 
                             li
                             {
                                 @include _break("mobile")
                                 {
                                     font-size: 11px;
-                                    // line-height: 1.5em;
-                                    margin-bottom: 1em;
+                                    line-height: 1.5em;
+                                    color: #898176;
+                                    // margin-bottom: 1em;
                                 }
                                 @include _break("pad")
                                 {
@@ -621,6 +638,7 @@ $lr-gutter : 18px;
                                 }
                                 @include _break("desktop")
                                 {
+                                    // margin-bottom: 0;
                                     font-size: 16px;
                                 }
                                 
@@ -634,9 +652,10 @@ $lr-gutter : 18px;
                     @include _break("mobile")
                     {
                         @include full;
-                        margin-bottom: 40px;
+                        // margin-bottom: 40px;
                         line-height: 1.5em;
                         font-size: 11px;
+                        color: #898176;
                     }
                     @include _break("pad")
                     {
@@ -662,8 +681,7 @@ $lr-gutter : 18px;
                         width: 100%;
                         height: 67px;
                         line-height: 67px;
-                        background: black;
-                        opacity: 0.7;
+                        background: #d2d2d2;
                         text-align: center;
                         z-index: index($zindex, btsite);
                     }
@@ -685,13 +703,14 @@ $lr-gutter : 18px;
                     {
                         @include _break("mobile")
                         {
-                            background: #e6c800;
+                            background: #4789c7;
                             color: white;
                             width: 110px;
                             height: 32px;
                             border: none;
                             font-size: 16px;
                             cursor: pointer;
+                            @include border-radius(5px);
                         }
                         @include _break("pad")
                         {
