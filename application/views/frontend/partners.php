@@ -11,7 +11,7 @@
                 <h1 class="title">
                     <a class="text" href="">
                         Origin Business (Hong Kong and Kaohsiung)
-                        <i class="point"></i>
+                        <!-- <i class="point"></i> -->
                     </a>
                 </h1>
                 <div class="content">
@@ -30,7 +30,7 @@
                 <h1 class="title">
                     <a class="text" href="">
                         Hoceans (Hong Kong)
-                        <i class="point"></i>
+                        <!-- <i class="point"></i> -->
                     </a>
                 </h1>
                 <div class="content">
@@ -49,7 +49,7 @@
                 <h1 class="title">
                     <a class="text" href="">
                         Topview (Beijing)
-                        <i class="point"></i>
+                        <!-- <i class="point"></i> -->
                     </a>
                 </h1>
                 <div class="content">
