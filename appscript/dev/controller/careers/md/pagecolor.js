@@ -3,7 +3,7 @@ $(function (){
      * 覆蓋層
      */
     $.vmodel.create({
-        selector: '.layout_close',
+        selector: '.pagecolor',
         model: '--layout',
         isautoload: true,
         method: function (){
@@ -17,16 +17,16 @@ $(function (){
                 vs.root.show();
             }
 
-            this.hide = function (){
+            this.hidden = function (){
                 vs.root.hide();
             }
 
             // 點擊覆蓋層可以關閉當前浮動頁面
-            this.click = function (){
+            this.click= function (){
                 vs.root.on("click", function (){
-                    alert()
+                    vs.hidden();
+                    $.vmodel.get("page").close_all();
                 });
-                
             }
         }
     });

@@ -34,8 +34,21 @@ $(function (){
                 }
 
                 local_show_proccess(target);
+                local_scrollTop();
 
                 if (callback) callback.call();
+            }
+
+            // 滾軸捲動到上方
+            var local_scrollTop = function (){
+
+                var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
+                 
+                $body.animate({
+                    scrollTop: 0
+                }, 500);
+
+                vs.root.scrollTop(0)
             }
 
             /**
@@ -59,6 +72,11 @@ $(function (){
                 vs.root.on("click", ".closebtn", function (){
                     vs.hidden(this);
                 });
+            }
+
+            this.close_all = function (){
+                vs.root.hide();
+                vs.root.find(".float_container").hide();
             }
 
             // 存在頁面?
