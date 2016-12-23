@@ -9,6 +9,7 @@ $lr-gutter : 36px;
     @include _break("mobile")
     {
         @include container;
+        margin-top: 40px;
     }
     @include _break("pad")
     {
@@ -16,12 +17,25 @@ $lr-gutter : 36px;
     @include _break("desktop")
     {
         @include container;
+        margin-top: 64px;
     }
 
     .center
     {
-        @include span(12 of 18);
-        @include squish(3 of 18, 3 of 18);
+        @include _break("mobile")
+        {
+            
+        }
+        @include _break("pad")
+        {
+            
+        }
+        @include _break("desktop")
+        {
+            @include span(12 of 18);
+            @include squish(3 of 18, 3 of 18);
+        }
+        
     }
     
     .offino

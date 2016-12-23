@@ -3,7 +3,7 @@
                     <li><a href="">Dennings © 2016</a></li>
                     <li><a href="">Privacy Polity</a></li>
                     <li><a href="">Terms of Service</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a href="contact">Contact Us</a></li>
                 </ul>
                 <a class="ct" href="">
                     <div class="center">
