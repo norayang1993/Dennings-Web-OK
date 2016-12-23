@@ -1,5 +1,5 @@
 <!-- 浮動顯示的覆蓋層 -->
-<div class="layout_close hidden"></div>
+<div class="layout_close"></div>
 
 <div class="container ">
 
@@ -30,10 +30,11 @@
                     </div>
                     
                     <div class="apply_block">
-                        <button class="apply">Apply!</button>
+                        <button class="apply" data-target="a1">Apply!</button>
                     </div>
                 </article>
             </div>
+
             <div class="item">
                 <article class="inner">
                     <div class="info">
@@ -49,6 +50,7 @@
                     </div>
                 </article>
             </div>
+
             <div class="item">
                 <article class="inner">
                     <div class="info">
@@ -74,8 +76,8 @@
     
 
     <!-- 浮動資訊內容 -->
-    <div class="float_page hidden">
-        <div class="float_container">
+    <div class="float_page">
+        <div class="float_container" data-page-name="a1">
             
 
             <div class="wrap">
