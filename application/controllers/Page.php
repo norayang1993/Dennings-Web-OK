@@ -84,6 +84,7 @@ class Page extends CI_Controller {
         $this->auoload("pt", $param);
     }
 
+    // 
     public function contact()
     {
         $this->assesbox->custom

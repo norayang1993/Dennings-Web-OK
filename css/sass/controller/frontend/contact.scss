@@ -49,6 +49,7 @@ $lr-gutter : 36px;
             padding: 0 $lr-gutter;
             margin-bottom: 18px;
             text-align: center;
+            color: #465163;
         }
         @include _break("pad")
         {
@@ -58,6 +59,7 @@ $lr-gutter : 36px;
         {
             font-size: 30px;
             margin-bottom: 32px;
+            padding: 0px;
         }
         
     }
@@ -76,6 +78,8 @@ $lr-gutter : 36px;
         @include _break("desktop")
         {
             padding: 0;
+            @include span(10 of 12);
+            @include squish(1 of 12);
         }
         
 
@@ -104,6 +108,7 @@ $lr-gutter : 36px;
                     font-size: 14px;
                     font-weight: bold;
                     margin-bottom: 22px;
+                    color: #465163;
                 }
                 @include _break("pad")
                 {
@@ -126,9 +131,9 @@ $lr-gutter : 36px;
                     {
                         @include full;
                         font-size: 11px;
-                        // height: 20px;
                         display: inline-block;
                         position: relative;
+                        color: #898176;
                     }
                     @include _break("pad")
                     {
@@ -137,6 +142,8 @@ $lr-gutter : 36px;
                     @include _break("desktop")
                     {
                         font-size: 16px;
+                        height: 36px;
+
                     }
                     
 
@@ -144,8 +151,6 @@ $lr-gutter : 36px;
                     {
                         display: inline-block;
                         width: 30px;
-
-
                     }
 
                     .icon
@@ -189,61 +194,256 @@ $lr-gutter : 36px;
 
     .form1
     {
-        background: #eeeeee;
-        @include full;
-        padding: 20px $lr-gutter;
+        @include _break("mobile")
+        {
+            background: #eeeeee;
+            @include full;
+            padding: 20px $lr-gutter;
+        }
+        @include _break("pad")
+        {
+            
+        }
+        @include _break("desktop")
+        {
+            padding: 20px 0;
+        }
+        
 
         .desc 
         {
-            font-size: 11px;
-            margin-bottom: 20px;
-            line-height: 1.5em;
+            @include _break("mobile")
+            {
+                font-size: 11px;
+                margin-bottom: 20px;
+                line-height: 1.5em;
+            }
+            @include _break("pad")
+            {
+                
+            }
+            @include _break("desktop")
+            {
+                font-size: 16px;
+                text-align: center;
+                margin-bottom: 36px;
+            }
+            
         }
 
         ul 
         {
+            @include _break("mobile")
+            {
+                
+            }
+            @include _break("pad")
+            {
+                
+            }
+            @include _break("desktop")
+            {
+                @include span(8 of 12);
+                @include squish(2 of 12);
+                position: relative;
+            }
+            
             li 
             {
-                @include gallery(2 of 4); 
-                margin-bottom: 10px;
-
-                .title 
+                @include _break("mobile")
                 {
-                    font-size: 11px;
-                    height: 15px;
-                    @include full;
-                    font-weight: bold;
+                    @include gallery(2 of 4); 
+                    margin-bottom: 10px;
                 }
-
-                .inputstyle 
+                @include _break("pad")
                 {
-                    @include border-radius(3px);
-                    border: 1px solid #E7E7E7;
-                    height: 20px;
+                    
                 }
-
-                .userdata
+                @include _break("desktop")
                 {
-                    @include full;
+                    @include span(3 of 8);
+                    margin-left: 0px !important;
+                    margin-right: 0px !important;
+                    margin-bottom: 23px;
                 }
                 
-                .message
+                
+
+                &.fir 
                 {
-                    @include full;
-                    height: 100px;
+                    @include _break("mobile")
+                    {
+                        
+                    }
+                    @include _break("pad")
+                    {
+                        
+                    }
+                    @include _break("desktop")
+                    {
+                        @include break;
+                    }
+                }
+
+                &.sec 
+                {
+                    @include _break("mobile")
+                    {
+                        
+                    }
+                    @include _break("pad")
+                    {
+                        
+                    }
+                    @include _break("desktop")
+                    {
+                        position: absolute;
+                        top: 0px;
+                        left: span(3 of 8);
+                    }
+                    
+                }
+
+                &.thi
+                {
+                    @include _break("mobile")
+                    {
+                        
+                    }
+                    @include _break("pad")
+                    {
+                        
+                    }
+                    @include _break("desktop")
+                    {
+                        position: absolute;
+                        top: 0px;
+                        left: 69%;
+                    }
+                    
                 }
 
                 &.fullgrid
                 {
-                    @include full;
+                    @include _break("mobile")
+                    {
+                        @include full;
+                    }
+                    @include _break("pad")
+                    {
+                        
+                    }
+                    @include _break("desktop")
+                    {
+                        position: absolute;
+                        width: span(5 of 8);
+                        top: 73px;
+                        left: span(3 of 8);
+                    }
+                    
                 }
+
+                .title 
+                {
+                    @include _break("mobile")
+                    {
+                        font-size: 11px;
+                        height: 15px;
+                        @include full;
+                        font-weight: bold;
+                        color: #898176;
+                    }
+                    @include _break("pad")
+                    {
+                        
+                    }
+                    @include _break("desktop")
+                    {
+                        font-size: 16px;
+                        margin-bottom: 5px;
+                    }
+                    
+                }
+
+                .inputstyle 
+                {
+                    @include _break("mobile")
+                    {
+                        @include border-radius(3px);
+                        border: 1px solid #E7E7E7;
+                        height: 20px;
+                    }
+                    @include _break("pad")
+                    {
+                        
+                    }
+                    @include _break("desktop")
+                    {
+
+                    }
+                    
+                }
+
+                .userdata
+                {
+                    @include _break("mobile")
+                    {
+                        @include full;
+                    }
+                    @include _break("pad")
+                    {
+                        
+                    }
+                    @include _break("desktop")
+                    {
+                        width: 260px;
+                        height: 29px;
+                        line-height: 29px;
+                    }
+                    
+                }
+                
+                .message
+                {
+                    @include _break("mobile")
+                    {
+                        @include full;
+                        height: 100px;
+                    }
+                    @include _break("pad")
+                    {
+                        
+                    }
+                    @include _break("desktop")
+                    {
+                        $a : span(8 of 8) + gutter(8);
+                        width: $a;
+                        height: 170px;
+                    }
+                    
+                }
+
+                
             }
         }
 
         .btsite
         {
-            @include full;
-            text-align: right;
+            @include _break("mobile")
+            {
+                @include full;
+                text-align: right;
+            }
+            @include _break("pad")
+            {
+                
+            }
+            @include _break("desktop")
+            {
+                @include span(8 of 12);
+                @include squish(2 of 12);
+            }
+            
 
             .submit 
             {
