@@ -62,35 +62,35 @@
             <ul>
                 <li class="fir">
                     <div class="title">Name</div>
-                    <input type="text" name="" class="inputstyle userdata">
+                    <input type="text" name="name" class="inputstyle userdata">
                 </li>
                 <li class="fir">
                     <div class="title">E-Mail</div>
-                    <input type="email" name="" class="inputstyle userdata">
+                    <input type="email" name="email" class="inputstyle userdata">
                 </li>
                 <li class="fir">
                     <div class="title">Country</div>
-                    <input type="text" name="" class="inputstyle userdata">
+                    <input type="text" name="country" class="inputstyle userdata">
                 </li>
                 <li class="fir">
                     <div class="title">Phone</div>
-                    <input type="tel" name="" class="inputstyle userdata">
+                    <input type="tel" name="phone" class="inputstyle userdata">
                 </li>
                 <li class="sec">
                     <div class="title">Theme</div>
-                    <select name="" class="inputstyle userdata">
-                        <option value="">- Service</option>
+                    <select name="theme" class="inputstyle userdata">
+                        <option value="Service">- Service</option>
                     </select>
                 </li>
                 <li class="thi">
                     <div class="title"> </div>
-                    <select name="" class="inputstyle userdata">
-                        <option value="">- Business Consulting</option>
+                    <select name="bc" class="inputstyle userdata">
+                        <option value="Business Consulting">- Business Consulting</option>
                     </select>
                 </li>
                 <li class="fullgrid">
                     <div class="title">Message</div>
-                    <textarea name="" class="message"></textarea>
+                    <textarea name="message" class="message"></textarea>
                 </li>
             </ul>
         

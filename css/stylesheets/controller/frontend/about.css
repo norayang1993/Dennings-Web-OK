@@ -142,10 +142,23 @@ z-index 管理
     float: left;
     margin-left: 0;
     margin-right: 0;
+    opacity: 1;
+  }
+}
+@media (min-width: 640px) {
+  /* line 76, ../../../sass/controller/frontend/about.scss */
+  .container .info .content {
+    opacity: 1;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 76, ../../../sass/controller/frontend/about.scss */
+  .container .info .content {
+    opacity: 0;
   }
 }
 @media (min-width: 0px) {
-  /* line 90, ../../../sass/controller/frontend/about.scss */
+  /* line 92, ../../../sass/controller/frontend/about.scss */
   .container .info .content .iconsite {
     clear: both;
     width: 100%;
@@ -157,44 +170,46 @@ z-index 管理
   }
 }
 @media (min-width: 1024px) {
-  /* line 90, ../../../sass/controller/frontend/about.scss */
+  /* line 92, ../../../sass/controller/frontend/about.scss */
   .container .info .content .iconsite {
     margin-bottom: 0;
-    width: 15.91592%;
+    width: 24.32432%;
     float: left;
     margin-right: 0.9009%;
   }
 }
-/* line 108, ../../../sass/controller/frontend/about.scss */
-.container .info .content .iconsite table {
-  height: 100%;
+@media (min-width: 1024px) {
+  /* line 110, ../../../sass/controller/frontend/about.scss */
+  .container .info .content .iconsite .iimg {
+    max-width: 99%;
+  }
 }
 @media (min-width: 1024px) {
-  /* line 114, ../../../sass/controller/frontend/about.scss */
+  /* line 128, ../../../sass/controller/frontend/about.scss */
   .container .info .content .iconsite .mobile {
     display: none;
   }
 }
 @media (min-width: 0px) {
-  /* line 129, ../../../sass/controller/frontend/about.scss */
+  /* line 143, ../../../sass/controller/frontend/about.scss */
   .container .info .content .iconsite .desktop {
     display: none;
   }
 }
 @media (min-width: 1024px) {
-  /* line 129, ../../../sass/controller/frontend/about.scss */
+  /* line 143, ../../../sass/controller/frontend/about.scss */
   .container .info .content .iconsite .desktop {
     display: inline-block;
   }
 }
 @media (min-width: 0px) {
-  /* line 147, ../../../sass/controller/frontend/about.scss */
+  /* line 161, ../../../sass/controller/frontend/about.scss */
   .container .info .content .desc {
     margin-bottom: 38px;
   }
 }
 @media (min-width: 1024px) {
-  /* line 147, ../../../sass/controller/frontend/about.scss */
+  /* line 161, ../../../sass/controller/frontend/about.scss */
   .container .info .content .desc {
     width: 74.77477%;
     float: right;
@@ -203,7 +218,7 @@ z-index 管理
   }
 }
 @media (min-width: 0px) {
-  /* line 163, ../../../sass/controller/frontend/about.scss */
+  /* line 177, ../../../sass/controller/frontend/about.scss */
   .container .info .content .desc p {
     line-height: 1.5em;
     margin-bottom: 14px;
@@ -212,14 +227,14 @@ z-index 管理
   }
 }
 @media (min-width: 1024px) {
-  /* line 163, ../../../sass/controller/frontend/about.scss */
+  /* line 177, ../../../sass/controller/frontend/about.scss */
   .container .info .content .desc p {
     font-size: 18px;
     line-height: 1.5em;
     margin-bottom: 18px;
   }
 }
-/* line 184, ../../../sass/controller/frontend/about.scss */
+/* line 198, ../../../sass/controller/frontend/about.scss */
 .container .info .content .desc p:last-child {
   margin-bottom: 0px;
 }

@@ -73,30 +73,95 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 13, ../../../sass/controller/frontend/global.scss */
+/* line 4, ../../../sass/helper/mixin/_current_screen.scss */
+.current_screen {
+  height: 0px;
+  overflow: hidden;
+}
+/* line 14, ../../../sass/helper/mixin/_current_screen.scss */
+.current_screen li {
+  width: 1px;
+  height: 1px;
+}
+@media (min-width: 0px) {
+  /* line 21, ../../../sass/helper/mixin/_current_screen.scss */
+  .current_screen .mobile {
+    display: block;
+  }
+}
+@media (min-width: 640px) {
+  /* line 21, ../../../sass/helper/mixin/_current_screen.scss */
+  .current_screen .mobile {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 21, ../../../sass/helper/mixin/_current_screen.scss */
+  .current_screen .mobile {
+    display: none;
+  }
+}
+@media (min-width: 0px) {
+  /* line 28, ../../../sass/helper/mixin/_current_screen.scss */
+  .current_screen .pad {
+    display: none;
+  }
+}
+@media (min-width: 640px) {
+  /* line 28, ../../../sass/helper/mixin/_current_screen.scss */
+  .current_screen .pad {
+    display: block;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 28, ../../../sass/helper/mixin/_current_screen.scss */
+  .current_screen .pad {
+    display: none;
+  }
+}
+@media (min-width: 0px) {
+  /* line 35, ../../../sass/helper/mixin/_current_screen.scss */
+  .current_screen .desktop {
+    display: none;
+  }
+}
+@media (min-width: 640px) {
+  /* line 35, ../../../sass/helper/mixin/_current_screen.scss */
+  .current_screen .desktop {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 35, ../../../sass/helper/mixin/_current_screen.scss */
+  .current_screen .desktop {
+    display: block;
+  }
+}
+
+/* line 15, ../../../sass/controller/frontend/global.scss */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 19, ../../../sass/controller/frontend/global.scss */
+/* line 21, ../../../sass/controller/frontend/global.scss */
 html, body {
   height: 100%;
   font-family: 'Fira Sans';
   font-weight: normal;
 }
 
-/* line 28, ../../../sass/controller/frontend/global.scss */
+/* line 30, ../../../sass/controller/frontend/global.scss */
 a {
   text-decoration: none;
 }
-/* line 32, ../../../sass/controller/frontend/global.scss */
+/* line 34, ../../../sass/controller/frontend/global.scss */
 a:visited {
   color: inherit;
 }
 
-/* line 39, ../../../sass/controller/frontend/global.scss */
+/* line 41, ../../../sass/controller/frontend/global.scss */
 .full, .container_wrap .page_frame, .container_wrap .page_frame .header .menu_pad li a, .container_wrap .page_frame .footer .menu li a, .container_wrap .page_frame .footer .link, .navbar_mobile .container_nav .menu_mobile li a {
   clear: both;
   width: 100%;
@@ -106,7 +171,7 @@ a:visited {
 }
 
 @media (min-width: 0px) {
-  /* line 45, ../../../sass/controller/frontend/global.scss */
+  /* line 47, ../../../sass/controller/frontend/global.scss */
   .container_wrap {
     max-width: 100%;
     margin-left: auto;
@@ -131,7 +196,7 @@ a:visited {
   }
 }
 @media (min-width: 1024px) {
-  /* line 45, ../../../sass/controller/frontend/global.scss */
+  /* line 47, ../../../sass/controller/frontend/global.scss */
   .container_wrap {
     max-width: 100%;
     margin-left: auto;
@@ -154,12 +219,12 @@ a:visited {
     clear: both;
   }
 }
-/* line 59, ../../../sass/controller/frontend/global.scss */
+/* line 61, ../../../sass/controller/frontend/global.scss */
 .container_wrap .page_frame {
   background: white;
 }
 @media (min-width: 0px) {
-  /* line 64, ../../../sass/controller/frontend/global.scss */
+  /* line 66, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .header {
     max-width: 100%;
     margin-left: auto;
@@ -187,7 +252,7 @@ a:visited {
   }
 }
 @media (min-width: 1024px) {
-  /* line 64, ../../../sass/controller/frontend/global.scss */
+  /* line 66, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .header {
     max-width: 100%;
     margin-left: auto;
@@ -217,7 +282,7 @@ a:visited {
   }
 }
 @media (min-width: 0px) {
-  /* line 83, ../../../sass/controller/frontend/global.scss */
+  /* line 85, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .header .logo {
     float: left;
     background-position: center;
@@ -229,7 +294,7 @@ a:visited {
   }
 }
 @media (min-width: 1024px) {
-  /* line 83, ../../../sass/controller/frontend/global.scss */
+  /* line 85, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .header .logo {
     background-image: url("../../../../images/global/logo2.png");
     width: 242px;
@@ -238,7 +303,7 @@ a:visited {
   }
 }
 @media (min-width: 0px) {
-  /* line 100, ../../../sass/controller/frontend/global.scss */
+  /* line 102, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .header .gtn {
     float: right;
     cursor: pointer;
@@ -252,19 +317,19 @@ a:visited {
   }
 }
 @media (min-width: 1024px) {
-  /* line 100, ../../../sass/controller/frontend/global.scss */
+  /* line 102, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .header .gtn {
     display: none;
   }
 }
 @media (min-width: 0px) {
-  /* line 126, ../../../sass/controller/frontend/global.scss */
+  /* line 128, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .header .menu_pad {
     display: none;
   }
 }
 @media (min-width: 1024px) {
-  /* line 126, ../../../sass/controller/frontend/global.scss */
+  /* line 128, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .header .menu_pad {
     display: block;
     height: 100%;
@@ -273,7 +338,7 @@ a:visited {
     margin-right: 0;
   }
 }
-/* line 140, ../../../sass/controller/frontend/global.scss */
+/* line 142, ../../../sass/controller/frontend/global.scss */
 .container_wrap .page_frame .header .menu_pad li {
   width: 18.24818%;
   float: left;
@@ -312,7 +377,7 @@ a:visited {
   margin-right: -100%;
   clear: none;
 }
-/* line 147, ../../../sass/controller/frontend/global.scss */
+/* line 149, ../../../sass/controller/frontend/global.scss */
 .container_wrap .page_frame .header .menu_pad li a {
   text-align: center;
   height: 100%;
@@ -320,12 +385,12 @@ a:visited {
   font-size: 18px;
   color: inherit;
 }
-/* line 156, ../../../sass/controller/frontend/global.scss */
+/* line 158, ../../../sass/controller/frontend/global.scss */
 .container_wrap .page_frame .header .menu_pad li a.selected {
   color: #4789c7;
 }
 @media (min-width: 0px) {
-  /* line 166, ../../../sass/controller/frontend/global.scss */
+  /* line 168, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .footer {
     max-width: 100%;
     margin-left: auto;
@@ -354,7 +419,7 @@ a:visited {
   }
 }
 @media (min-width: 1024px) {
-  /* line 166, ../../../sass/controller/frontend/global.scss */
+  /* line 168, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .footer {
     height: 50px;
     font-size: 14px;
@@ -362,7 +427,7 @@ a:visited {
   }
 }
 @media (min-width: 0px) {
-  /* line 185, ../../../sass/controller/frontend/global.scss */
+  /* line 187, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .footer .menu {
     clear: both;
     width: 100%;
@@ -373,7 +438,7 @@ a:visited {
   }
 }
 @media (min-width: 1024px) {
-  /* line 185, ../../../sass/controller/frontend/global.scss */
+  /* line 187, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .footer .menu {
     margin-bottom: 0px;
     height: 100%;
@@ -383,7 +448,7 @@ a:visited {
   }
 }
 @media (min-width: 0px) {
-  /* line 200, ../../../sass/controller/frontend/global.scss */
+  /* line 202, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .footer .menu li {
     width: 22.93578%;
     float: left;
@@ -416,20 +481,20 @@ a:visited {
   }
 }
 @media (min-width: 1024px) {
-  /* line 200, ../../../sass/controller/frontend/global.scss */
+  /* line 202, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .footer .menu li {
     height: 100%;
   }
 }
 @media (min-width: 1024px) {
-  /* line 213, ../../../sass/controller/frontend/global.scss */
+  /* line 215, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .footer .menu li a {
     height: 100%;
     line-height: 50px;
   }
 }
 @media (min-width: 0px) {
-  /* line 230, ../../../sass/controller/frontend/global.scss */
+  /* line 232, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .footer .ct {
     clear: both;
     width: 100%;
@@ -442,7 +507,7 @@ a:visited {
   }
 }
 @media (min-width: 1024px) {
-  /* line 230, ../../../sass/controller/frontend/global.scss */
+  /* line 232, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .footer .ct {
     clear: none;
     width: 16.16766%;
@@ -454,7 +519,7 @@ a:visited {
   }
 }
 @media (min-width: 0px) {
-  /* line 250, ../../../sass/controller/frontend/global.scss */
+  /* line 252, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .footer .ct .center {
     width: 150px;
     height: 1em;
@@ -463,14 +528,14 @@ a:visited {
   }
 }
 @media (min-width: 1024px) {
-  /* line 250, ../../../sass/controller/frontend/global.scss */
+  /* line 252, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .footer .ct .center {
     width: 100%;
     text-align: left;
   }
 }
 @media (min-width: 0px) {
-  /* line 270, ../../../sass/controller/frontend/global.scss */
+  /* line 272, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .footer .ct .center .flag {
     width: 19px;
     height: 12px;
@@ -480,7 +545,7 @@ a:visited {
   }
 }
 @media (min-width: 0px) {
-  /* line 285, ../../../sass/controller/frontend/global.scss */
+  /* line 287, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .footer .ct .center .text {
     display: inline-block;
     line-height: 12px;
@@ -488,14 +553,14 @@ a:visited {
     top: -3px;
   }
 }
-/* line 308, ../../../sass/controller/frontend/global.scss */
+/* line 310, ../../../sass/controller/frontend/global.scss */
 .container_wrap .page_frame .footer .link {
   padding: 0 88px;
   line-height: 25px;
   height: 18px;
 }
 @media (min-width: 1024px) {
-  /* line 308, ../../../sass/controller/frontend/global.scss */
+  /* line 310, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .footer .link {
     clear: none;
     width: 10.57884%;
@@ -506,7 +571,7 @@ a:visited {
     padding-top: 14px;
   }
 }
-/* line 325, ../../../sass/controller/frontend/global.scss */
+/* line 327, ../../../sass/controller/frontend/global.scss */
 .container_wrap .page_frame .footer .link .btn {
   height: inherit;
   width: 30.8642%;
@@ -532,52 +597,52 @@ a:visited {
   margin-right: -100%;
   clear: none;
 }
-/* line 331, ../../../sass/controller/frontend/global.scss */
+/* line 333, ../../../sass/controller/frontend/global.scss */
 .container_wrap .page_frame .footer .link .btn i {
   width: 11px;
   height: 11px;
   display: inline-block;
 }
 @media (min-width: 1024px) {
-  /* line 331, ../../../sass/controller/frontend/global.scss */
+  /* line 333, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .footer .link .btn i {
     width: 23px;
     height: 15px;
   }
 }
-/* line 344, ../../../sass/controller/frontend/global.scss */
+/* line 346, ../../../sass/controller/frontend/global.scss */
 .container_wrap .page_frame .footer .link .btn i.f {
   background-image: url("../../../../images/global/icon-f-mobile.png");
 }
 @media (min-width: 1024px) {
-  /* line 344, ../../../sass/controller/frontend/global.scss */
+  /* line 346, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .footer .link .btn i.f {
     background-image: url("../../../../images/global/icon-f.png");
   }
 }
-/* line 353, ../../../sass/controller/frontend/global.scss */
+/* line 355, ../../../sass/controller/frontend/global.scss */
 .container_wrap .page_frame .footer .link .btn i.in {
   background-image: url("../../../../images/global/icon-in-mobile.png");
 }
 @media (min-width: 1024px) {
-  /* line 353, ../../../sass/controller/frontend/global.scss */
+  /* line 355, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .footer .link .btn i.in {
     background-image: url("../../../../images/global/icon-in.png");
   }
 }
-/* line 362, ../../../sass/controller/frontend/global.scss */
+/* line 364, ../../../sass/controller/frontend/global.scss */
 .container_wrap .page_frame .footer .link .btn i.tw {
   background-image: url("../../../../images/global/icon-tw-mobile.png");
 }
 @media (min-width: 1024px) {
-  /* line 362, ../../../sass/controller/frontend/global.scss */
+  /* line 364, ../../../sass/controller/frontend/global.scss */
   .container_wrap .page_frame .footer .link .btn i.tw {
     background-image: url("../../../../images/global/icon-tw.png");
   }
 }
 
 @media (min-width: 0px) {
-  /* line 379, ../../../sass/controller/frontend/global.scss */
+  /* line 381, ../../../sass/controller/frontend/global.scss */
   .navbar_mobile {
     position: absolute;
     top: 0px;
@@ -597,13 +662,13 @@ a:visited {
   }
 }
 @media (min-width: 1024px) {
-  /* line 379, ../../../sass/controller/frontend/global.scss */
+  /* line 381, ../../../sass/controller/frontend/global.scss */
   .navbar_mobile {
     display: none;
   }
 }
 @media (min-width: 0px) {
-  /* line 400, ../../../sass/controller/frontend/global.scss */
+  /* line 402, ../../../sass/controller/frontend/global.scss */
   .navbar_mobile .container_nav {
     max-width: 100%;
     margin-left: auto;
@@ -628,7 +693,7 @@ a:visited {
   }
 }
 @media (min-width: 0px) {
-  /* line 412, ../../../sass/controller/frontend/global.scss */
+  /* line 414, ../../../sass/controller/frontend/global.scss */
   .navbar_mobile .container_nav .menu_mobile {
     width: 74.31193%;
     float: left;
@@ -638,13 +703,13 @@ a:visited {
     padding-top: 30px;
   }
 }
-/* line 426, ../../../sass/controller/frontend/global.scss */
+/* line 428, ../../../sass/controller/frontend/global.scss */
 .navbar_mobile .container_nav .menu_mobile li {
   height: 60px;
   line-height: 60px;
   border-bottom: 1px solid #898989;
 }
-/* line 431, ../../../sass/controller/frontend/global.scss */
+/* line 433, ../../../sass/controller/frontend/global.scss */
 .navbar_mobile .container_nav .menu_mobile li a {
   padding-left: 20px;
 }

@@ -10,6 +10,8 @@
 
 @import "compass/reset";
 
+@include current_screen();
+
 *
 {
     @include box-sizing(border-box);

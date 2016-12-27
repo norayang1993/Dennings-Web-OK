@@ -13,7 +13,9 @@ $(function (){
             }
 
             this.show = function (){
-                vs.root.show();
+                vs.root.css({
+                    opacity: 1
+                });
             }
 
             // 監聽
@@ -23,10 +25,20 @@ $(function (){
                 })
             }
 
-            // 執行中間
+            // 在桌電時，執行中間
             this.center = function (){
-                var h = vs.desc_height();
-                vs.iconsite_height(h)
+                var current = $.vmodel.get("global/diff_screen").event({
+                    mobile: function (){
+                        vs.iconsite_height('auto');
+                    }, 
+                    pad: function (){
+                        vs.iconsite_height('auto');
+                    },
+                    desktop: function (){
+                        var h = vs.desc_height();
+                        vs.iconsite_height(h);
+                    }
+                });
             }
 
             /**
@@ -38,7 +50,7 @@ $(function (){
                     var iconsite = vs.root.find(".iconsite");
                     iconsite.height(val);
                     iconsite.find(".outer").css("height", "100%");
-                    iconsite.find(".inner").css("width", "90%");
+                    iconsite.find(".inner").css("width", "96%");
                 }
                 else {
                     return vs.root.find(".iconsite").height();
@@ -47,7 +59,6 @@ $(function (){
 
             /**
              * 描述高度
-             * @return {[type]} [description]
              */
             this.desc_height = function (){
                 var desc = vs.root.find(".desc");

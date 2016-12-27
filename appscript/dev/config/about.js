@@ -1,7 +1,7 @@
 // 檔案與依賴
 var shimdeps_page = {
     '_icon': [path_appscript + 'controller/about/md/icon', [
-        'vmodel'
+        'vmodel', 'diff_screen'
     ]]
 };
 

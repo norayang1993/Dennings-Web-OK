@@ -14,10 +14,15 @@ $(function (){
                 vs.root.on("submit", function (){
                     $(this).ajaxSubmit(function (data){
                         console.log(data);
+                        // return false;
+
                         var obj = JSON.parse(data);
-                        if (obj.status == "success"){
+                        if (obj.data.result == true){
                             alert("success");
-                            vs.root[0].reset();
+                            // vs.root[0].reset();
+                        }
+                        else {
+                            alert("Error");
                         }
                     })
                     return false;

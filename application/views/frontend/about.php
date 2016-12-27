@@ -7,13 +7,13 @@
             “Simlify everything”
         </h1>
 
-        <div class="content" hidden>
+        <div class="content">
 
             <div class="iconsite">
                 <div class="herver_center outer">
                     <div class="herver_center inner">
-                        <img class="mobile" src="images/about/logo-01.png">
-                        <img class="desktop" src="images/about/logo-02.png">
+                        <img class="iimg mobile" src="images/about/logo-01.png">
+                        <img class="iimg desktop" src="images/about/logo-02.png">
                     </div>
                 </div>
             </div>

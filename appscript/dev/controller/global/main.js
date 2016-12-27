@@ -4,9 +4,8 @@ requirejs([
     'transit',
     'mousewheel',
     'frame',
-    'diff_screen',
+    // 'diff_screen',
     'fancybox',
-
     'header',
     'menu_mobile'
 ]);
