@@ -1,0 +1,3 @@
+requirejs([
+    '_switch'
+]);

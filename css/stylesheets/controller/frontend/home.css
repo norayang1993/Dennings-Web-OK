@@ -14,16 +14,6 @@ z-index 管理
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY2NjZmZiIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+PHN0b3Agb2Zmc2V0PSI4OS4yODU3MSUiIHN0b3AtY29sb3I9IiNiM2IzZmYiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iODkuMjg1NzElIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-    background-size: 100%;
-    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(102, 102, 255, 0.25)), color-stop(89.28571%, rgba(179, 179, 255, 0.25)), color-stop(89.28571%, rgba(0, 0, 0, 0)));
-    background-image: -moz-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 89.28571%, rgba(0, 0, 0, 0) 89.28571%);
-    background-image: -webkit-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 89.28571%, rgba(0, 0, 0, 0) 89.28571%);
-    background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 89.28571%, rgba(0, 0, 0, 0) 89.28571%);
-    background-size: 25.68807%;
-    background-origin: content-box;
-    background-clip: content-box;
-    background-position: left top;
   }
   /* line 12, ../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
   .container:after {
@@ -38,16 +28,6 @@ z-index 管理
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY2NjZmZiIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+PHN0b3Agb2Zmc2V0PSI4OS4yODU3MSUiIHN0b3AtY29sb3I9IiNiM2IzZmYiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iODkuMjg1NzElIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-    background-size: 100%;
-    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(102, 102, 255, 0.25)), color-stop(89.28571%, rgba(179, 179, 255, 0.25)), color-stop(89.28571%, rgba(0, 0, 0, 0)));
-    background-image: -moz-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 89.28571%, rgba(0, 0, 0, 0) 89.28571%);
-    background-image: -webkit-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 89.28571%, rgba(0, 0, 0, 0) 89.28571%);
-    background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 89.28571%, rgba(0, 0, 0, 0) 89.28571%);
-    background-size: 8.40841%;
-    background-origin: content-box;
-    background-clip: content-box;
-    background-position: left top;
   }
   /* line 12, ../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
   .container:after {
@@ -56,22 +36,12 @@ z-index 管理
     clear: both;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   /* line 6, ../../../sass/controller/frontend/home.scss */
   .container {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY2NjZmZiIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+PHN0b3Agb2Zmc2V0PSI4OS4yODU3MSUiIHN0b3AtY29sb3I9IiNiM2IzZmYiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iODkuMjg1NzElIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-    background-size: 100%;
-    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(102, 102, 255, 0.25)), color-stop(89.28571%, rgba(179, 179, 255, 0.25)), color-stop(89.28571%, rgba(0, 0, 0, 0)));
-    background-image: -moz-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 89.28571%, rgba(0, 0, 0, 0) 89.28571%);
-    background-image: -webkit-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 89.28571%, rgba(0, 0, 0, 0) 89.28571%);
-    background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 89.28571%, rgba(0, 0, 0, 0) 89.28571%);
-    background-size: 5.58882%;
-    background-origin: content-box;
-    background-clip: content-box;
-    background-position: left top;
     position: relative;
   }
   /* line 12, ../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
@@ -93,7 +63,7 @@ z-index 管理
     margin-bottom: 38px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   /* line 22, ../../../sass/controller/frontend/home.scss */
   .container .banner {
     height: 635px;
@@ -115,7 +85,7 @@ z-index 管理
     background-image: url("../../../../images/home/banner.png");
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   /* line 40, ../../../sass/controller/frontend/home.scss */
   .container .banner .item {
     background-position: center;
@@ -136,7 +106,7 @@ z-index 管理
     margin-bottom: 38px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   /* line 62, ../../../sass/controller/frontend/home.scss */
   .container .cpbox {
     position: absolute;
@@ -158,7 +128,7 @@ z-index 管理
     margin-bottom: 15px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   /* line 81, ../../../sass/controller/frontend/home.scss */
   .container .cpbox .title {
     font-size: 40px;
@@ -173,7 +143,7 @@ z-index 管理
     margin-bottom: 35px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   /* line 101, ../../../sass/controller/frontend/home.scss */
   .container .cpbox .subtitle {
     font-size: 24px;
@@ -198,7 +168,7 @@ z-index 管理
     cursor: pointer;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   /* line 122, ../../../sass/controller/frontend/home.scss */
   .container .cpbox .ourpd {
     display: inline-block;
@@ -220,7 +190,7 @@ z-index 管理
     margin-bottom: 40px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   /* line 154, ../../../sass/controller/frontend/home.scss */
   .container .iblock {
     padding: 0;
@@ -239,7 +209,7 @@ z-index 管理
     position: relative;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   /* line 173, ../../../sass/controller/frontend/home.scss */
   .container .iblock .item {
     clear: none;

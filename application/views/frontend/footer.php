@@ -1,7 +1,7 @@
             <footer class="footer ">
                 <ul class="menu">
                     <li><a href="">Dennings © 2016</a></li>
-                    <li><a href="">Privacy Polity</a></li>
+                    <li><a href="pt">Privacy Polity</a></li>
                     <li><a href="">Terms of Service</a></li>
                     <li><a href="contact">Contact Us</a></li>
                 </ul>

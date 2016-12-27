@@ -4,7 +4,6 @@
     <div>Phone: <?=$phone?></div>
     <div>Theme: <?=$theme?> <?=$bc?></div>
     <div>
-        <div>Message: </div>
-        <div><?=$message?></div>
+        <div>Message: <?=$message?></div>
     </div>
 </div>

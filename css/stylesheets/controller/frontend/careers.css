@@ -14,16 +14,6 @@ z-index 管理
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY2NjZmZiIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+PHN0b3Agb2Zmc2V0PSI4OS4yODU3MSUiIHN0b3AtY29sb3I9IiNiM2IzZmYiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iODkuMjg1NzElIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-    background-size: 100%;
-    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(102, 102, 255, 0.25)), color-stop(89.28571%, rgba(179, 179, 255, 0.25)), color-stop(89.28571%, rgba(0, 0, 0, 0)));
-    background-image: -moz-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 89.28571%, rgba(0, 0, 0, 0) 89.28571%);
-    background-image: -webkit-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 89.28571%, rgba(0, 0, 0, 0) 89.28571%);
-    background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 89.28571%, rgba(0, 0, 0, 0) 89.28571%);
-    background-size: 25.68807%;
-    background-origin: content-box;
-    background-clip: content-box;
-    background-position: left top;
     padding: 0;
     margin-top: 32px;
   }
@@ -40,16 +30,6 @@ z-index 管理
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY2NjZmZiIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+PHN0b3Agb2Zmc2V0PSI4OS4yODU3MSUiIHN0b3AtY29sb3I9IiNiM2IzZmYiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iODkuMjg1NzElIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-    background-size: 100%;
-    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(102, 102, 255, 0.25)), color-stop(89.28571%, rgba(179, 179, 255, 0.25)), color-stop(89.28571%, rgba(0, 0, 0, 0)));
-    background-image: -moz-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 89.28571%, rgba(0, 0, 0, 0) 89.28571%);
-    background-image: -webkit-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 89.28571%, rgba(0, 0, 0, 0) 89.28571%);
-    background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 89.28571%, rgba(0, 0, 0, 0) 89.28571%);
-    background-size: 8.40841%;
-    background-origin: content-box;
-    background-clip: content-box;
-    background-position: left top;
   }
   /* line 12, ../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
   .container:after {
@@ -58,22 +38,12 @@ z-index 管理
     clear: both;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   /* line 7, ../../../sass/controller/frontend/careers.scss */
   .container {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY2NjZmZiIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+PHN0b3Agb2Zmc2V0PSI4OS4yODU3MSUiIHN0b3AtY29sb3I9IiNiM2IzZmYiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iODkuMjg1NzElIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-    background-size: 100%;
-    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(102, 102, 255, 0.25)), color-stop(89.28571%, rgba(179, 179, 255, 0.25)), color-stop(89.28571%, rgba(0, 0, 0, 0)));
-    background-image: -moz-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 89.28571%, rgba(0, 0, 0, 0) 89.28571%);
-    background-image: -webkit-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 89.28571%, rgba(0, 0, 0, 0) 89.28571%);
-    background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 89.28571%, rgba(0, 0, 0, 0) 89.28571%);
-    background-size: 5.58882%;
-    background-origin: content-box;
-    background-clip: content-box;
-    background-position: left top;
     margin-top: 64px;
   }
   /* line 12, ../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
@@ -93,7 +63,7 @@ z-index 管理
     margin-right: 0;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   /* line 27, ../../../sass/controller/frontend/careers.scss */
   .container .seri .desc {
     width: 32.93413%;
@@ -113,7 +83,7 @@ z-index 管理
     color: #465163;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   /* line 44, ../../../sass/controller/frontend/careers.scss */
   .container .seri .desc .title {
     font-size: 30px;
@@ -130,7 +100,7 @@ z-index 管理
     color: #898176;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   /* line 67, ../../../sass/controller/frontend/careers.scss */
   .container .seri .desc .content {
     padding: 0px;
@@ -147,7 +117,7 @@ z-index 管理
     margin-right: 0;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   /* line 90, ../../../sass/controller/frontend/careers.scss */
   .container .seri .itemlist {
     width: 66.46707%;
@@ -169,9 +139,10 @@ z-index 管理
     margin-left: 0;
     margin-right: 0;
     padding: 18px 18px 32px 18px;
+    margin-bottom: 32px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   /* line 110, ../../../sass/controller/frontend/careers.scss */
   .container .seri .itemlist .item {
     width: 324px;
@@ -182,28 +153,28 @@ z-index 管理
     padding: 32px;
   }
 }
-/* line 132, ../../../sass/controller/frontend/careers.scss */
+/* line 131, ../../../sass/controller/frontend/careers.scss */
 .container .seri .itemlist .item:last-child {
   margin-right: 0;
 }
 @media (min-width: 0px) {
-  /* line 138, ../../../sass/controller/frontend/careers.scss */
+  /* line 137, ../../../sass/controller/frontend/careers.scss */
   .container .seri .itemlist .item:nth-child(odd) {
     background: #eeeeee;
   }
 }
-@media (min-width: 1024px) {
-  /* line 138, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 137, ../../../sass/controller/frontend/careers.scss */
   .container .seri .itemlist .item:nth-child(odd) {
     background: white;
   }
 }
-/* line 154, ../../../sass/controller/frontend/careers.scss */
+/* line 153, ../../../sass/controller/frontend/careers.scss */
 .container .seri .itemlist .item:nth-child(even) {
   background: white;
 }
 @media (min-width: 0px) {
-  /* line 160, ../../../sass/controller/frontend/careers.scss */
+  /* line 159, ../../../sass/controller/frontend/careers.scss */
   .container .seri .itemlist .item .inner {
     clear: both;
     width: 100%;
@@ -213,27 +184,27 @@ z-index 管理
     position: relative;
   }
 }
-@media (min-width: 1024px) {
-  /* line 160, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 159, ../../../sass/controller/frontend/careers.scss */
   .container .seri .itemlist .item .inner {
     height: 100%;
   }
 }
 @media (min-width: 0px) {
-  /* line 177, ../../../sass/controller/frontend/careers.scss */
+  /* line 176, ../../../sass/controller/frontend/careers.scss */
   .container .seri .itemlist .item .inner .info {
     width: 251px;
     float: left;
   }
 }
-@media (min-width: 1024px) {
-  /* line 177, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 176, ../../../sass/controller/frontend/careers.scss */
   .container .seri .itemlist .item .inner .info {
     text-align: center;
   }
 }
 @media (min-width: 0px) {
-  /* line 195, ../../../sass/controller/frontend/careers.scss */
+  /* line 194, ../../../sass/controller/frontend/careers.scss */
   .container .seri .itemlist .item .inner .info .title {
     font-weight: bold;
     font-size: 18px;
@@ -241,52 +212,52 @@ z-index 管理
     color: #465163;
   }
 }
-@media (min-width: 1024px) {
-  /* line 195, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 194, ../../../sass/controller/frontend/careers.scss */
   .container .seri .itemlist .item .inner .info .title {
     font-size: 30px;
     margin-bottom: 18px;
   }
 }
 @media (min-width: 0px) {
-  /* line 218, ../../../sass/controller/frontend/careers.scss */
+  /* line 217, ../../../sass/controller/frontend/careers.scss */
   .container .seri .itemlist .item .inner .info .date {
     margin-bottom: 28px;
     font-size: 12px;
     color: #898176;
   }
 }
-@media (min-width: 1024px) {
-  /* line 218, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 217, ../../../sass/controller/frontend/careers.scss */
   .container .seri .itemlist .item .inner .info .date {
     margin-bottom: 54px;
     font-size: 16px;
   }
 }
 @media (min-width: 0px) {
-  /* line 238, ../../../sass/controller/frontend/careers.scss */
+  /* line 237, ../../../sass/controller/frontend/careers.scss */
   .container .seri .itemlist .item .inner .info .text {
     font-size: 11px;
     color: #898176;
   }
 }
-@media (min-width: 1024px) {
-  /* line 238, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 237, ../../../sass/controller/frontend/careers.scss */
   .container .seri .itemlist .item .inner .info .text {
     font-size: 16px;
     line-height: 1.5em;
   }
 }
 @media (min-width: 0px) {
-  /* line 261, ../../../sass/controller/frontend/careers.scss */
+  /* line 260, ../../../sass/controller/frontend/careers.scss */
   .container .seri .itemlist .item .inner .apply_block {
     position: absolute;
     top: 0px;
     right: 0px;
   }
 }
-@media (min-width: 1024px) {
-  /* line 261, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 260, ../../../sass/controller/frontend/careers.scss */
   .container .seri .itemlist .item .inner .apply_block {
     top: auto;
     bottom: 0px;
@@ -296,7 +267,7 @@ z-index 管理
   }
 }
 @media (min-width: 0px) {
-  /* line 283, ../../../sass/controller/frontend/careers.scss */
+  /* line 282, ../../../sass/controller/frontend/careers.scss */
   .container .seri .itemlist .item .inner .apply_block .apply {
     background: #4789c7;
     color: white;
@@ -310,8 +281,8 @@ z-index 管理
     border-radius: 5px;
   }
 }
-@media (min-width: 1024px) {
-  /* line 283, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 282, ../../../sass/controller/frontend/careers.scss */
   .container .seri .itemlist .item .inner .apply_block .apply {
     width: 185px;
     height: 50px;
@@ -319,7 +290,7 @@ z-index 管理
   }
 }
 @media (min-width: 0px) {
-  /* line 314, ../../../sass/controller/frontend/careers.scss */
+  /* line 313, ../../../sass/controller/frontend/careers.scss */
   .container .float_page {
     position: absolute;
     top: 0px;
@@ -328,15 +299,15 @@ z-index 管理
     display: none;
   }
 }
-@media (min-width: 1024px) {
-  /* line 314, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 313, ../../../sass/controller/frontend/careers.scss */
   .container .float_page {
     overflow-y: scroll;
     height: 100%;
   }
 }
 @media (min-width: 0px) {
-  /* line 336, ../../../sass/controller/frontend/careers.scss */
+  /* line 335, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container {
     clear: both;
     width: 100%;
@@ -347,15 +318,15 @@ z-index 管理
     display: none;
   }
 }
-@media (min-width: 1024px) {
-  /* line 336, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 335, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container {
     width: 66.46707%;
     margin: 0 16.16766%;
   }
 }
 @media (min-width: 0px) {
-  /* line 356, ../../../sass/controller/frontend/careers.scss */
+  /* line 355, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap {
     clear: both;
     width: 100%;
@@ -369,8 +340,8 @@ z-index 管理
     margin-bottom: 64px;
   }
 }
-@media (min-width: 1024px) {
-  /* line 356, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 355, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap {
     clear: both;
     width: 100%;
@@ -385,7 +356,7 @@ z-index 管理
   }
 }
 @media (min-width: 0px) {
-  /* line 380, ../../../sass/controller/frontend/careers.scss */
+  /* line 379, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .closebtn {
     cursor: pointer;
     background: #fe5050;
@@ -396,13 +367,13 @@ z-index 管理
     right: 0px;
   }
 }
-@media (min-width: 1024px) {
-  /* line 380, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 379, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .closebtn {
     display: none;
   }
 }
-/* line 402, ../../../sass/controller/frontend/careers.scss */
+/* line 401, ../../../sass/controller/frontend/careers.scss */
 .container .float_page .float_container .wrap .closebtn .line {
   width: calc(100% - 5px);
   height: 2px;
@@ -414,18 +385,18 @@ z-index 管理
   top: 10px;
   left: 2px;
 }
-/* line 413, ../../../sass/controller/frontend/careers.scss */
+/* line 412, ../../../sass/controller/frontend/careers.scss */
 .container .float_page .float_container .wrap .closebtn .line:before {
   content: '';
 }
-/* line 418, ../../../sass/controller/frontend/careers.scss */
+/* line 417, ../../../sass/controller/frontend/careers.scss */
 .container .float_page .float_container .wrap .closebtn .line.item-1 {
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-/* line 423, ../../../sass/controller/frontend/careers.scss */
+/* line 422, ../../../sass/controller/frontend/careers.scss */
 .container .float_page .float_container .wrap .closebtn .line.item-2 {
   -moz-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
@@ -433,7 +404,7 @@ z-index 管理
   transform: rotate(-45deg);
 }
 @media (min-width: 0px) {
-  /* line 430, ../../../sass/controller/frontend/careers.scss */
+  /* line 429, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .info {
     clear: both;
     width: 100%;
@@ -442,8 +413,8 @@ z-index 管理
     margin-right: 0;
   }
 }
-@media (min-width: 1024px) {
-  /* line 430, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 429, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .info {
     width: 66.36637%;
     float: left;
@@ -454,7 +425,7 @@ z-index 管理
   }
 }
 @media (min-width: 0px) {
-  /* line 448, ../../../sass/controller/frontend/careers.scss */
+  /* line 447, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .info .title {
     font-size: 18px;
     font-weight: bold;
@@ -462,8 +433,8 @@ z-index 管理
     color: #465163;
   }
 }
-@media (min-width: 1024px) {
-  /* line 448, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 447, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .info .title {
     font-size: 30px;
     width: 61.99095%;
@@ -472,13 +443,13 @@ z-index 管理
   }
 }
 @media (min-width: 0px) {
-  /* line 469, ../../../sass/controller/frontend/careers.scss */
+  /* line 468, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .info .sharesite {
     display: none;
   }
 }
-@media (min-width: 1024px) {
-  /* line 469, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 468, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .info .sharesite {
     display: block;
     width: 36.65158%;
@@ -487,36 +458,36 @@ z-index 管理
     text-align: right;
   }
 }
-/* line 486, ../../../sass/controller/frontend/careers.scss */
+/* line 485, ../../../sass/controller/frontend/careers.scss */
 .container .float_page .float_container .wrap .info .sharesite i {
   display: inline-block;
   margin-right: 40px;
   cursor: pointer;
 }
-/* line 492, ../../../sass/controller/frontend/careers.scss */
+/* line 491, ../../../sass/controller/frontend/careers.scss */
 .container .float_page .float_container .wrap .info .sharesite i:last-child {
   margin-right: 0px;
 }
-/* line 497, ../../../sass/controller/frontend/careers.scss */
+/* line 496, ../../../sass/controller/frontend/careers.scss */
 .container .float_page .float_container .wrap .info .sharesite i.facebook {
   background-image: url("../../../../images/careers/Facebook.png");
   width: 12px;
   height: 20px;
 }
-/* line 503, ../../../sass/controller/frontend/careers.scss */
+/* line 502, ../../../sass/controller/frontend/careers.scss */
 .container .float_page .float_container .wrap .info .sharesite i.linkedin {
   background-image: url("../../../../images/careers/LinkedIn.png");
   width: 22px;
   height: 21px;
 }
-/* line 509, ../../../sass/controller/frontend/careers.scss */
+/* line 508, ../../../sass/controller/frontend/careers.scss */
 .container .float_page .float_container .wrap .info .sharesite i.twitter {
   background-image: url("../../../../images/careers/Twitter.png");
   width: 21px;
   height: 18px;
 }
 @media (min-width: 0px) {
-  /* line 519, ../../../sass/controller/frontend/careers.scss */
+  /* line 518, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .info .date {
     font-size: 11px;
     margin-bottom: 20px;
@@ -524,33 +495,33 @@ z-index 管理
   }
 }
 @media (min-width: 640px) {
-  /* line 519, ../../../sass/controller/frontend/careers.scss */
+  /* line 518, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .info .date {
     font-size: 18px;
   }
 }
-@media (min-width: 1024px) {
-  /* line 519, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 518, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .info .date {
     clear: both;
   }
 }
 @media (min-width: 0px) {
-  /* line 538, ../../../sass/controller/frontend/careers.scss */
+  /* line 537, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .info .desc {
     font-size: 11px;
     line-height: 1.5em;
     color: #898176;
   }
 }
-@media (min-width: 1024px) {
-  /* line 538, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 537, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .info .desc {
     font-size: 16px;
   }
 }
 @media (min-width: 0px) {
-  /* line 560, ../../../sass/controller/frontend/careers.scss */
+  /* line 559, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .resplist {
     margin: 40px 0;
     clear: both;
@@ -560,14 +531,14 @@ z-index 管理
     margin-right: 0;
   }
 }
-@media (min-width: 1024px) {
-  /* line 560, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 559, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .resplist {
     margin: 0 0 32px 0;
   }
 }
 @media (min-width: 0px) {
-  /* line 577, ../../../sass/controller/frontend/careers.scss */
+  /* line 576, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .resplist .item {
     background: white;
     padding: 16px;
@@ -579,8 +550,8 @@ z-index 管理
     margin-right: 0;
   }
 }
-@media (min-width: 1024px) {
-  /* line 577, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 576, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .resplist .item {
     width: 49.54955%;
     float: left;
@@ -601,46 +572,46 @@ z-index 管理
     clear: none;
   }
 }
-/* line 597, ../../../sass/controller/frontend/careers.scss */
+/* line 596, ../../../sass/controller/frontend/careers.scss */
 .container .float_page .float_container .wrap .resplist .item:last-child {
   margin-bottom: 0px;
 }
 @media (min-width: 0px) {
-  /* line 603, ../../../sass/controller/frontend/careers.scss */
+  /* line 602, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .resplist .item .title {
     font-size: 14px;
     margin-bottom: 13px;
     color: #465163;
   }
 }
-@media (min-width: 1024px) {
-  /* line 603, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 602, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .resplist .item .title {
     font-size: 24px;
     margin-bottom: 34px;
   }
 }
-/* line 624, ../../../sass/controller/frontend/careers.scss */
+/* line 623, ../../../sass/controller/frontend/careers.scss */
 .container .float_page .float_container .wrap .resplist .item ul {
   list-style: disc outside;
   margin-left: 1em;
 }
 @media (min-width: 0px) {
-  /* line 629, ../../../sass/controller/frontend/careers.scss */
+  /* line 628, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .resplist .item ul li {
     font-size: 11px;
     line-height: 1.5em;
     color: #898176;
   }
 }
-@media (min-width: 1024px) {
-  /* line 629, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 628, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .resplist .item ul li {
     font-size: 16px;
   }
 }
 @media (min-width: 0px) {
-  /* line 653, ../../../sass/controller/frontend/careers.scss */
+  /* line 652, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .fstr {
     clear: both;
     width: 100%;
@@ -652,8 +623,8 @@ z-index 管理
     color: #898176;
   }
 }
-@media (min-width: 1024px) {
-  /* line 653, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 652, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .fstr {
     width: 66.36637%;
     float: left;
@@ -664,7 +635,7 @@ z-index 管理
   }
 }
 @media (min-width: 0px) {
-  /* line 676, ../../../sass/controller/frontend/careers.scss */
+  /* line 675, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .btsite {
     position: fixed;
     bottom: 0px;
@@ -678,8 +649,8 @@ z-index 管理
     z-index: 3;
   }
 }
-@media (min-width: 1024px) {
-  /* line 676, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 675, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .btsite {
     position: initial;
     clear: both;
@@ -693,7 +664,7 @@ z-index 管理
   }
 }
 @media (min-width: 0px) {
-  /* line 705, ../../../sass/controller/frontend/careers.scss */
+  /* line 704, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .btsite .apply {
     background: #4789c7;
     color: white;
@@ -707,8 +678,8 @@ z-index 管理
     border-radius: 5px;
   }
 }
-@media (min-width: 1024px) {
-  /* line 705, ../../../sass/controller/frontend/careers.scss */
+@media (min-width: 1280px) {
+  /* line 704, ../../../sass/controller/frontend/careers.scss */
   .container .float_page .float_container .wrap .btsite .apply {
     width: 186px;
     height: 50px;
@@ -716,7 +687,7 @@ z-index 管理
   }
 }
 
-/* line 760, ../../../sass/controller/frontend/careers.scss */
+/* line 759, ../../../sass/controller/frontend/careers.scss */
 .pagecolor {
   background: black;
   position: fixed;

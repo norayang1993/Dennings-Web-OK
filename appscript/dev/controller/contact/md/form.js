@@ -17,13 +17,13 @@ $(function (){
                         // return false;
 
                         var obj = JSON.parse(data);
-                        if (obj.data.result == true){
-                            alert("success");
-                            // vs.root[0].reset();
-                        }
-                        else {
+                        
+                        if (obj.status == "error") {
                             alert("Error");
+                            return false;
                         }
+
+                        alert("success");
                     })
                     return false;
                 });

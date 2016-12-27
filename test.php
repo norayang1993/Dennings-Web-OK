@@ -1,2 +1,3 @@
 <?php 
-mail('frt@gmail.com', 'Title', 'Content');
+$mail = mail('jason@dennings.org', 'Title', 'Content');
+var_dump($mail);

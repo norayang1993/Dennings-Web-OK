@@ -6,13 +6,17 @@ $(function (){
         isautoload: true,
         method: function (){
             var vs = this;
-            this.autoload = ['doevent', 'screen_do'];
+            this.autoload = [];
             
             // 依照不同尺寸螢幕
             this.screen_do = function (){
                 $(window).resize(function (){
                     vs.doevent();
                 });
+            }
+
+            this.height = function (){
+                return vs.root.height();
             }
 
             this.doevent = function(){

@@ -86,6 +86,7 @@
                     @include _break("mobile")
                     {
                         margin: 0 auto;
+                        max-width: 100%;
                     }
                     @include _break("pad")
                     {
@@ -99,7 +100,7 @@
                     {
                         @include _break("mobile")
                         {
-                            @include divimg_cover(166px, 92px, $base_path + 'images/partners/logo-origin.png');
+                            @include divimg_contain(166px, 92px, $base_path + 'images/partners/logo-origin.png');
                         }
                         @include _break("pad")
                         {
@@ -107,7 +108,7 @@
                         }
                         @include _break("desktop")
                         {
-                            @include divimg_cover(380px, 150px, $base_path + 'images/partners/logo-origin-2.png');
+                            @include divimg_contain(380px, 150px, $base_path + 'images/partners/logo-origin-2.png');
                         }
                         
                     }
@@ -124,7 +125,7 @@
                         }
                         @include _break("desktop")
                         {
-                            @include divimg_cover(380px, 150px, $base_path + 'images/partners/logo-hoceans-2.png');
+                            @include divimg_contain(380px, 150px, $base_path + 'images/partners/logo-hoceans-2.png');
                         }
                     }
 
@@ -163,7 +164,7 @@
                 {
                     clear: none;
                     @include span(7 of 12);
-                    height: 150px;
+                    min-height: 150px;
                     padding: 0;
                     padding-left: 14px;
                 }

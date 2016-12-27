@@ -27,9 +27,15 @@ html, body
     // overflow: hidden;
 }
 
+body 
+{
+    overflow-x: hidden;
+}
+
 a
 {
     text-decoration: none;
+    color: inherit;
 
     &:visited
     {
@@ -50,18 +56,30 @@ a
     {
         @include container;
         position: relative;
-        // overflow: hidden;
+        height: 100%;
     }
     @include _break("desktop")
     {
         @include container;
-        
     }
 
     .page_frame
     {
         @extend .full;
-        background: white;
+        
+        @include _break("mobile")
+        {
+            height: 100%;
+        }
+        @include _break("pad")
+        {
+            
+        }
+        @include _break("desktop")
+        {
+            
+        }
+        
 
         .header 
         {
@@ -69,7 +87,7 @@ a
             {
                 @include container;
                 background: white;
-                height: 32px;
+                height: 42px;
                 padding: 19px 18px 0 18px;
                 position: relative;
             }
@@ -163,6 +181,11 @@ a
                 }
                 
             }
+        }
+
+        .container
+        {
+            // 其餘由內頁決定
         }
 
         .footer

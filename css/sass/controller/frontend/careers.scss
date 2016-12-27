@@ -113,11 +113,10 @@ $lr-gutter : 18px;
                 {
                     @include full;
                     padding: 18px $lr-gutter 32px $lr-gutter;
-                    // margin-bottom: 32px;
+                    margin-bottom: 32px;
                 }
                 @include _break("pad")
                 {
-                    
                 }
                 @include _break("desktop")
                 {

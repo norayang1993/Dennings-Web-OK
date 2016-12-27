@@ -18,6 +18,10 @@ $(function (){
 
                 });
             }
+
+            this.height = function (){
+                return vs.root.height();
+            }
         }
     });
     

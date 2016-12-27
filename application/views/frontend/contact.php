@@ -62,29 +62,29 @@
             <ul>
                 <li class="fir">
                     <div class="title">Name</div>
-                    <input type="text" name="name" class="inputstyle userdata">
+                    <input type="text" name="name" class="inputstyle userdata" required>
                 </li>
                 <li class="fir">
                     <div class="title">E-Mail</div>
-                    <input type="email" name="email" class="inputstyle userdata">
+                    <input type="email" name="email" class="inputstyle userdata" required>
                 </li>
                 <li class="fir">
                     <div class="title">Country</div>
-                    <input type="text" name="country" class="inputstyle userdata">
+                    <input type="text" name="country" class="inputstyle userdata" required>
                 </li>
                 <li class="fir">
                     <div class="title">Phone</div>
-                    <input type="tel" name="phone" class="inputstyle userdata">
+                    <input type="tel" name="phone" class="inputstyle userdata" required>
                 </li>
                 <li class="sec">
                     <div class="title">Theme</div>
-                    <select name="theme" class="inputstyle userdata">
+                    <select name="theme" class="inputstyle userdata" required>
                         <option value="Service">- Service</option>
                     </select>
                 </li>
                 <li class="thi">
                     <div class="title"> </div>
-                    <select name="bc" class="inputstyle userdata">
+                    <select name="bc" class="inputstyle userdata" required>
                         <option value="Business Consulting">- Business Consulting</option>
                     </select>
                 </li>

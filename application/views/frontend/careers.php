@@ -137,7 +137,7 @@
                 </p>
                 
                 <p class="btsite">
-                    <button type="button" class="apply">Apply!</button>
+                    <button type="button" class="apply"><a href="mailto:info@dennings.org?Subject=Application for App developer">Apply!</a></button>
                 </p>
             </div>
 

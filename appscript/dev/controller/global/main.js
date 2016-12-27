@@ -7,5 +7,6 @@ requirejs([
     // 'diff_screen',
     'fancybox',
     'header',
-    'menu_mobile'
+    'menu_mobile',
+    'container'
 ]);

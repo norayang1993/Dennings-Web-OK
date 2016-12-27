@@ -63,8 +63,14 @@ var shimdeps_global = {
     'header': [path_appscript + 'controller/global/md/header', [
         'vmodel'
     ]],
+    'footer': [path_appscript + 'controller/global/md/footer', [
+        'vmodel'
+    ]],
     'menu_mobile': [path_appscript + 'controller/global/md/menu_mobile', [
         'vmodel'
+    ]],
+    'container': [path_appscript + 'controller/global/md/container', [
+        'vmodel', 'header', 'footer', 'frame'
     ]],
     
 

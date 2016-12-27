@@ -34,7 +34,7 @@ if (in_array($_SERVER['HTTP_HOST'], $allowed_domains, TRUE))
     }
     else 
     {
-        $domain = $_SERVER['HTTP_HOST'];
+        $domain = $_SERVER['HTTP_HOST'] . "/website";
     }
 }
 else

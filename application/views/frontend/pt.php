@@ -1,14 +1,14 @@
 <div class="container">
     <ul class="button_site">
         <li class="item">
-            <a class="selected" href="">Privacy Policy</a>
+            <a class="selected" data-target="a1" href="">Privacy Policy</a>
         </li>
         <li class="item">
-            <a class="" href="">Terms of Service</a>
+            <a class="" data-target="a2" href="">Terms of Service</a>
         </li>
     </ul>
     <article class="pagesite">
-        <div class="page">
+        <div class="page a1">
             <h1>DENNINGS PRIVACY POLICY</h1>
             <p>
                 Your privacy is very important to Dennings. This policy explains how we collect, use, disclose, transfer and store your information. Let us know if you have questions.
@@ -30,7 +30,7 @@
                 When you obtain or register for the Dennings Service (directly or via a 
             </p>
         </div>
-        <div class="page hidden">
+        <div class="page a2" hidden>
             Page2...
         </div>
     </article>
