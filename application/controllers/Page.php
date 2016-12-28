@@ -68,7 +68,7 @@ class Page extends CI_Controller {
             'js-careers-controller' => 'appscript/dev/controller/careers/main.js'
         ]);
         
-        $this->auoload("careers", $param);
+        $this->auoload("careers/main", $param);
     }
 
     // Privacy & Terms
@@ -81,7 +81,7 @@ class Page extends CI_Controller {
             'js-pt-controller' => 'appscript/dev/controller/pt/main.js'
         ]);
 
-        $this->auoload("pt", $param);
+        $this->auoload("pt/main", $param);
     }
 
     // 

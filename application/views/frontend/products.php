@@ -25,17 +25,18 @@
                             <div class="inwrap herver_center inner">
                                 <h1 class="ptit ">Pocket Clause</h1>
                                 <div class="linksite">
-                                    <a class="link" href="">Apple Store</a>
-                                    <a class="link" href="">Google Play</a>
-                                    <a class="link" href="">Website</a>
+                                    <a class="link" target="_blank" href="https://itunes.apple.com/us/app/pocket-clause/id1143003899">Apple Store</a>
+                                    <a class="link" target="_blank" href="https://play.google.com/store/apps/details?id=org.dennings.pocketclause">Google Play</a>
+                                    <a class="link" target="_blank" href="http://dennings.org/pocket_clause">Website</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </header>
                 <div class="ctt">
-                    <p>Dennings Limited, its affiliates, subsidiaries and parent company (collectively, “we”, “us”, “our” or “Dennings”) provides services to you. Your use of any of Dennings services, websites, applications, software or contents (collectively, the “Dennings Service”) provided on, from or through any of our application or websites and/or their forwarding websites (“Website”) is subject to these terms of service (the “Terms of Service”) in effect at the time of your use. Dennings reserves the right to update and change these Terms of Service from time to time without notice or acceptance by you, so please check this page frequently for updates and changes.</p>
-                    <p>Your use of the Dennings Service is also subject to the Dennings Privacy Policy in effect at the time of your use, which is incorporated herein. You can review the most current version of the Dennings Privacy Policy at this website.</p>
+                    <p>
+                        The Best Contract Clause Library App. Each clause is professionally selected and categorized. It is an ever growing library. You can search, save to favorite, copy to clipboard and share the clauses. All FREE!
+                    </p>
                 </div>
             </article>
 
@@ -46,18 +47,19 @@
                         <div class="outwrap herver_center outer">
 
                             <div class="inwrap herver_center inner">
-                                <h1 class="ptit ">1Flashlight (Android) / Bible Verses Flashlight (iOS)</h1>
+                                <h1 class="ptit ">1Flashlight (Google Play) / Bible Verses Flashlight (iOS)</h1>
                                 <div class="linksite">
-                                    <a class="link" href="">Apple Store</a>
-                                    <a class="link" href="">Google Play</a>
+                                    <a class="link" target="_blank" href="https://itunes.apple.com/us/app/bible-verses-flashlight/id1131420198">Apple Store</a>
+                                    <a class="link" target="_blank" href="https://play.google.com/store/apps/details?id=org.dennings.a1flashlight">Google Play</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </header>
                 <div class="ctt">
-                    <p>Dennings Limited, its affiliates, subsidiaries and parent company (collectively, “we”, “us”, “our” or “Dennings”) provides services to you. Your use of any of Dennings services, websites, applications, software or contents (collectively, the “Dennings Service”) provided on, from or through any of our application or websites and/or their forwarding websites (“Website”) is subject to these terms of service (the “Terms of Service”) in effect at the time of your use. Dennings reserves the right to update and change these Terms of Service from time to time without notice or acceptance by you, so please check this page frequently for updates and changes.</p>
-                    <p>Your use of the Dennings Service is also subject to the Dennings Privacy Policy in effect at the time of your use, which is incorporated herein. You can review the most current version of the Dennings Privacy Policy at this website.</p>
+                    <p>
+                        A test product we made in hours. We bring your light switch to mobile with our beloved bible verses, and it is Forever Free! Thanks God for the light! 1flashlight / Bible Verses Flashlight support all android and iOS devices. Never Give Up!!
+                    </p>
                 </div>
             </article>
 

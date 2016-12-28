@@ -19,6 +19,7 @@
             </div>
 
             <div class="desc">
+
                 <p>
                     Dennings aims to simplify everything, and provide best commercial values to our clients. Our members are spread in Hong Kong, Kaohsiung and Beijing. We believe in entrepreneurship of every member, and are associated with specialist companies and partners to provide expert services. 
                 </p>
@@ -28,7 +29,7 @@
                 </p>
                 
                 <p>
-                    We offer App Development, Recruitment, Business consultation, Translation, IP Protection, Corporate secretarial service, Contract, commercial and employment advisory and more to come
+                    We offer App Development, Recruitment, Business consultation, Translation, IP Protection, Corporate secretarial service, Contract, commercial and employment advisory and more to come ...
                 </p>
             </div>
         </div>

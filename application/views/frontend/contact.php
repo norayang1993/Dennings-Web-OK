@@ -56,7 +56,8 @@
         
         <form class="form1" method="post" action="app/contact/index">
             <div class="desc">
-                When you submit this request, all the data will be sent to info@dennings.org
+                When you submit this request, all the data will be sent to 
+                <a href="mailto:info@dennings.org" title="info@dennings.org">info@dennings.org</a>
             </div>
         
             <ul>
