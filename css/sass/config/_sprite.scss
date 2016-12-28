@@ -1,0 +1,11 @@
+@import "compass/utilities/sprites";//需先引用compass的工具, 我試過沒寫也可以，可能預先已經加載了
+
+// 圖片資源
+$sprite-about: sprite-map("about/*.png");
+$sprite-careers: sprite-map("careers/*.png");
+$sprite-contact: sprite-map("contact/*.png");
+$sprite-global: sprite-map("global/*.png");
+$sprite-home: sprite-map("home/*.png");
+$sprite-partners: sprite-map("partners/*.png");
+$sprite-products: sprite-map("products/*.png");
+$sprite-service: sprite-map("service/*.png");

@@ -1,0 +1,5 @@
+@import "../../config/sprite";
+
+.test {
+    background: sprite($sprite-products, banner);
+}
