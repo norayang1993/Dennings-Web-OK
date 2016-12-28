@@ -15,15 +15,15 @@
                     <div class="clear_both"></div>
                 </a>
                 <div class="link">
-                    <a class="btn" href="">
+                    <a class="btn" target="_blank" href="https://www.facebook.com/Dennings-1686157291633610">
                         <i class="f" style=""></i>
-                    </a class="btn" href="">
-                    <a class="btn" href="">
+                    </a>
+                    <a class="btn" target="_blank" href="https://www.linkedin.com/company/dennings-limited">
                         <i class="in" style=""></i>
-                    </a class="btn" href="">
-                    <a class="btn" href="">
+                    </a >
+                    <a class="btn" target="_blank" href="https://twitter.com/DenningsLimited">
                         <i class="tw" style=""></i>
-                    </a class="btn" href="">
+                    </a>
                 </div>
             </footer>
         </div>

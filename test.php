@@ -1,3 +1,10 @@
-<?php 
-$mail = mail('jason@dennings.org', 'Title', 'Content');
-var_dump($mail);
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    TESTs
+</body>
+</html>
