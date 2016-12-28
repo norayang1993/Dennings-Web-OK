@@ -77,11 +77,11 @@
                     display: inline-block;
                     padding: 10px 12px 8px 10px;
                     font-size: 10px;
-                    color: #4789c7;
-                    border: 2px solid #4789c7;
+                    color: $button-background;
+                    border: 2px solid $button-background;
                     @include border-radius(3px);
                     margin-right: 15px;
-                    background: white;
+                    background: $button-text;
                 }
                 @include _break("pad")
                 {
@@ -96,8 +96,8 @@
 
                 &.selected 
                 {
-                    background: #4789c7;
-                    color: white;
+                    background: $button-background;
+                    color: $button-text;
                 }
                 
             }
@@ -268,7 +268,7 @@
                                         display: inline-block;
                                         width: 100%;
                                         font-size: 8px;
-                                        color: #4789c7;
+                                        color: $button-background;
                                         text-align: left;
                                     }
                                     @include _break("pad")

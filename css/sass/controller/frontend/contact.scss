@@ -452,13 +452,13 @@ $lr-gutter : 36px;
 
             .submit 
             {
-                background: #4789c7;
+                background: $button-background;
                 font-size: 15px;
                 border: none;
                 @include border-radius(5px);
                 width: 110px;
                 height: 30px;
-                color: white;
+                color: $button-text;
             }
         }
     }

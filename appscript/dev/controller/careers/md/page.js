@@ -8,14 +8,8 @@ $(function (){
         isautoload: true,
         method: function (){
             var vs = this;
-            this.autoload = ['close_button', 'apply'];
+            this.autoload = ['close_button'];
             this.init = function (){
-            }
-
-            this.apply = function (){
-                vs.root.on("click", ".apply", function (){
-                    return false;
-                });
             }
 
             /**

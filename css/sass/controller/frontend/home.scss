@@ -124,8 +124,8 @@ $banner-height-desktop: 635px;
             @include _break("mobile")
             {
                 display: block;
-                background: #4789c7;
-                color: white;
+                background: $button-background;
+                color: $button-text;
                 font-size: 10px;
                 width: 114px;
                 height: 28px;
