@@ -33,6 +33,7 @@ $(function (){
                     return false;
                 }
 
+                vs.close_all();
                 local_show_proccess(target);
                 local_scrollTop();
 
@@ -55,16 +56,26 @@ $(function (){
              * 依序顯示框架、對應頁面、覆蓋層
              */
             var local_show_proccess = function (target){
+                
+
                 $.vmodel.get("layout").show();
                 local_show_frame(target);
                 local_find_page(target);
+
+                $("body").css({
+                    'overflow': 'hidden'
+                })
+
+                vs.root.css({
+                    'height': '100%',
+                    'overflow-y': 'scroll'
+                })
             }
 
-            // 隱藏
+            // 隱藏當前頁
             this.hidden = function (usethis){
                 $(usethis).parents(".float_container").hide();
                 $.vmodel.get("layout").hide();
-                
             }
 
             // 關閉按鈕
@@ -77,6 +88,10 @@ $(function (){
             this.close_all = function (){
                 vs.root.hide();
                 vs.root.find(".float_container").hide();
+
+                $("body").removeAttr('style')
+
+                vs.root.removeAttr('style')
             }
 
             // 存在頁面?

@@ -22,7 +22,8 @@ $(function (){
                             alert("Error");
                             return false;
                         }
-
+                        
+                        $(vs.selector)[0].reset();
                         alert("success");
                     })
                     return false;

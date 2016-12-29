@@ -11,8 +11,8 @@
                         <div class="text">
                             <select class="lang">
                                 <option value="english" <? if ($langkey == "english") echo "selected"; ?>>English</option>
-                                <option value="cn" <? if ($langkey == "cn") echo "selected"; ?>>简体中文</option>
-                                <option value="zh" <? if ($langkey == "zh") echo "selected"; ?>>正體中文</option>
+                                <!-- <option value="cn" <? if ($langkey == "cn") echo "selected"; ?>>简体中文</option> -->
+                                <!-- <option value="zh" <? if ($langkey == "zh") echo "selected"; ?>>正體中文</option> -->
                             </select>
                         </div>
                     </div>
