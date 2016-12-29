@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3df4028d13a0540629adad176d6909e7",
-    "content-hash": "9932cad22c9731e6bd5cb262ec54870f",
+    "hash": "6b39514a135668f1c1d408713370c03f",
+    "content-hash": "068886a7bcd75ac5f50d611c3696834f",
     "packages": [
         {
             "name": "jsnlib/assesbox",
@@ -94,17 +94,17 @@
             "time": "2016-12-01 06:40:12"
         },
         {
-            "name": "translg/translg",
-            "version": "dev-master",
+            "name": "jsnlib/translg",
+            "version": "v1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fdjkgh580/Translg.git",
-                "reference": "446951482c040c9550869d7382cd410e7bdd72e2"
+                "reference": "d6c2fc3993d26f49fd0474157390d5d58e93a437"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fdjkgh580/Translg/zipball/446951482c040c9550869d7382cd410e7bdd72e2",
-                "reference": "446951482c040c9550869d7382cd410e7bdd72e2",
+                "url": "https://api.github.com/repos/fdjkgh580/Translg/zipball/d6c2fc3993d26f49fd0474157390d5d58e93a437",
+                "reference": "d6c2fc3993d26f49fd0474157390d5d58e93a437",
                 "shasum": ""
             },
             "require": {
@@ -113,7 +113,7 @@
             "type": "library",
             "autoload": {
                 "classmap": [
-                    "Translg.php"
+                    "Translg"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -127,7 +127,7 @@
                 "language",
                 "library"
             ],
-            "time": "2015-12-13 06:28:29"
+            "time": "2016-12-28 08:07:44"
         }
     ],
     "packages-dev": [
@@ -165,7 +165,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "translg/translg": 20,
         "jsnlib/jsnlib": 20,
         "jsnlib/assesbox": 20
     },

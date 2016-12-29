@@ -1,4 +1,4 @@
-<div class="page a2" >
+<div class="page a2" hidden>
     <h1>
         TERMS OF SERVICE
     </h1>

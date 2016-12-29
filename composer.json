@@ -12,7 +12,7 @@
 	},
 	"require": {
 		"php": ">=5.2.4",
-		"translg/translg": "dev-master",
+		"jsnlib/translg": "1.0",
 		"jsnlib/jsnlib": "dev-master",
 		"jsnlib/assesbox": "dev-master"
 	},

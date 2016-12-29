@@ -22,7 +22,7 @@ html, body
 {
     height: 100%;
     // background: #9C9C9C;
-    font-family: 'Fira Sans';
+    font-family: 'Fira Sans', 'Noto Sans TC', 'Noto Sans SC', '微軟正黑體';
     font-weight: normal;
     // overflow: hidden;
 }
@@ -183,9 +183,11 @@ a
             }
         }
 
+        // 其餘由內頁決定
         .container
         {
-            // 其餘由內頁決定
+            // 避免一開始畫面擠壓。後來決定最後的 min-height 由
+            min-height: 800px;
         }
 
         .footer
@@ -205,6 +207,7 @@ a
                 height: 50px;
                 font-size: 14px;
                 padding: 0 45px;
+                margin-top: 36px;
             }
 
             .menu

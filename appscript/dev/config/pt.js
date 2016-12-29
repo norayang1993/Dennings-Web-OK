@@ -1,7 +1,7 @@
 // 檔案與依賴
 var shimdeps_page = {
     '_switch': [path_appscript + 'controller/pt/md/switch', [
-        'vmodel'
+        'vmodel', 'vpage'
     ]]
 };
 

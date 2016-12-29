@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Page extends CI_Controller {
+class Page extends MY_Controller {
 
     protected $assesbox;
 
@@ -113,6 +113,12 @@ class Page extends CI_Controller {
 
     public function auoload($view, $param)
     {
+        // unset($_SESSION['lang']);
+
+        // 翻譯套件
+        $param->translg = new \Jsnlib\Codeigniter\Translg;
+        $param->langkey = empty($_SESSION['lang']) ? "english" : $_SESSION['lang'];
+
         $this->assesbox->glob
         ([
             'css-global-snippet'   => 'css/stylesheets/model/snippet.css',
@@ -124,6 +130,7 @@ class Page extends CI_Controller {
             'js-global-controller' => 'appscript/dev/controller/global/main.js',
 
         ]);
+        
         $this->assesbox->config(
         [
             'prefix' => 'assesbox-',

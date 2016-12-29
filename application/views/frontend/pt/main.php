@@ -1,7 +1,7 @@
 <div class="container">
     <ul class="button_site">
         <li class="item">
-            <a class="selected" data-target="a1" href="">Privacy Policy</a>
+            <a class="" data-target="a1" href="">Privacy Policy</a>
         </li>
         <li class="item">
             <a class="" data-target="a2" href="">Terms of Service</a>

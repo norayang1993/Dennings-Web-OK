@@ -5,6 +5,8 @@
     <title>Dennings</title>
     <meta HTTP-EQUIV="EXPIRES" CONTENT="0">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fira+Sans">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/earlyaccess/notosanstc.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/earlyaccess/notosanssc.css">
 
     <!-- 網站基本位置 -->
     <base href="<?=site_url();?>"> 
