@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6b39514a135668f1c1d408713370c03f",
-    "content-hash": "068886a7bcd75ac5f50d611c3696834f",
+    "hash": "4ba1ad573ddae5e6d8f28d3c11daeaf0",
+    "content-hash": "f10ce607fcf5f354e6db4d01b590b14b",
     "packages": [
         {
             "name": "jsnlib/assesbox",
@@ -95,19 +95,20 @@
         },
         {
             "name": "jsnlib/translg",
-            "version": "v1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fdjkgh580/Translg.git",
-                "reference": "d6c2fc3993d26f49fd0474157390d5d58e93a437"
+                "url": "https://github.com/fdjkgh580/translg.git",
+                "reference": "91edc6a5682007edae40f75200e1309fd39d9913"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fdjkgh580/Translg/zipball/d6c2fc3993d26f49fd0474157390d5d58e93a437",
-                "reference": "d6c2fc3993d26f49fd0474157390d5d58e93a437",
+                "url": "https://api.github.com/repos/fdjkgh580/translg/zipball/91edc6a5682007edae40f75200e1309fd39d9913",
+                "reference": "91edc6a5682007edae40f75200e1309fd39d9913",
                 "shasum": ""
             },
             "require": {
+                "jsnlib/jsnlib": "dev-master",
                 "php": ">=5.2.4"
             },
             "type": "library",
@@ -121,13 +122,14 @@
                 "MIT"
             ],
             "description": "Codeigniter 簡單轉換多國語言",
-            "homepage": "https://github.com/fdjkgh580/Translg",
+            "homepage": "https://github.com/fdjkgh580/translg",
             "keywords": [
                 "codeigniter",
+                "jsnlib",
                 "language",
                 "library"
             ],
-            "time": "2016-12-28 08:07:44"
+            "time": "2016-12-29 04:17:16"
         }
     ],
     "packages-dev": [
@@ -165,6 +167,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "jsnlib/translg": 20,
         "jsnlib/jsnlib": 20,
         "jsnlib/assesbox": 20
     },

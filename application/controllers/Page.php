@@ -139,6 +139,8 @@ class Page extends MY_Controller {
 
         $param->asset = $this->assesbox->start('\Jsnlib\Ao');
 
+        $pa = $param->langkey;
+
         $this->load->view('frontend/header', $param);
         $this->load->view("frontend/{$view}", $param);
         $this->load->view('frontend/footer', $param);
