@@ -33,6 +33,7 @@ $(function (){
                     return false;
                 }
 
+                // 關閉所有頁面，顯示對應程序，捲動到上方
                 vs.close_all();
                 local_show_proccess(target);
                 local_scrollTop();
@@ -47,16 +48,15 @@ $(function (){
                  
                 $body.animate({
                     scrollTop: 0
-                }, 500);
+                }, 400);
 
                 vs.root.scrollTop(0)
             }
 
             /**
-             * 依序顯示框架、對應頁面、覆蓋層
+             * 依序顯示框架、對應頁面、覆蓋層、捲軸
              */
             var local_show_proccess = function (target){
-                
 
                 $.vmodel.get("layout").show();
                 local_show_frame(target);
@@ -78,13 +78,14 @@ $(function (){
                 $.vmodel.get("layout").hide();
             }
 
-            // 關閉按鈕
+            // 點擊關閉按鈕
             this.close_button = function (){
                 vs.root.on("click", ".closebtn", function (){
                     vs.hidden(this);
                 });
             }
 
+            // 關閉所有頁面
             this.close_all = function (){
                 vs.root.hide();
                 vs.root.find(".float_container").hide();
@@ -94,7 +95,7 @@ $(function (){
                 vs.root.removeAttr('style')
             }
 
-            // 存在頁面?
+            // 頁面存在?
             var local_isexits_page = function (target){
                 return vs.root.find('[data-page-name=' + target + ']').length > 0 ? true : false;
             }

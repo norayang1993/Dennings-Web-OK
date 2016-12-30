@@ -1,5 +1,5 @@
 requirejs([
     '_career_item',
-    '_pagecolor',
+    '_layout',
     '_page'
 ]);

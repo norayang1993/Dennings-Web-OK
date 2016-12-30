@@ -2,11 +2,6 @@ $(function (){
     /**
      * 職業項目
      */
-
-        
-
-
-
     $.vmodel.create({
         selector: '.itemlist',
         model: '--item',

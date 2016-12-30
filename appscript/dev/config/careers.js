@@ -3,11 +3,11 @@ var shimdeps_page = {
     '_career_item': [path_appscript + 'controller/careers/md/career_item', [
         'vmodel', 'vpage', '_page'
     ]],
-    '_pagecolor': [path_appscript + 'controller/careers/md/pagecolor', [
+    '_layout': [path_appscript + 'controller/careers/md/layout', [
         'vmodel', 'vpage'
     ]],
     '_page': [path_appscript + 'controller/careers/md/page', [
-        'vmodel', '_pagecolor', 'vpage'
+        'vmodel', '_layout', 'vpage'
     ]]
 };
 
