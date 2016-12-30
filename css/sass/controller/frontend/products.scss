@@ -48,7 +48,7 @@
         @include _break("desktop")
         {
             @include span(12 of 18);
-            @include squish(2 of 18, 2 of 18);
+            @include squish(3 of 18);
             padding: 0;
         }
 
@@ -243,7 +243,7 @@
                                 {
                                     @include _break("mobile")
                                     {
-                                        color: #465163;
+                                        color: $article-color-title;
                                         font-size: 20px;
                                         line-height: 1.5em;
                                         font-weight: 600;
@@ -339,7 +339,7 @@
                             margin-bottom: 20px;
                             font-size: 10px;
                             line-height: 1.5em;
-                            color: #898176;
+                            color: $article-color-content;
                         }
                         @include _break("pad")
                         {

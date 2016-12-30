@@ -99,7 +99,7 @@ a
                 @include container;
                 background: white;
                 height: 42px;
-                padding: 19px 18px 0 18px;
+                padding: 0 18px;
                 position: relative;
             }
             @include _break("desktop")
@@ -116,7 +116,7 @@ a
                 @include _break("mobile")
                 {
                     float: left;
-                    @include divimg_contain(65px, 10px, $base_path + 'images/global/logo.png');
+                    @include divimg_contain(65px, 100%, $base_path + 'images/global/logo.png');
                 }
                 @include _break("desktop")
                 {

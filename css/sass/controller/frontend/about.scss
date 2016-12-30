@@ -60,6 +60,7 @@
                 border-top: 2px solid #D4D4D4;
                 border-bottom: 2px solid #D4D4D4;
                 margin-bottom: 38px;
+                color: $article-color-title;
             }
             @include _break("pad")
             {
@@ -181,7 +182,7 @@
                         line-height: 1.5em;
                         margin-bottom: 14px;
                         font-size: 10px;
-                        color: #898176;
+                        color: $article-color-content;
                     }
                     @include _break("pad")
                     {

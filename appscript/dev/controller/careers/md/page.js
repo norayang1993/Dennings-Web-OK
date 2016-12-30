@@ -38,7 +38,18 @@ $(function (){
                 local_show_proccess(target);
                 local_scrollTop();
 
+                // 平均高度
+                local_max_item_height(target);
+
                 if (callback) callback.call();
+            }
+
+            var local_max_item_height = function (target){
+                var $item = vs.root.find(".float_container[data-page-name="+target+"]").find(".item");
+                var a = $($item[0]).height();
+                var b = $($item[1]).height();
+                var height = (a >= b) ? a : b;
+                $item.height(height)
             }
 
             // 滾軸捲動到上方
@@ -48,7 +59,7 @@ $(function (){
                  
                 $body.animate({
                     scrollTop: 0
-                }, 400);
+                }, 600, 'easeOutCubic');
 
                 vs.root.scrollTop(0)
             }
@@ -73,15 +84,15 @@ $(function (){
             }
 
             // 隱藏當前頁
-            this.hidden = function (usethis){
-                $(usethis).parents(".float_container").hide();
-                $.vmodel.get("layout").hide();
+            this.hidden = function (){
+                vs.close_all();
+                $.vmodel.get("layout").hidden();
             }
 
             // 點擊關閉按鈕
             this.close_button = function (){
                 vs.root.on("click", ".closebtn", function (){
-                    vs.hidden(this);
+                    vs.hidden();
                 });
             }
 
