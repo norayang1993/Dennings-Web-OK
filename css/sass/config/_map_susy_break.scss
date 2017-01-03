@@ -30,11 +30,16 @@ $break_layout :
     pad: 
     (
         break:  640px,
-        layout: (columns:12)
+        layout: (columns:8)
     ), 
+    pad2: 
+    (
+        break:  960px,
+        layout: (columns:12)
+    ),
     desktop: 
     (
-        break:  1280px,
+        break:  1600px,
         layout: (columns:18)
     )
 );
