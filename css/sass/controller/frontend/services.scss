@@ -11,10 +11,18 @@
         height: 100%;
         
     }
-    @include _break("desktop")
+    @include _break("pad")
+    {
+        @include container;
+    }
+    @include _break("pad2")
     {
         @include container;
         margin-top: 64px;
+    }
+    @include _break("desktop")
+    {
+        @include container;
     }
     
 
@@ -25,10 +33,17 @@
         {
             @include full;
         }
+        @include _break("pad2")
+        {
+            @include span(10);
+            @include squish(1); 
+            margin-bottom: 128px;
+        }
+        
         @include _break("desktop")
         {
-            @include squish(3, 3); 
             @include span(12);
+            @include squish(3); 
             margin-bottom: 128px;
         }
 
@@ -46,6 +61,11 @@
                 {
                     @include divimg_cover(initial, 206px, null);
                 }
+                @include _break("pad2")
+                {
+                    @include span(4 of 10);
+                    height: 330px;
+                }
                 @include _break("desktop")
                 {
                     @include span(5 of 12);
@@ -61,10 +81,14 @@
                     @include full;
                     padding: 0 gutter(4) * 2;
                 }
-                @include _break("desktop")
+                @include _break("pad2")
                 {
                     clear: none;
                     padding: 0;
+                    @include span(last 5 of 10);
+                }
+                @include _break("desktop")
+                {
                     @include span(last 6 of 12);
                 }
                 
@@ -80,7 +104,7 @@
                         color: $article-color-title;
                     }
 
-                    @include _break("desktop")
+                    @include _break("pad2")
                     {
                         margin: 0 0 32px 0;
                         text-align: left;
@@ -114,7 +138,7 @@
                         text-align: center;
                         margin-bottom: 64px;
                     }
-                    @include _break("desktop")
+                    @include _break("pad2")
                     {
                         text-align: left;
                         margin-bottom: 0;
@@ -134,7 +158,7 @@
                             cursor: pointer;
                             @include border-radius(5px);
                         }
-                        @include _break("desktop")
+                        @include _break("pad2")
                         {
                             width: 186px;
                             height: 50px;
@@ -156,6 +180,11 @@
                 {
                     @include divimg_cover(initial, 206px, null);
                 }
+                @include _break("pad2")
+                {
+                    @include span(last 4 of 10);
+                    height: 330px;
+                }
                 @include _break("desktop")
                 {
                     @include span(last 5 of 12);
@@ -171,10 +200,14 @@
                     @include full;
                     padding: 0 gutter(4) * 2;
                 }
-                @include _break("desktop")
+                @include _break("pad2")
                 {
                     clear: none;
                     padding: 0;
+                    @include span(5 of 10);
+                }
+                @include _break("desktop")
+                {
                     @include span(6 of 12);
                 }
                 
@@ -190,7 +223,7 @@
                         color: $article-color-title;
                     }
 
-                    @include _break("desktop")
+                    @include _break("pad2")
                     {
                         margin: 0 0 32px 0;
                         text-align: right;
@@ -222,7 +255,7 @@
                         text-align: center;
                         margin-bottom: 64px;
                     }
-                    @include _break("desktop")
+                    @include _break("pad2")
                     {
                         text-align: right;
                         margin-bottom: 0;
@@ -242,7 +275,7 @@
                             cursor: pointer;
                             @include border-radius(5px);
                         }
-                        @include _break("desktop")
+                        @include _break("pad2")
                         {
                             width: 186px;
                             height: 50px;
