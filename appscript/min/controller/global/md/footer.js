@@ -1,2 +1,2 @@
-/*! my-web-project 2016-12-30 */
+/*! my-web-project 2017-01-03 */
 $(function(){$.vmodel.create({selector:"footer.footer",model:"--global/footer",isautoload:!0,method:function(){var a=this;this.autoload=["language"],this.init=function(){},this.height=function(){return a.root.height()},this.language=function(){a.root.on("change",".lang",function(){var a=$(this).val();return $.get("app/language/switch",{lang:a},function(a){console.log(a),"1"==a&&location.reload()}),!1})}}})});

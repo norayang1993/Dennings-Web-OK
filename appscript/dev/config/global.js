@@ -3,7 +3,7 @@
  * dev: 開發的路徑
  * min: 壓縮後的路徑
  */
-var environment    = "min"; 
+var environment    = "dev"; 
 
 /**
  * appscript 的路徑

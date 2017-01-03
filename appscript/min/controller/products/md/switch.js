@@ -1,2 +1,2 @@
-/*! my-web-project 2016-12-30 */
+/*! my-web-project 2017-01-03 */
 $(function(){$.vmodel.create({selector:".product",model:"--switch",isautoload:!0,method:function(){var a=this;this.autoload=["click"],this.click=function(){a.root.find(".protab_site").on("click",".item",function(){var b=$(this).attr("data-target"),c=a.page_top(b);return a.set_color(this),a.goto(c),!1})},this.page_top=function(a){var b=$("."+a),c=b.offset().top;return c},this.goto=function(a){var b=window.opera?"CSS1Compat"==document.compatMode?$("html"):$("body"):$("html,body");b.animate({scrollTop:a},500)},this.set_color=function(b){a.root.find(".protab_site .selected").removeClass("selected"),$(b).addClass("selected")}}})});

@@ -5,7 +5,13 @@ class Page extends MY_Controller {
 
     protected $assesbox;
 
-    protected $js_environment = "min";
+    /**
+     * 載入資源 
+     * min: 壓縮, dev: 開發
+     *
+     * 須要連同修改 appscript/dev/config/global.js 變數 environment
+     */
+    protected $js_environment = "dev";
 
     function __construct()
     {

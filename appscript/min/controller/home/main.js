@@ -1,2 +1,2 @@
-/*! my-web-project 2016-12-30 */
+/*! my-web-project 2017-01-03 */
 requirejs([]);
