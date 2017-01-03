@@ -12,25 +12,25 @@
     
     <ul class="iblock">
         <li class="item">
-            <a href="services">
+            <a href="services#RSP">
                 <div class="bg re"></div>
                 <h1 class="title">Recruitment</h1>
             </a>
         </li>
         <li class="item">
-            <a href="services">
+            <a href="services#BC">
                 <div class="bg bu"></div>
                 <h1 class="title">Business Consulting</h1>
             </a>
         </li>
         <li class="item">
-            <a href="services">
+            <a href="services#IPPO">
                 <div class="bg ip"></div>
                 <h1 class="title">IP Protection</h1>
             </a>
         </li>
         <li class="item">
-            <a href="services">
+            <a href="services#TOB">
                 <div class="bg tr"></div>
                 <h1 class="title">Translation</h1>
             </a>

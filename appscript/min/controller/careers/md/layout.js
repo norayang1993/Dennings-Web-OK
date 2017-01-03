@@ -1,0 +1,2 @@
+/*! my-web-project 2016-12-30 */
+$(function(){$.vmodel.create({selector:".pagecolor",model:"--layout",isautoload:!0,method:function(){var a=this;this.autoload=["click"],this.init=function(){},this.show=function(){a.root.show()},this.hidden=function(){a.root.hide()},this.click=function(){a.root.on("click",function(){a.hidden(),$.vmodel.get("page").close_all()})}}})});

@@ -79,14 +79,19 @@
                 </li>
                 <li class="sec">
                     <div class="title">Theme</div>
-                    <select name="theme" class="inputstyle userdata" required>
+                    <select name="theme" class="inputstyle userdata theme" required>
+                        <option value="Comments">- Comments</option>
                         <option value="Service">- Service</option>
                     </select>
                 </li>
                 <li class="thi">
                     <div class="title"> </div>
-                    <select name="bc" class="inputstyle userdata" required>
-                        <option value="Business Consulting">- Business Consulting</option>
+                    <select name="bc" class="inputstyle userdata bc" required>
+                        <option value=""></option>
+                        <option value="Business consulting">- Business consulting</option>
+                        <option value="Translation">- Translation</option>
+                        <option value="Marketing consulting">- Marketing consulting</option>
+                        <option value="Head hunting">- Head hunting</option>
                     </select>
                 </li>
                 <li class="fullgrid">

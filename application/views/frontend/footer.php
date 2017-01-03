@@ -10,7 +10,7 @@
                         <i class="flag" style="background-image: url('images/global/flag-HG.png')"></i>
                         <div class="text">
                             <select class="lang">
-                                <option value="english" <? if ($langkey == "english") echo "selected"; ?>>English</option>
+                                <option value="english" <? if ($langkey == "english") echo "selected"; ?>>Hong Gong</option>
                                 <!-- <option value="cn" <? if ($langkey == "cn") echo "selected"; ?>>简体中文</option> -->
                                 <!-- <option value="zh" <? if ($langkey == "zh") echo "selected"; ?>>正體中文</option> -->
                             </select>

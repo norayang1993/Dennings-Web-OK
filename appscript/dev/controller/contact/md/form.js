@@ -5,9 +5,31 @@ $(function (){
         isautoload: true,
         method: function (){
             var vs = this;
-            this.autoload = ['submit'];
+            this.autoload = ['init', 'submit', 'theme'];
             this.init = function (){
+                vs.bc(false);
+            }
+
+            this.theme = function (){
+                vs.root.on("change", ".theme", function (){
+                    var val = $(this).val();
+                    if (val == "Service") {
+                        vs.bc(true);
+                    }
+                    else {
+                        vs.bc(false);
+                    }
+                });
                 
+            }
+
+            this.bc = function (status){
+                if (status) {
+                    vs.root.find(".bc").prop("disabled", false);
+                }
+                else {
+                    vs.root.find(".bc").val("").prop("disabled", true);
+                }
             }
 
             this.submit = function (){
@@ -19,12 +41,13 @@ $(function (){
                         var obj = JSON.parse(data);
                         
                         if (obj.status == "error") {
-                            alert("Error");
+                            alert(obj.message);
+                            console.log(obj)
                             return false;
                         }
                         
                         $(vs.selector)[0].reset();
-                        alert("success");
+                        alert("Your message has been successfully sent");
                     })
                     return false;
                 });

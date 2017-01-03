@@ -4,7 +4,7 @@
 
     <article class="info">
         <h1 class="slogan">
-            “Simplify everything”
+            “ Simplify everything ”
         </h1>
 
         <div class="content">

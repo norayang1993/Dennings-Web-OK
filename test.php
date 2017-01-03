@@ -5,6 +5,6 @@
     <title>Document</title>
 </head>
 <body>
-    TESTs
+    <a href="mailto:fdjkgh580@gmail.com" title="MailTo">MailTo</a>
 </body>
 </html>

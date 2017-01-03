@@ -1,2 +1,2 @@
-/*! my-web-project 2016-11-22 */
-requirejs(["jquery","jquery-ui","transit","mousewheel","frame","diff_screen","fancybox"]);
+/*! my-web-project 2016-12-30 */
+requirejs(["jquery","jquery-ui","transit","mousewheel","frame","fancybox","header","menu_mobile","container"]);

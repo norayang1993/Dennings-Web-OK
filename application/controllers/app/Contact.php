@@ -10,9 +10,9 @@ class Contact extends MY_Controller {
 
     public function index()
     {
-        if (empty($_POST['name']) or empty($_POST['email']) or empty($_POST['country']) or empty($_POST['phone']) or empty($_POST['theme']) or empty($_POST['bc']) or empty($_POST['message']))
+        if (empty($_POST['name']) or empty($_POST['email']) or empty($_POST['country']) or empty($_POST['phone']) or empty($_POST['theme']) or empty($_POST['message']))
         {
-            echo \Jsnlib\output_status_comb_jsonp(null, "error", "請填寫所有欄位", null, true, false);
+            echo \Jsnlib\output_status_comb_jsonp(null, "error", "Please fill out all required fields", null, true, false);
             die;
         }
 

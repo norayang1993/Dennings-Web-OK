@@ -1,6 +1,6 @@
 <div class="container ">
 
-    <div class="itembox">
+    <div class="itembox" id="BC">
         <div class="divimg" style="background-image: url('images/service/photo-01.jpg')"></div>
         <article>
             <h1 class="title"><?=$translg->$langkey->services->BC->title?></h1>
@@ -13,7 +13,7 @@
         </article>
     </div><!-- itembox end -->
 
-    <div class="itembox">
+    <div class="itembox" id="RLIH">
         <div class="divimg" style="background-image: url('images/service/photo-02.jpg')"></div>
         <article>
             <h1 class="title"><?=$translg->$langkey->services->RLIH->title?></h1>
@@ -26,7 +26,7 @@
         </article>
     </div><!-- itembox end -->
 
-    <div class="itembox">
+    <div class="itembox" id="RSP">
         <div class="divimg" style="background-image: url('images/service/photo-03.jpg')"></div>
         <article>
             <h1 class="title"><?=$translg->$langkey->services->RSP->title?></h1>
@@ -39,7 +39,7 @@
         </article>
     </div><!-- itembox end -->
 
-    <div class="itembox">
+    <div class="itembox" id="TOB">
         <div class="divimg" style="background-image: url('images/service/photo-04.jpg')"></div>
         <article>
             <h1 class="title"><?=$translg->$langkey->services->TOB->title?></h1>
@@ -52,7 +52,7 @@
         </article>
     </div><!-- itembox end -->
 
-    <div class="itembox">
+    <div class="itembox" id="IPPO">
         <div class="divimg" style="background-image: url('images/service/photo-05.jpg')"></div>
         <article>
             <h1 class="title"><?=$translg->$langkey->services->IPPO->title?></h1>

@@ -2,8 +2,6 @@
 
 $lr-gutter : 18px;
 
-
-
 .container
 {
     @include _break("mobile")
@@ -101,7 +99,7 @@ $lr-gutter : 18px;
             {
                 @include span(12);
                 @include squish(3, 3); 
-                background: #eeeeee;
+                background: #f6f6f6;
                 padding: 64px;
                 margin-bottom: 148px;
             }
@@ -360,7 +358,7 @@ $lr-gutter : 18px;
                     // height: 100%;
                     padding: 64px 18px 40px 18px;
                     position: relative;
-                    background: #eeeeee;
+                    background: #f6f6f6;
                     margin-bottom: 64px;
                 }
                 @include _break("pad")
@@ -370,7 +368,10 @@ $lr-gutter : 18px;
                 @include _break("desktop")
                 {
                     @include full;
-                    margin-top: 120px;
+                    // margin-top: 120px;
+                    // margin-top: 120px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
                     @include border-radius(10px);
                     padding: 64px gutter(12);
                 }

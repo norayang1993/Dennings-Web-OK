@@ -163,9 +163,9 @@ a
                 @include _break("desktop")
                 {
                     display: block;
-
                     height: 100%;
                     @include span(last 7);
+                    color: $header-item-color;
                 }
 
                 li 

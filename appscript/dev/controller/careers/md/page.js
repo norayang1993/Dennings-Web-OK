@@ -12,6 +12,13 @@ $(function (){
             this.init = function (){
             }
 
+            this.apply = function (){
+                vs.root.on("click", ".apply", function (){
+                    location.href = "mailto:info@dennings.org"
+                    return false;
+                });
+            }
+
             /**
              * 顯示
              * @param     target   

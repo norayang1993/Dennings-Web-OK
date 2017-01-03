@@ -1,0 +1,2 @@
+/*! my-web-project 2016-12-30 */
+$(function(){$.vmodel.create({selector:"header.header",model:"--global/header",isautoload:!0,method:function(){var a=this;this.autoload=["switch_mobile_menu"],this.switch_mobile_menu=function(){a.root.on("click",".gtn",function(){var a=$.vmodel.get("global/menu/mobile");0==a.islock()?a.open():a.close()})},this.height=function(){return a.root.height()}}})});
