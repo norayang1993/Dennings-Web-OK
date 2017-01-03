@@ -11,7 +11,7 @@ class Page extends MY_Controller {
      *
      * 須要連同修改 appscript/dev/config/global.js 變數 environment
      */
-    protected $js_environment = "dev";
+    protected $js_environment = "min";
 
     function __construct()
     {
