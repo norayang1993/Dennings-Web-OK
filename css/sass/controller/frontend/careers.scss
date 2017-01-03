@@ -14,6 +14,11 @@ $lr-gutter : 18px;
     {
         @include container;
     }
+    @include _break("pad2")
+    {
+        @include container;
+    }
+    
     @include _break("desktop")
     {
         @include container;
@@ -29,8 +34,10 @@ $lr-gutter : 18px;
             {
                 @include full;
             }
-            @include _break("pad")
+            @include _break("pad2")
             {
+                @include span(6 of 12);
+                @include squish(3, 3); 
             }
             @include _break("desktop")
             {
@@ -50,14 +57,14 @@ $lr-gutter : 18px;
                     padding: 0 $lr-gutter;
                     color: $article-color-title;
                 }
-                @include _break("pad")
-                {
-                    
-                }
-                @include _break("desktop")
+                @include _break("pad2")
                 {
                     font-size: 30px;
                     padding: 0;
+                }
+                @include _break("desktop")
+                {
+                    
                 }
                 
             }
@@ -72,14 +79,14 @@ $lr-gutter : 18px;
                     padding: 0 $lr-gutter;
                     color: $article-color-content;
                 }
-                @include _break("pad")
-                {
-                    
-                }
-                @include _break("desktop")
+                @include _break("pad2")
                 {
                     padding: 0px;
                     font-size: 16px;
+                }
+                @include _break("desktop")
+                {
+                    
                 }
                 
             }
@@ -91,17 +98,19 @@ $lr-gutter : 18px;
             {
                 @include full;
             }
-            @include _break("pad")
+            @include _break("pad2")
             {
-                
+                @include span(10);
+                @include squish(1, 1);
+                background: #f6f6f6;
+                padding: 64px 64px 0 64px;
+                margin-bottom: 148px;
             }
             @include _break("desktop")
             {
                 @include span(12);
                 @include squish(3, 3); 
-                background: #f6f6f6;
-                padding: 64px;
-                margin-bottom: 148px;
+
             }
             
 
@@ -113,17 +122,24 @@ $lr-gutter : 18px;
                     padding: 18px $lr-gutter 32px $lr-gutter;
                     margin-bottom: 32px;
                 }
-                @include _break("pad")
+                @include _break("pad2")
                 {
+                    @include gallery(1 of 2); 
+                    height: 304px;
+                    margin-right: 64px;
+                    margin-bottom: 64px;
+                    padding: 32px;
+                    clear: none;
                 }
                 @include _break("desktop")
                 {
-                    width: 324px;
+                    @include gallery(1 of 3); 
+                    // width: 324px;
                     height: 304px;
-                    clear: none;
                     margin-right: 64px;
-                    margin-bottom: 0;
+                    margin-bottom: 64px;
                     padding: 32px;
+                    clear: none;
                 }
 
                 &:last-child
@@ -161,13 +177,13 @@ $lr-gutter : 18px;
                         @include full;
                         position: relative;
                     }
-                    @include _break("pad")
+                    @include _break("pad2")
                     {
+                        height: 100%;
                         
                     }
                     @include _break("desktop")
                     {
-                        height: 100%;
                     }
                     
 
@@ -178,21 +194,18 @@ $lr-gutter : 18px;
                             width: 251px;
                             float: left;
                         }
-                        @include _break("pad")
+                        @include _break("pad2")
                         {
-                            
+                            line-height: 1.5em;
+                            width: 100%;
+                            text-align: center;
                         }
                         @include _break("desktop")
                         {
-                            text-align: center;
                         }
                         
-
-
                         .title
                         {
-                            
-
                             @include _break("mobile")
                             {
                                 font-weight: bold;
@@ -200,14 +213,14 @@ $lr-gutter : 18px;
                                 margin-bottom: 6px;
                                 color: $article-color-title;
                             }
-                            @include _break("pad")
+                            @include _break("pad2")
                             {
+                                font-size: 30px;
+                                margin-bottom: 18px;
                                 
                             }
                             @include _break("desktop")
                             {
-                                font-size: 30px;
-                                margin-bottom: 18px;
                             }
                             
                         }
@@ -220,14 +233,14 @@ $lr-gutter : 18px;
                                 font-size: 12px;
                                 color: $article-color-content;
                             }
-                            @include _break("pad")
-                            {
-                                
-                            }
-                            @include _break("desktop")
+                            @include _break("pad2")
                             {
                                 margin-bottom: 54px;
                                 font-size: 16px;
+                            }
+                            @include _break("desktop")
+                            {
+                                
                             }
                             
                         }
@@ -263,17 +276,17 @@ $lr-gutter : 18px;
                             top: 0px;
                             right: 0px;
                         }
-                        @include _break("pad")
-                        {
-                            
-                        }
-                        @include _break("desktop")
+                        @include _break("pad2")
                         {
                             top: auto;
                             bottom: 0px;
                             left: 0px;
                             right: 0px;
                             text-align: center;
+                        }
+                        @include _break("desktop")
+                        {
+                            
                         }
                         
 
@@ -290,15 +303,16 @@ $lr-gutter : 18px;
                                 cursor: pointer;
                                 @include border-radius(5px);
                             }
-                            @include _break("pad")
+                            @include _break("pad2")
                             {
-                                
+                                width: 100%;
+                                max-width: 185px;
+                                height: 50px;
+                                font-size: 24px;
                             }
                             @include _break("desktop")
                             {
-                                width: 185px;
-                                height: 50px;
-                                font-size: 24px;
+                                
                             }
                             
                         }
