@@ -85,11 +85,9 @@
             }
             @include _break("pad")
             {
-                opacity: 1;
             }
             @include _break("desktop")
             {
-                opacity: 0;
             }
 
             .iconsite

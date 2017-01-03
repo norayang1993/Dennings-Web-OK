@@ -7,9 +7,9 @@ $(function (){
             var vs = this;
             this.autoload = ['init'];
             this.init = function (){
-                local_listen();
                 vs.center();
-                vs.show();
+                local_listen();
+                // vs.show();
             }
 
             this.show = function (){
