@@ -213,6 +213,14 @@ a
                 padding: 18px 40px;
                 font-size: 8px;
             }
+            @include _break("pad2")
+            {
+                height: auto;
+                min-height: 50px;
+                font-size: 14px;
+                padding: 0 gutter(12);
+            }
+            
             @include _break("desktop")
             {
                 height: 50px;
@@ -227,10 +235,15 @@ a
                     @include full;
                     margin-bottom: 17px;    
                 }
-                @include _break("desktop")
+                @include _break("pad2")
                 {
                     margin-bottom: 0px;    
                     height: 100%;
+                    @include span(6 of 12);
+                }
+                
+                @include _break("desktop")
+                {
                     @include span(6 of 18);
                 }
                 
@@ -242,7 +255,7 @@ a
                         @include gallery(1 of 4); 
                         text-align: center;
                     }
-                    @include _break("desktop")
+                    @include _break("pad2")
                     {
                         height: 100%;
                     }
@@ -255,7 +268,7 @@ a
                         @include _break("mobile")
                         {
                         }
-                        @include _break("desktop")
+                        @include _break("pad2")
                         {
                             height: 100%;
                             line-height: 50px;
@@ -276,14 +289,20 @@ a
                     display: block;
                 }
 
-                @include _break("desktop")
+                @include _break("pad2")
                 {
                     clear: none;
-                    @include span(3 of 18);
+                    @include span(3 of 12);
                     height: 100%;
                     padding-top: 18px;
                     margin: 0;
                 }
+                @include _break("desktop")
+                {
+                    @include span(3 of 18);
+                    
+                }
+                
 
                 .center 
                 {
@@ -294,14 +313,13 @@ a
                         margin: 0 auto;
                         text-align: center;
                     }
-                    @include _break("pad")
-                    {
-                        
-                    }
-                    @include _break("desktop")
+                    @include _break("pad2")
                     {
                         width: 100%;
                         text-align: left;
+                    }
+                    @include _break("desktop")
+                    {
                     }
                     
 
@@ -350,13 +368,22 @@ a
                 line-height: 25px;
                 height: 18px;
 
+                @include _break("pad2")
+                {
+                    clear: none;
+                    @include span(last 1 of 12);
+                    padding: 14px 0 0 0 ;
+                    height: 100%;
+                    padding-top: 18px;
+                }
+
                 @include _break("desktop")
                 {
                     clear: none;
                     @include span(last 2 of 18);
                     padding: 14px 0 0 0 ;
                     height: 100%;
-                    padding-top: 14px;
+                    padding-top: 18px;
                 }
                 
 
@@ -372,7 +399,7 @@ a
                         height: 11px;
                         display: inline-block;
 
-                        @include _break("desktop")
+                        @include _break("pad2")
                         {
                             width: 23px;
                             height: 15px;
@@ -382,7 +409,7 @@ a
                         &.f 
                         {
                             background-image: url($base_path + 'images/global/icon-f-mobile.png');
-                            @include _break("desktop")
+                            @include _break("pad2")
                             {
                                 background-image: url($base_path + 'images/global/icon-f.png');
                             }
@@ -391,7 +418,7 @@ a
                         &.in 
                         {
                             background-image: url($base_path + 'images/global/icon-in-mobile.png');
-                            @include _break("desktop")
+                            @include _break("pad2")
                             {
                                 background-image: url($base_path + 'images/global/icon-in.png');
                             }
@@ -400,7 +427,7 @@ a
                         &.tw 
                         {
                             background-image: url($base_path + 'images/global/icon-tw-mobile.png');
-                            @include _break("desktop")
+                            @include _break("pad2")
                             {
                                 background-image: url($base_path + 'images/global/icon-tw.png');
                             }

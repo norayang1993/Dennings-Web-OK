@@ -10,6 +10,11 @@
     {
         @include container;
     }
+    @include _break("pad2")
+    {
+        @include container;
+    }
+    
     @include _break("desktop")
     {
         @include container;
@@ -24,13 +29,14 @@
             @include full;
             padding: 0 20px;
         }
-        @include _break("pad")
+        @include _break("pad2")
         {
-            
+            padding: 0px;
+            @include span(10 of 12);
+            @include squish(1 of 12);
         }
         @include _break("desktop")
         {
-            padding: 0px;
             @include span(12 of 18);
             @include squish(3 of 18);
         }
@@ -42,23 +48,18 @@
                 @include full;
                 margin-bottom: 36px;
             }
-            @include _break("pad")
+            @include _break("pad2")
             {
+                margin-bottom: 128px;
+
             }
             @include _break("desktop")
             {
-                margin-bottom: 128px;
             }
 
             &:last-child 
             {
-                @include _break("mobile")
-                {
-                }
-                @include _break("pad")
-                {
-                }
-                @include _break("desktop")
+                @include _break("pad2")
                 {
                     margin-bottom: 64px;
                 }
@@ -71,9 +72,10 @@
                     @include full;
                     margin-bottom: 16px;
                 }
-                @include _break("pad")
+                @include _break("pad2")
                 {
-                    
+                    @include span(3 of 10);
+                    margin-bottom: 0px;
                 }
                 @include _break("desktop")
                 {
@@ -102,11 +104,7 @@
                         {
                             @include divimg_contain(166px, 92px, $base_path + 'images/partners/logo-origin.png');
                         }
-                        @include _break("pad")
-                        {
-                            
-                        }
-                        @include _break("desktop")
+                        @include _break("pad2")
                         {
                             @include divimg_contain(380px, 150px, $base_path + 'images/partners/logo-origin-2.png');
                         }
@@ -119,11 +117,7 @@
                         {
                             @include divimg_contain(166px, 92px, $base_path + 'images/partners/logo-hoceans.png');
                         }
-                        @include _break("pad")
-                        {
-                            
-                        }
-                        @include _break("desktop")
+                        @include _break("pad2")
                         {
                             @include divimg_contain(380px, 150px, $base_path + 'images/partners/logo-hoceans-2.png');
                         }
@@ -135,11 +129,7 @@
                         {
                             @include divimg_contain(166px, 92px, $base_path + 'images/partners/logo-topview.png');
                         }
-                        @include _break("pad")
-                        {
-                            
-                        }
-                        @include _break("desktop")
+                        @include _break("pad2")
                         {
                             @include divimg_contain(380px, 150px, $base_path + 'images/partners/logo-topview-2.png');
                         }
@@ -156,18 +146,19 @@
                     border-left: 3px #efefef solid;
                     padding: 0 20px 12px 20px;
                 }
-                @include _break("pad")
-                {
-                    
-                }
-                @include _break("desktop")
+                @include _break("pad2")
                 {
                     clear: none;
-                    @include span(7 of 12);
+                    @include span(last 7 of 10);
                     min-height: 150px;
                     padding: 0;
                     padding-left: 14px;
                 }
+                @include _break("desktop")
+                {
+                    @include span(7 of 12);
+                }
+                
 
                 .title 
                 {
@@ -178,11 +169,7 @@
                         color: $article-color-title;
                         margin-bottom: 7px;
                     }
-                    @include _break("pad")
-                    {
-                        
-                    }
-                    @include _break("desktop")
+                    @include _break("pad2")
                     {
                         font-size: 24px;
                         line-height: 1.5em;
@@ -205,11 +192,7 @@
                             @include divimg_contain(15px, 15px, $base_path + 'images/partners/point.png');
 
                         }
-                        @include _break("pad")
-                        {
-                            
-                        }
-                        @include _break("desktop")
+                        @include _break("pad2")
                         {
                             width: 26px;
                             height: 26px;
@@ -231,11 +214,7 @@
                             line-height: 1.5em;
                             color: $article-color-content;
                         }
-                        @include _break("pad")
-                        {
-                            
-                        }
-                        @include _break("desktop")
+                        @include _break("pad2")
                         {
                             font-size: 16px;
                             
