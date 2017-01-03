@@ -13,12 +13,12 @@
     @include _break("pad2")
     {
         @include container;
+        margin-top: 64px;
     }
     
     @include _break("desktop")
     {
         @include container;
-        margin-top: 64px;
     }
 
 

@@ -102,14 +102,19 @@ a
                 padding: 0 18px;
                 position: relative;
             }
-            @include _break("desktop")
+            @include _break("pad2")
             {
                 @include container;
                 background: white;
                 height: 100px;
-                padding: 0 45px;
+                padding: 0 gutter(12);
                 @include box-shadow(0px 0px 7px 0px #b3b3b3);
             }
+            @include _break("desktop")
+            {
+                padding: 0 45px;
+            }
+            
 
             .logo   
             {
@@ -118,7 +123,7 @@ a
                     float: left;
                     @include divimg_contain(65px, 100%, $base_path + 'images/global/logo.png');
                 }
-                @include _break("desktop")
+                @include _break("pad2")
                 {
                     background-image: url($base_path + 'images/global/logo2.png');
                     width: 242px;
@@ -142,7 +147,7 @@ a
                     right: 0px;
                     top: 3px;
                 }
-                @include _break("desktop")
+                @include _break("pad2")
                 {
                     display: none;
                 }
@@ -160,12 +165,16 @@ a
                 {
                     display: none;
                 }
-                @include _break("desktop")
+                @include _break("pad2")
                 {
                     display: block;
                     height: 100%;
-                    @include span(last 7);
+                    @include span(last 6);
                     color: $header-item-color;
+                }
+                @include _break("desktop")
+                {
+                    @include span(last 7);
                 }
 
                 li 
@@ -178,7 +187,7 @@ a
                     a 
                     {
                         @extend .full;
-                        text-align: center;
+                        text-align: right;
                         height: 100%;
                         line-height: 60px;
                         font-size: 18px;
