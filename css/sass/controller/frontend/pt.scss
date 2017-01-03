@@ -11,6 +11,11 @@ $padding-lr : 20px;
     }
     @include _break("pad")
     {
+        @include container;
+    }
+    @include _break("pad2")
+    {
+        @include container;
     }
     @include _break("desktop")
     {
@@ -26,15 +31,16 @@ $padding-lr : 20px;
             margin-bottom: 37px;
             padding: 0 $padding-lr;
         }
-        @include _break("pad")
+        @include _break("pad2")
         {
-            
+            @include span(3 of 12);
+            @include pre(1 of 12); 
+            padding: 0;
         }
         @include _break("desktop")
         {
             @include span(3 of 18);
             @include pre(3 of 18); 
-            padding: 0;
         }
 
         .item 
@@ -44,14 +50,14 @@ $padding-lr : 20px;
                 @include gallery(2); 
                 height: 29px;
             }
-            @include _break("pad")
-            {
-                
-            }
-            @include _break("desktop")
+            @include _break("pad2")
             {
                 @include gallery(2 of 3); 
                 height: 50px;
+            }
+            @include _break("desktop")
+            {
+                
             }
 
             a 
@@ -68,16 +74,16 @@ $padding-lr : 20px;
                     border: 2px solid #4789c6;
                     color: $article-color-content;
                 }
-                @include _break("pad")
-                {
-                    
-                }
-                @include _break("desktop")
+                @include _break("pad2")
                 {
                     @include span(2 of 2);
                     border: 0px;
                     line-height: 50px;
                     font-size: 18px;
+                }
+                @include _break("desktop")
+                {
+                    
                 }
                 
 
@@ -114,15 +120,16 @@ $padding-lr : 20px;
             @include full;
             padding: 0 $padding-lr;
         }
-        @include _break("pad")
+        @include _break("pad2")
         {
-            
+            @include span(7 of 12);
+            @include post(1 of 12); 
+            clear: none;
+            padding: 0;
         }
         @include _break("desktop")
         {
             @include span(9 of 18);
-            clear: none;
-            padding: 0;
         }
 
         .page
@@ -139,14 +146,14 @@ $padding-lr : 20px;
                     font-weight: bold;
                     color: $article-color-title;
                 }
-                @include _break("pad")
-                {
-                    
-                }
-                @include _break("desktop")
+                @include _break("pad2")
                 {
                     font-size: 30px;
                     margin-bottom: 30px;
+                }
+                @include _break("desktop")
+                {
+                    
                 }
                 
             }
@@ -160,13 +167,12 @@ $padding-lr : 20px;
                     font-weight: bold;
                     color: $article-color-title;
                 }
-                @include _break("pad")
+                @include _break("pad2")
                 {
-                    
+                    font-size: 24px;
                 }
                 @include _break("desktop")
                 {
-                    font-size: 24px;
                 }
                 
             }
@@ -180,13 +186,12 @@ $padding-lr : 20px;
                     margin-bottom: 22px;
                     color: #898176;
                 }
-                @include _break("pad")
+                @include _break("pad2")
                 {
-                    
+                    font-size: 16px;
                 }
                 @include _break("desktop")
                 {
-                    font-size: 16px;
                 }
                 
             }
