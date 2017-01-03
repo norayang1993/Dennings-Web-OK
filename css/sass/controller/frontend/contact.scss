@@ -13,6 +13,11 @@ $lr-gutter : 36px;
     }
     @include _break("pad")
     {
+        @include container;
+    }
+    @include _break("pad2")
+    {
+        @include container;
     }
     @include _break("desktop")
     {
@@ -26,14 +31,15 @@ $lr-gutter : 36px;
         {
             
         }
-        @include _break("pad")
+        @include _break("pad2")
         {
-            
+            @include span(10 of 12);
+            @include squish(1 of 12);
         }
         @include _break("desktop")
         {
             @include span(12 of 18);
-            @include squish(3 of 18, 3 of 18);
+            @include squish(3 of 18);
         }
         
     }
@@ -51,15 +57,15 @@ $lr-gutter : 36px;
             text-align: center;
             color: $article-color-title;
         }
-        @include _break("pad")
-        {
-            
-        }
-        @include _break("desktop")
+        @include _break("pad2")
         {
             font-size: 30px;
             margin-bottom: 32px;
             padding: 0px;
+        }
+        @include _break("desktop")
+        {
+            
         }
         
     }
@@ -71,13 +77,14 @@ $lr-gutter : 36px;
             @include full;
             padding: 0 $lr-gutter;
         }
-        @include _break("pad")
+        @include _break("pad2")
         {
-            
+            padding: 0;
+            @include span(8 of 10);
+            @include squish(1 of 10);
         }
         @include _break("desktop")
         {
-            padding: 0;
             @include span(10 of 12);
             @include squish(1 of 12);
         }
@@ -90,13 +97,13 @@ $lr-gutter : 36px;
                 @include full;
                 margin-bottom: 38px;
             }
-            @include _break("pad")
+            @include _break("pad2")
             {
+                clear: none;
                 
             }
             @include _break("desktop")
             {
-                clear: none;
                 // @include gallery(6 of 12); 
             }
 
@@ -104,6 +111,10 @@ $lr-gutter : 36px;
 
             &:first-child 
             {
+                @include _break("pad2")
+                {
+                    @include span(3 of 8);
+                }
                 @include _break("desktop")
                 {
                     @include span(4 of 10);
@@ -112,6 +123,10 @@ $lr-gutter : 36px;
 
             &:last-child 
             {
+                @include _break("pad2")
+                {
+                    @include span(last 3 of 8);
+                }
                 @include _break("desktop")
                 {
                     @include span(last 4 of 10);
@@ -128,13 +143,12 @@ $lr-gutter : 36px;
                     margin-bottom: 22px;
                     color: $article-color-title;
                 }
-                @include _break("pad")
+                @include _break("pad2")
                 {
-                    
+                    font-size: 24px;
                 }
                 @include _break("desktop")
                 {
-                    font-size: 24px;
                 }
                 
             }
@@ -153,15 +167,12 @@ $lr-gutter : 36px;
                         position: relative;
                         color: $article-color-content;
                     }
-                    @include _break("pad")
+                    @include _break("pad2")
                     {
-                        
+                        font-size: 16px;
                     }
                     @include _break("desktop")
                     {
-                        font-size: 16px;
-                        // height: 36px;
-
                     }
                     
 
@@ -237,15 +248,15 @@ $lr-gutter : 36px;
                 line-height: 1.5em;
                 color: $article-color-content;
             }
-            @include _break("pad")
-            {
-                
-            }
-            @include _break("desktop")
+            @include _break("pad2")
             {
                 font-size: 16px;
                 text-align: center;
                 margin-bottom: 36px;
+            }
+            @include _break("desktop")
+            {
+               
             }
             
         }
@@ -256,15 +267,16 @@ $lr-gutter : 36px;
             {
                 
             }
-            @include _break("pad")
+            @include _break("pad2")
             {
-                
+                @include span(8 of 10);
+                @include squish(1 of 10);
+                position: relative;
             }
             @include _break("desktop")
             {
                 @include span(8 of 12);
                 @include squish(2 of 12);
-                position: relative;
             }
             
             li 
@@ -274,16 +286,17 @@ $lr-gutter : 36px;
                     @include gallery(2 of 4); 
                     margin-bottom: 10px;
                 }
-                @include _break("pad")
-                {
-                    
-                }
-                @include _break("desktop")
+                @include _break("pad2")
                 {
                     @include span(3 of 8);
                     margin-left: 0px !important;
                     margin-right: 0px !important;
                     margin-bottom: 23px;
+                }
+                @include _break("desktop")
+                {
+                    @include span(3 of 8);
+                    
                 }
                 
                 
@@ -294,13 +307,13 @@ $lr-gutter : 36px;
                     {
                         
                     }
-                    @include _break("pad")
+                    @include _break("pad2")
                     {
+                        @include break;
                         
                     }
                     @include _break("desktop")
                     {
-                        @include break;
                     }
                 }
 
@@ -310,14 +323,14 @@ $lr-gutter : 36px;
                     {
                         
                     }
-                    @include _break("pad")
-                    {
-                        
-                    }
-                    @include _break("desktop")
+                    @include _break("pad2")
                     {
                         position: absolute;
                         top: 0px;
+                        left: span(3 of 8);
+                    }
+                    @include _break("desktop")
+                    {
                         left: span(3 of 8);
                     }
                     
@@ -329,9 +342,11 @@ $lr-gutter : 36px;
                     {
                         
                     }
-                    @include _break("pad")
+                    @include _break("pad2")
                     {
-                        
+                        position: absolute;
+                        top: 0px;
+                        left: 69%;
                     }
                     @include _break("desktop")
                     {
@@ -348,9 +363,12 @@ $lr-gutter : 36px;
                     {
                         @include full;
                     }
-                    @include _break("pad")
+                    @include _break("pad2")
                     {
-                        
+                        position: absolute;
+                        width: span(5 of 8) + 0.89%;
+                        top: 73px;
+                        left: span(3 of 8);
                     }
                     @include _break("desktop")
                     {
@@ -369,17 +387,16 @@ $lr-gutter : 36px;
                         font-size: 11px;
                         height: 15px;
                         @include full;
-                        // font-weight: bold;
                         color: $article-color-content;
                     }
-                    @include _break("pad")
-                    {
-                        
-                    }
-                    @include _break("desktop")
+                    @include _break("pad2")
                     {
                         font-size: 16px;
                         margin-bottom: 5px;
+                    }
+                    @include _break("desktop")
+                    {
+                        
                     }
                     
                 }
@@ -410,9 +427,11 @@ $lr-gutter : 36px;
                         @include full;
                         color: $article-color-content;
                     }
-                    @include _break("pad")
+                    @include _break("pad2")
                     {
-                        
+                        width: span(2.55 of 3);
+                        height: 29px;
+                        line-height: 29px;
                     }
                     @include _break("desktop")
                     {
@@ -433,9 +452,11 @@ $lr-gutter : 36px;
                         border: 1px solid #E7E7E7;
                         resize: none;
                     }
-                    @include _break("pad")
+                    @include _break("pad2")
                     {
-                        
+                        $a : span(8 of 8) + gutter(8);
+                        width: $a;
+                        height: 172px;
                     }
                     @include _break("desktop")
                     {
@@ -457,9 +478,10 @@ $lr-gutter : 36px;
                 @include full;
                 text-align: right;
             }
-            @include _break("pad")
+            @include _break("pad2")
             {
-                
+                @include span(8 of 10);
+                @include squish(1 of 10);
             }
             @include _break("desktop")
             {
